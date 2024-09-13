@@ -11,7 +11,7 @@ osm_node_ids = list(G.nodes)
 node_id_mapping = {osm_id: idx for idx, osm_id in enumerate(osm_node_ids, start=1)}
 
 # Open a file to write the output
-with open('city_data.pl.', 'w') as f:
+with open('city_data.pl', 'w') as f:
     # Write the locations (nodes)
     f.write('% Locations in the city (Nodes)\n')
     for osm_id, new_id in node_id_mapping.items():
