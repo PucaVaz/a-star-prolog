@@ -35,16 +35,8 @@ street(2, 3, 0.75, 'Second Ave').
 ...
 ```
 
-## Find the path
-This Python script facilitates pathfinding using a Prolog A* algorithm for determining the shortest route between two streets within a city’s network. The underlying graph is represented by a Prolog file (city_data.pl), which includes node and edge mappings between street intersections. Below, we detail the primary functions of this script:
+#### Save node coordinates
+Also, get_map saves which node's coordinates on a csv file 
 
-The script prompts the user to input two street names—one as the starting street and the other as the destination. It utilizes the following steps to achieve the desired pathfinding:
-
-	•	Street Name Matching: The script uses a fuzzy matching algorithm (difflib) to match user input with street names available in the dataset.
-	•	Node Pair Selection: Once the street names are matched, the script presents available node pairs (representing intersections) for each street. The user is asked to select the desired node for both the starting and destination streets.
-	•	Prolog Integration: After selecting the appropriate nodes, the program constructs a Prolog goal using the A* algorithm. This goal is then executed by invoking SWI-Prolog through a subprocess.
-	•	Result Parsing: The Prolog output is parsed to extract and display the path (as a sequence of node IDs) and the total cost of the route.
-
-
-Current this code is somewhat disorganized, with several functions performing multiple tasks. This makes it difficult to maintain and extend. On a soon future, i want implement some desing pattern 
-
+## Exemple Streamlit
+This Streamlit application is designed to help users find the shortest path between two streets using an A* algorithm implemented in Prolog. By printing the best route on a map made with Folium Map

@@ -15577,7 +15577,7 @@ location(15575, 'Intersection 15575').
 location(15576, 'Intersection 15576').
 
 % Streets between locations (Edges with Distances as Weights)
-% street(Node1, Node2, Distance).
+% street(Node1, Node2, Distance, Name).
 street(1, 14085, 0.35, 'Rodovia Governador Mário Covas').
 street(1, 11561, 0.29, 'Rua Domésticas').
 street(2, 9035, 0.23, 'Unknown').
@@ -15607,7 +15607,7 @@ street(13, 10309, 0.07, 'Rua da República').
 street(13, 9932, 0.18, 'Avenida Sanhauá').
 street(14, 8126, 0.13, 'Rua Paulo França Marinho').
 street(14, 10855, 0.03, 'Rua Hildebrando Tourinho').
-street(14, 8672, 0.24, 'Rua Hildebrando Tourinho, Rua Yayá de Amorim Coutinho, Rua Capitão Antônio Mendes de Souza Neto').
+street(14, 8672, 0.24, 'Rua Hildebrando Tourinho, Rua Capitão Antônio Mendes de Souza Neto, Rua Yayá de Amorim Coutinho').
 street(15, 9689, 0.13, 'Rua Prefeito José Leite').
 street(16, 25, 0.09, 'Rua Antônio Rabelo Júnior').
 street(16, 21, 0.11, 'Rua Hildebrando Tourinho').
@@ -15670,7 +15670,7 @@ street(41, 11355, 0.20, 'Avenida Manoel Cândido Leite').
 street(42, 82, 0.07, 'Rua Major Salustiano Ribeiro').
 street(42, 14195, 0.21, 'Rua Governador José Gomes da Silva').
 street(43, 79, 0.29, 'Avenida Manoel Cândido Leite').
-street(43, 11354, 0.16, 'Rua João Domingos, Rua São Vicente').
+street(43, 11354, 0.16, 'Rua São Vicente, Rua João Domingos').
 street(43, 10662, 0.07, 'Rua João Domingos').
 street(44, 14196, 0.19, 'Rua José Clementino de Oliveira').
 street(45, 53, 0.09, 'Rua Governador José Gomes da Silva').
@@ -15919,7 +15919,7 @@ street(153, 71, 0.01, 'Rua Antônio Rabelo Júnior').
 street(153, 22, 0.11, 'Avenida Presidente Epitácio Pessoa').
 street(154, 69, 0.08, 'Avenida Presidente Epitácio Pessoa').
 street(155, 15506, 0.04, 'Rua Paulino Pinto').
-street(155, 14585, 0.47, 'Avenida Ministro José Américo de Almeida, Rua Paulino Pinto').
+street(155, 14585, 0.47, 'Rua Paulino Pinto, Avenida Ministro José Américo de Almeida').
 street(156, 160, 0.13, 'Rua Manoel Cavalcante Souza').
 street(156, 157, 0.02, 'Avenida Cairu').
 street(157, 152, 0.18, 'Rua Francisco Diomedes Cantalice').
@@ -16085,10 +16085,10 @@ street(227, 225, 0.07, 'Avenida Franca Filho').
 street(227, 14670, 0.24, 'Avenida Franca Filho').
 street(228, 231, 0.07, 'Rua Vigolvino Florentino Costa').
 street(228, 241, 0.11, 'Rua Aline Ferreira Ruffo').
-street(228, 229, 0.16, 'Rua Vigolvino Florentino Costa, Avenida Doutor João Franca').
+street(228, 229, 0.16, 'Avenida Doutor João Franca, Rua Vigolvino Florentino Costa').
 street(229, 14670, 0.01, 'Avenida Francisco Brandão').
 street(229, 241, 0.07, 'Avenida Francisco Brandão').
-street(229, 228, 0.16, 'Rua Vigolvino Florentino Costa, Avenida Doutor João Franca').
+street(229, 228, 0.16, 'Avenida Doutor João Franca, Rua Vigolvino Florentino Costa').
 street(230, 235, 0.14, 'Avenida Francisco Brandão').
 street(230, 241, 0.07, 'Avenida Francisco Brandão').
 street(230, 231, 0.11, 'Avenida Manoel Morais').
@@ -16471,10 +16471,10 @@ street(389, 390, 0.09, 'Rua Gilvan Rolim de Brito Júnior').
 street(389, 13671, 0.08, 'Rua Gilvan Rolim de Brito Júnior').
 street(390, 389, 0.09, 'Rua Gilvan Rolim de Brito Júnior').
 street(390, 392, 0.17, 'Rua Marcelo Lins de Mendonça').
-street(390, 391, 0.31, 'Rua Gilvan Rolim de Brito Júnior, Rua Bacharel Irenaldo de Albuquerque Chaves').
+street(390, 391, 0.31, 'Rua Bacharel Irenaldo de Albuquerque Chaves, Rua Gilvan Rolim de Brito Júnior').
 street(391, 417, 0.21, 'Rua Bacharel Irenaldo de Albuquerque Chaves').
 street(391, 392, 0.07, 'Unknown').
-street(391, 390, 0.31, 'Rua Gilvan Rolim de Brito Júnior, Rua Bacharel Irenaldo de Albuquerque Chaves').
+street(391, 390, 0.31, 'Rua Bacharel Irenaldo de Albuquerque Chaves, Rua Gilvan Rolim de Brito Júnior').
 street(392, 391, 0.07, 'Unknown').
 street(392, 390, 0.17, 'Rua Marcelo Lins de Mendonça').
 street(392, 419, 0.20, 'Rua Marcelo Lins de Mendonça').
@@ -16583,13 +16583,13 @@ street(435, 433, 0.05, 'Rua Evandir Bandeira Araujo').
 street(436, 439, 0.15, 'Rua Oceano Atlântico').
 street(436, 443, 0.09, 'Rua Evandir Bandeira Araujo').
 street(436, 435, 0.04, 'Rua Evandir Bandeira Araujo').
-street(437, 13572, 0.38, 'Rua Jacob Alves de Azevedo, Rua Francisco Beltrão').
+street(437, 13572, 0.38, 'Rua Francisco Beltrão, Rua Jacob Alves de Azevedo').
 street(437, 13568, 0.07, 'Rua Jacob Alves de Azevedo').
 street(437, 440, 0.30, 'Rua José Patrício de Almeida').
 street(438, 443, 0.16, 'Rua Oceano Ártico').
 street(438, 439, 0.09, 'Rua Francisco Pereira Dantas').
-street(438, 5331, 0.10, 'Rua João Murilo Leite, Rua Oceano Ártico').
-street(438, 13506, 0.29, 'Rua Oceano Antártico, Rua Francisco Pereira Dantas').
+street(438, 5331, 0.10, 'Rua Oceano Ártico, Rua João Murilo Leite').
+street(438, 13506, 0.29, 'Rua Francisco Pereira Dantas, Rua Oceano Antártico').
 street(439, 436, 0.15, 'Rua Oceano Atlântico').
 street(439, 13551, 0.08, 'Rua Francisco Pereira Dantas').
 street(439, 438, 0.09, 'Rua Francisco Pereira Dantas').
@@ -17009,7 +17009,7 @@ street(597, 622, 0.11, 'Avenida Maroquinha Ramos').
 street(597, 596, 0.10, 'Avenida Maroquinha Ramos').
 street(597, 612, 0.13, 'Avenida Aragão e Melo').
 street(597, 605, 0.13, 'Avenida Aragão e Melo').
-street(598, 8304, 0.15, 'Rua João Bernardo de Albuquerque, Avenida Presidente Epitácio Pessoa').
+street(598, 8304, 0.15, 'Avenida Presidente Epitácio Pessoa, Rua João Bernardo de Albuquerque').
 street(598, 5538, 0.14, 'Rua Eugênio Lucena Neiva').
 street(599, 602, 0.07, 'Avenida Presidente Epitácio Pessoa').
 street(599, 603, 0.06, 'Avenida Juarez Távora').
@@ -17289,7 +17289,7 @@ street(705, 9096, 0.09, 'Rua Professor Sá Benevides').
 street(705, 707, 0.11, 'Rua Pedro Sena').
 street(706, 9096, 0.07, 'Rua Professor Sá Benevides').
 street(706, 10818, 0.06, 'Rua Coronel Barata').
-street(706, 2779, 0.13, 'Rua Vicente Lucas Borges, Rua José Gonçalves').
+street(706, 2779, 0.13, 'Rua José Gonçalves, Rua Vicente Lucas Borges').
 street(707, 692, 0.09, 'Avenida Marechal Rondon').
 street(707, 13155, 0.06, 'Avenida Marechal Rondon').
 street(707, 705, 0.11, 'Rua Pedro Sena').
@@ -17723,13 +17723,13 @@ street(869, 867, 0.11, 'Rua João Teixeira de Carvalho').
 street(869, 870, 0.11, 'Rua João Teixeira de Carvalho').
 street(870, 9033, 0.11, 'Rua João Teixeira de Carvalho').
 street(870, 9434, 0.07, 'Rua Orestes Lisboa').
-street(870, 872, 0.50, 'Rua Orestes Lisboa, Rua Afonso Barbosa de Oliveira').
+street(870, 872, 0.50, 'Rua Afonso Barbosa de Oliveira, Rua Orestes Lisboa').
 street(870, 869, 0.11, 'Rua João Teixeira de Carvalho').
 street(871, 9459, 0.07, 'Rua Orestes Lisboa').
 street(871, 9439, 0.07, 'Rua Orestes Lisboa').
 street(871, 9015, 0.11, 'Rua João Vieira Carneiro').
 street(872, 12291, 0.05, 'Rua Afonso Barbosa de Oliveira').
-street(872, 870, 0.50, 'Rua Orestes Lisboa, Rua Afonso Barbosa de Oliveira').
+street(872, 870, 0.50, 'Rua Afonso Barbosa de Oliveira, Rua Orestes Lisboa').
 street(873, 9033, 0.11, 'Rua João Teixeira de Carvalho').
 street(873, 9441, 0.07, 'Rua Professor Joaquim Francisco Veloso Galvão').
 street(874, 10805, 0.10, 'Rua Adalida Suassuna Barreto').
@@ -17780,7 +17780,7 @@ street(890, 9832, 0.01, 'Rua Afonso Barbosa de Oliveira').
 street(890, 14338, 0.02, 'Unknown').
 street(891, 893, 0.05, 'Rua João Ramalho Leite').
 street(891, 894, 0.19, 'Rua Comerciante José Chagas Feitosa').
-street(891, 12969, 0.19, 'Rua Comerciante José Chagas Feitosa, Rua Coronel Ascendino Feitosa').
+street(891, 12969, 0.19, 'Rua Coronel Ascendino Feitosa, Rua Comerciante José Chagas Feitosa').
 street(892, 906, 0.14, 'Rua Tabelião João Nunes Travassos').
 street(892, 893, 0.05, 'Rua João Ramalho Leite').
 street(892, 904, 0.05, 'Rua João Ramalho Leite').
@@ -17936,7 +17936,7 @@ street(941, 944, 0.10, 'Rua Nevinha Raposo').
 street(941, 953, 0.05, 'Rua Nevinha Raposo').
 street(941, 943, 0.09, 'Rua Severino Ramos Lins').
 street(942, 939, 0.07, 'Rua Major João Junqueira Viana').
-street(942, 953, 0.23, 'Rua Major João Junqueira Viana, Rua Joaquim Pedro da Silva').
+street(942, 953, 0.23, 'Rua Joaquim Pedro da Silva, Rua Major João Junqueira Viana').
 street(942, 943, 0.05, 'Rua Severino Ramos Lins').
 street(943, 944, 0.12, 'Rua Adolfo Maia').
 street(943, 942, 0.05, 'Rua Severino Ramos Lins').
@@ -17966,7 +17966,7 @@ street(951, 14245, 0.07, 'Avenida dos Expedicionários').
 street(952, 962, 0.18, 'Avenida Ministro José Américo de Almeida').
 street(953, 941, 0.05, 'Rua Nevinha Raposo').
 street(953, 954, 0.05, 'Rua Joaquim Pedro da Silva').
-street(953, 942, 0.23, 'Rua Major João Junqueira Viana, Rua Joaquim Pedro da Silva').
+street(953, 942, 0.23, 'Rua Joaquim Pedro da Silva, Rua Major João Junqueira Viana').
 street(954, 940, 0.18, 'Rua Hermenegil do Almeida').
 street(954, 953, 0.05, 'Rua Joaquim Pedro da Silva').
 street(954, 955, 0.05, 'Rua Joaquim Pedro da Silva').
@@ -18086,13 +18086,13 @@ street(994, 15289, 0.02, 'Rua Cônego João de Deus').
 street(995, 996, 0.05, 'Rua Martins da Silva').
 street(995, 994, 0.01, 'Rua Cônego João de Deus').
 street(995, 1000, 0.10, 'Rua Cônego João de Deus').
-street(995, 998, 0.10, 'Rua Professor Manoel Viana, Rua Martins da Silva').
+street(995, 998, 0.10, 'Rua Martins da Silva, Rua Professor Manoel Viana').
 street(996, 12303, 0.05, 'Rua Francisco Mendonça').
 street(996, 995, 0.05, 'Rua Martins da Silva').
 street(996, 14120, 0.01, 'Rua Martins da Silva').
 street(996, 988, 0.23, 'Rua Vereador João Freire, Rua Francisco Mendonça').
 street(997, 138, 0.03, 'Unknown').
-street(998, 995, 0.10, 'Rua Professor Manoel Viana, Rua Martins da Silva').
+street(998, 995, 0.10, 'Rua Martins da Silva, Rua Professor Manoel Viana').
 street(998, 1008, 0.11, 'Rua Professor Manoel Viana').
 street(998, 1009, 0.09, 'Unknown').
 street(999, 1000, 0.02, 'Rua Cônego João de Deus').
@@ -18123,7 +18123,7 @@ street(1006, 1007, 0.05, 'Rua Josefa Cunha Dantas').
 street(1006, 1003, 0.05, 'Rua Josefa Cunha Dantas').
 street(1007, 14506, 0.03, 'Rua Cônego João de Deus').
 street(1007, 1006, 0.05, 'Rua Josefa Cunha Dantas').
-street(1007, 1067, 0.14, 'Rua Cônego João de Deus, Rua Maria Linhares Pordeus').
+street(1007, 1067, 0.14, 'Rua Maria Linhares Pordeus, Rua Cônego João de Deus').
 street(1008, 1010, 0.05, 'Rua Professor Manoel Viana').
 street(1008, 1009, 0.05, 'Rua Professor Ribeiro Dantas').
 street(1008, 998, 0.11, 'Rua Professor Manoel Viana').
@@ -18136,7 +18136,7 @@ street(1010, 1023, 0.05, 'Rua Professor Miguel V. Ferreira').
 street(1011, 1630, 0.32, 'Rua Tab Estanislau Eloy').
 street(1011, 11465, 0.05, 'Unknown').
 street(1012, 14770, 0.08, 'Rua Doutor Hortencio Ribeiro').
-street(1012, 997, 0.05, 'Rua Doutor Apolonio Nóbrega, Rua Doutor Hortencio Ribeiro').
+street(1012, 997, 0.05, 'Rua Doutor Hortencio Ribeiro, Rua Doutor Apolonio Nóbrega').
 street(1013, 1011, 0.09, 'Rua Tab Estanislau Eloy').
 street(1013, 11466, 0.02, 'Unknown').
 street(1014, 1018, 0.05, 'Rua Severino Aleixo da Silva').
@@ -18217,7 +18217,7 @@ street(1042, 1043, 0.08, 'Rua Maria José Caetano de Silva').
 street(1043, 1042, 0.08, 'Rua Maria José Caetano de Silva').
 street(1043, 9331, 0.11, 'Rua Arthur Enedino dos Santos').
 street(1043, 9345, 0.11, 'Rua Arthur Enedino dos Santos').
-street(1043, 1049, 0.29, 'Rua Severina Pereira da Costa, Rua Maria José Caetano de Silva').
+street(1043, 1049, 0.29, 'Rua Maria José Caetano de Silva, Rua Severina Pereira da Costa').
 street(1044, 9399, 0.12, 'Rua João Carvalho Costa').
 street(1044, 1040, 0.11, 'Rua Pedro Firmino do Nascimento').
 street(1044, 9344, 0.07, 'Rua Pedro Firmino do Nascimento').
@@ -18227,7 +18227,7 @@ street(1045, 1057, 0.12, 'Rua Desembargador José de Farias').
 street(1046, 1045, 0.05, 'Rua Henrique Sales Monteiro').
 street(1047, 1056, 0.12, 'Rua Sizenaldo de Oliveira').
 street(1047, 2018, 0.08, 'Rua Sizenaldo de Oliveira').
-street(1047, 9397, 0.17, 'Rua Henrique Sales Monteiro, Rua Helena Freire').
+street(1047, 9397, 0.17, 'Rua Helena Freire, Rua Henrique Sales Monteiro').
 street(1047, 1048, 0.06, 'Rua Henrique Sales Monteiro').
 street(1048, 1058, 0.12, 'Rua Carmem Araújo Espínola').
 street(1048, 1045, 0.12, 'Rua Henrique Sales Monteiro').
@@ -18235,7 +18235,7 @@ street(1048, 1047, 0.06, 'Rua Henrique Sales Monteiro').
 street(1049, 1057, 0.11, 'Rua Severina Pereira da Costa').
 street(1049, 9331, 0.18, 'Rua Pedro Narciso Castanheira').
 street(1049, 9352, 0.10, 'Rua Pedro Narciso Castanheira').
-street(1049, 1043, 0.29, 'Rua Severina Pereira da Costa, Rua Maria José Caetano de Silva').
+street(1049, 1043, 0.29, 'Rua Maria José Caetano de Silva, Rua Severina Pereira da Costa').
 street(1050, 1062, 0.07, 'Rua José Maria Uchoa de Andrade').
 street(1050, 1051, 0.08, 'Rua Severina Ennes de Athayde').
 street(1050, 1042, 0.14, 'Rua Severina Ennes de Athayde').
@@ -18294,12 +18294,12 @@ street(1066, 1003, 0.11, 'Rua Sebastião César Paredes').
 street(1067, 1066, 0.05, 'Rua Maria Linhares Pordeus').
 street(1067, 1006, 0.10, 'Rua Francisco Mendonça').
 street(1067, 14508, 0.03, 'Rua Francisco Mendonça').
-street(1067, 1007, 0.14, 'Rua Cônego João de Deus, Rua Maria Linhares Pordeus').
+street(1067, 1007, 0.14, 'Rua Maria Linhares Pordeus, Rua Cônego João de Deus').
 street(1068, 15184, 0.03, 'Rua Abdon Milanez').
 street(1068, 1020, 0.04, 'Avenida Doutor Apolônio da Nóbrega').
 street(1069, 1072, 0.06, 'Avenida São Rafael').
 street(1069, 1076, 0.05, 'Avenida São Rafael').
-street(1069, 1077, 0.15, 'Rua Maria Medeiros, Rua Professor Maria Pinheiro Almeida').
+street(1069, 1077, 0.15, 'Rua Professor Maria Pinheiro Almeida, Rua Maria Medeiros').
 street(1070, 1072, 0.05, 'Avenida São Rafael').
 street(1070, 1073, 0.07, 'Rua Otávio Soares').
 street(1070, 14239, 0.14, 'Rua Otávio Soares, Rua Conego João de Deus').
@@ -18322,7 +18322,7 @@ street(1076, 1069, 0.05, 'Avenida São Rafael').
 street(1076, 11318, 0.09, 'Avenida São Rafael').
 street(1077, 11463, 0.16, 'Rua Professor Maria Pinheiro Almeida').
 street(1077, 1076, 0.06, 'Rua Lygia Guedes').
-street(1077, 1069, 0.15, 'Rua Maria Medeiros, Rua Professor Maria Pinheiro Almeida').
+street(1077, 1069, 0.15, 'Rua Professor Maria Pinheiro Almeida, Rua Maria Medeiros').
 street(1078, 1028, 0.10, 'Rua Escritor Orris Soares').
 street(1078, 1081, 0.05, 'Avenida Presidente Castelo Branco').
 street(1079, 1080, 0.05, 'Praça Abnom Milenês').
@@ -18369,7 +18369,7 @@ street(1094, 1095, 0.07, 'Avenida Presidente Castelo Branco').
 street(1094, 1640, 0.04, 'Unknown').
 street(1094, 1092, 0.04, 'Avenida Presidente Castelo Branco').
 street(1095, 1094, 0.07, 'Avenida Presidente Castelo Branco').
-street(1095, 12970, 0.28, 'Rua Tito Silva, Avenida Presidente Castelo Branco').
+street(1095, 12970, 0.28, 'Avenida Presidente Castelo Branco, Rua Tito Silva').
 street(1095, 1640, 0.06, 'Rua José Goncalves Junior').
 street(1096, 1102, 0.12, 'Rua Mário Batista Júnior').
 street(1096, 9598, 0.09, 'Avenida Ministro José Américo de Almeida').
@@ -18987,10 +18987,10 @@ street(1362, 1366, 0.05, 'Rua Joana da Conceição').
 street(1362, 1365, 0.15, 'Rua Joana da Conceição').
 street(1363, 1374, 0.06, 'Rua Zita Lacerda Nery').
 street(1363, 1360, 0.20, 'Rua Benedito Cesar de Paiva').
-street(1363, 1364, 0.10, 'Rua Zita Lacerda Nery, Rua João Agripino de Castro').
+street(1363, 1364, 0.10, 'Rua João Agripino de Castro, Rua Zita Lacerda Nery').
 street(1364, 1361, 0.15, 'Rua João Agripino de Castro').
 street(1364, 1365, 0.05, 'Rua Hugo Leite').
-street(1364, 1363, 0.10, 'Rua Zita Lacerda Nery, Rua João Agripino de Castro').
+street(1364, 1363, 0.10, 'Rua João Agripino de Castro, Rua Zita Lacerda Nery').
 street(1365, 1350, 0.05, 'Rua Hugo Leite').
 street(1365, 1364, 0.05, 'Rua Hugo Leite').
 street(1365, 1362, 0.15, 'Rua Joana da Conceição').
@@ -19060,7 +19060,7 @@ street(1386, 1375, 0.05, 'Rua Professor Arnaldo de Barros Moreira').
 street(1386, 1392, 0.05, 'Rua Professor Arnaldo de Barros Moreira').
 street(1387, 1386, 0.15, 'Rua Capitão Ananias Ferreira da Nóbrega').
 street(1387, 1376, 0.05, 'Rua Cicero Meireles').
-street(1387, 1390, 0.08, 'Rua Capitão Ananias Ferreira da Nóbrega, Rua Cicero Meireles').
+street(1387, 1390, 0.08, 'Rua Cicero Meireles, Rua Capitão Ananias Ferreira da Nóbrega').
 street(1388, 1389, 0.11, 'Rua Milton Santa Cruz').
 street(1388, 4085, 0.08, 'Rua Milton Santa Cruz').
 street(1388, 1391, 0.05, 'Unknown').
@@ -19068,7 +19068,7 @@ street(1389, 1388, 0.11, 'Rua Milton Santa Cruz').
 street(1389, 1302, 0.05, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(1389, 1448, 0.04, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(1390, 1391, 0.15, 'Rua Maria da Conceição Cunha Nóbrega').
-street(1390, 4085, 0.12, 'Rua Milton Santa Cruz, Rua Cicero Meireles').
+street(1390, 4085, 0.12, 'Rua Cicero Meireles, Rua Milton Santa Cruz').
 street(1390, 1387, 0.08, 'Rua Capitão Ananias Ferreira da Nóbrega, Rua Cicero Meireles').
 street(1391, 1392, 0.03, 'Rua Maria da Conceição Cunha Nóbrega').
 street(1391, 1390, 0.15, 'Rua Maria da Conceição Cunha Nóbrega').
@@ -19086,7 +19086,7 @@ street(1395, 1581, 0.20, 'Rua Jornalista Márcia Mendes').
 street(1395, 1353, 0.02, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(1395, 1473, 0.05, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(1396, 1541, 0.06, 'Rua Manoel Ângelo de Oliveira').
-street(1396, 1414, 0.07, 'Rua Professora Wanda de Farias Coutinho, Rua Jefferson Ferreira Paiva').
+street(1396, 1414, 0.07, 'Rua Jefferson Ferreira Paiva, Rua Professora Wanda de Farias Coutinho').
 street(1396, 1436, 0.08, 'Rua Manoel Ângelo de Oliveira').
 street(1397, 1401, 0.04, 'Rua Joana de Barros Moreira Machado').
 street(1397, 1398, 0.14, 'Rua Abelardo Clementino da Costa').
@@ -19141,7 +19141,7 @@ street(1413, 1411, 0.07, 'Rua Prefeito Luiz Alberto Moreira Coutinho').
 street(1413, 1498, 0.15, 'Rua Prefeito Luiz Alberto Moreira Coutinho').
 street(1414, 1412, 0.07, 'Rua Professora Wanda de Farias Coutinho').
 street(1414, 1399, 0.13, 'Rua Jefferson Ferreira de Paiva').
-street(1414, 1396, 0.07, 'Rua Professora Wanda de Farias Coutinho, Rua Jefferson Ferreira Paiva').
+street(1414, 1396, 0.07, 'Rua Jefferson Ferreira Paiva, Rua Professora Wanda de Farias Coutinho').
 street(1415, 1416, 0.05, 'Unknown').
 street(1415, 1430, 0.03, 'Rua Filomena Trigueiro da Costa').
 street(1415, 1429, 0.16, 'Rua Filomena Trigueiro da Costa').
@@ -19671,14 +19671,14 @@ street(1597, 9363, 0.01, 'Rua Plácido Azevedo Ribeiro').
 street(1597, 9335, 0.17, 'Rua Abelardo da Silva Guimarães Barreto').
 street(1598, 13055, 0.08, 'Rua Rui Costa').
 street(1598, 9367, 0.02, 'Rua Jurandi G Palitot').
-street(1598, 1600, 0.32, 'Rua Rui Costa, Rua Tabelião Joaquim da Silva Ramos, Rua Bancário Elias Feliciano Madruga').
+street(1598, 1600, 0.32, 'Rua Tabelião Joaquim da Silva Ramos, Rua Rui Costa, Rua Bancário Elias Feliciano Madruga').
 street(1598, 9384, 0.11, 'Rua Jurandi G Palitot').
 street(1599, 9395, 0.10, 'Rua João G Carvalho').
 street(1599, 1112, 0.08, 'Rua Rui Costa').
 street(1599, 13055, 0.09, 'Rua Rui Costa').
 street(1600, 9384, 0.10, 'Rua Bancário Elias Feliciano Madruga').
 street(1600, 9376, 0.06, 'Rua Professor Hipolyto Ribeiro Freire').
-street(1600, 1598, 0.32, 'Rua Rui Costa, Rua Tabelião Joaquim da Silva Ramos, Rua Bancário Elias Feliciano Madruga').
+street(1600, 1598, 0.32, 'Rua Tabelião Joaquim da Silva Ramos, Rua Rui Costa, Rua Bancário Elias Feliciano Madruga').
 street(1601, 1597, 0.07, 'Rua Abelardo da Silva Guimarães Barreto').
 street(1601, 9466, 0.01, 'Rua Desembargador Rivaldo Pereira').
 street(1602, 1603, 0.12, 'Rua Vereador Antônio Pessoa da Rocha').
@@ -19768,10 +19768,10 @@ street(1642, 1644, 0.04, 'Unknown').
 street(1642, 1638, 0.15, 'Rua Maria Clotilde Costa Tavares de Albuquerque').
 street(1642, 1643, 0.05, 'Unknown').
 street(1643, 1640, 0.03, 'Unknown').
-street(1643, 1644, 0.24, 'Rua Elza Santos Coelho, Rua Antônio Luna Freire').
+street(1643, 1644, 0.24, 'Rua Antônio Luna Freire, Rua Elza Santos Coelho').
 street(1643, 1642, 0.05, 'Unknown').
 street(1644, 1642, 0.04, 'Unknown').
-street(1644, 1643, 0.24, 'Rua Elza Santos Coelho, Rua Antônio Luna Freire').
+street(1644, 1643, 0.24, 'Rua Antônio Luna Freire, Rua Elza Santos Coelho').
 street(1644, 14422, 0.20, 'Rua Poeta Jansen Filho').
 street(1645, 1647, 0.10, 'Rua Professor Francisco de Oliveira Porto').
 street(1645, 14199, 0.07, 'Rua Catulo da Paixão Cearense').
@@ -19885,7 +19885,7 @@ street(1682, 1679, 0.04, 'Rua João Terroso de Souza').
 street(1682, 1676, 0.05, 'Rua João Terroso de Souza').
 street(1683, 1682, 0.16, 'Avenida Coronel José Maurício da Costa').
 street(1683, 1677, 0.05, 'Rua Rita de Alencar Carvalho Luna').
-street(1683, 1681, 0.21, 'Rua Benjamin Maia, Rua Rita de Alencar Carvalho Luna').
+street(1683, 1681, 0.21, 'Rua Rita de Alencar Carvalho Luna, Rua Benjamin Maia').
 street(1684, 11550, 0.22, 'Unknown').
 street(1684, 11552, 0.02, 'Estrada Antiga para o Recife').
 street(1684, 11470, 0.05, 'Estrada Antiga para o Recife').
@@ -19994,7 +19994,7 @@ street(1715, 7482, 0.08, 'Rua das Acácias').
 street(1716, 3030, 0.06, 'Rua Professora Daura Alcides Almeida').
 street(1716, 1710, 0.06, 'Rua Oceane Nascimento da Silva').
 street(1716, 15072, 0.02, 'Unknown').
-street(1716, 6611, 0.20, 'Rua Professora Daura Alcides Almeida, Rua Eliane Nascimento Araújo').
+street(1716, 6611, 0.20, 'Rua Eliane Nascimento Araújo, Rua Professora Daura Alcides Almeida').
 street(1717, 9664, 0.15, 'Rua Professora Daura Alcides Almeida').
 street(1717, 1718, 0.20, 'Rua Antônio Fernandes').
 street(1717, 1712, 0.06, 'Avenida Joaquim Monteiro da Franca').
@@ -20008,7 +20008,7 @@ street(1719, 9983, 0.01, 'Rua Professora Alair Cavalcanti da Silveira').
 street(1719, 6639, 0.18, 'Rua Professora Alair Cavalcanti da Silveira').
 street(1720, 13302, 0.24, 'Avenida Engenheiro Elson Gouveia Falcone').
 street(1720, 10594, 0.01, 'Unknown').
-street(1720, 6639, 0.12, 'Rua João Bezerra de Souza, Rua Professora Alair Cavalcanti da Silveira').
+street(1720, 6639, 0.12, 'Rua Professora Alair Cavalcanti da Silveira, Rua João Bezerra de Souza').
 street(1721, 1722, 0.20, 'Rua Geraldo Hiberto da Costa').
 street(1721, 1693, 0.06, 'Avenida Joaquim Monteiro da Franca').
 street(1721, 7495, 0.01, 'Avenida Joaquim Monteiro da Franca').
@@ -20758,7 +20758,7 @@ street(1963, 7954, 0.03, 'Rua Pastor Rodolfo Jorge Beuttenmüller').
 street(1963, 1952, 0.15, 'Rua Francisca Dantas de Souza').
 street(1964, 1950, 0.15, 'Rua Eloy de Medeiros Costa').
 street(1964, 7952, 0.05, 'Rua Pastor Rodolfo Jorge Beuttenmüller').
-street(1964, 7953, 0.27, 'Rua Carlos Sérgio da Silva Brandão, Rua Subtenente Graciano Félix da Silva, Rua Pastor Rodolfo Jorge Beuttenmüller').
+street(1964, 7953, 0.27, 'Rua Subtenente Graciano Félix da Silva, Rua Carlos Sérgio da Silva Brandão, Rua Pastor Rodolfo Jorge Beuttenmüller').
 street(1965, 7954, 0.04, 'Rua Pastor Rodolfo Jorge Beuttenmüller').
 street(1965, 7952, 0.03, 'Rua Pastor Rodolfo Jorge Beuttenmüller').
 street(1965, 1951, 0.15, 'Rua Carmem Moreira Coutinho').
@@ -20926,7 +20926,7 @@ street(2023, 2019, 0.05, 'Rua Estanislau da Costa Gomes Neto').
 street(2023, 2022, 0.15, 'Rua Meinardo Cabral de Vasconcelos Júnior').
 street(2024, 14963, 0.03, 'Rua Adalgisa Luna de Menezes').
 street(2024, 2025, 0.05, 'Rua Adalgisa Luna de Menezes').
-street(2024, 2038, 0.25, 'Rua Valderez Andrade, Rua Esperedião da Silva Brandão').
+street(2024, 2038, 0.25, 'Rua Esperedião da Silva Brandão, Rua Valderez Andrade').
 street(2025, 2024, 0.05, 'Rua Adalgisa Luna de Menezes').
 street(2025, 2022, 0.15, 'Rua Luiz Gonzaga de Andrade').
 street(2025, 2143, 0.03, 'Rua Luiz Gonzaga de Andrade').
@@ -20942,13 +20942,13 @@ street(2028, 2030, 0.06, 'Rua Luiz Gonzaga de Andrade').
 street(2028, 2035, 0.06, 'Rua Luiz Gonzaga de Andrade').
 street(2029, 2030, 0.26, 'Rua Maria das Dores Espínola').
 street(2029, 2027, 0.06, 'Rua João Homero da Costa Vilar').
-street(2029, 2031, 0.12, 'Rua João Homero da Costa Vilar, Rua Bancário Pedro de França Macedo').
+street(2029, 2031, 0.12, 'Rua Bancário Pedro de França Macedo, Rua João Homero da Costa Vilar').
 street(2030, 2029, 0.26, 'Rua Maria das Dores Espínola').
 street(2030, 2143, 0.04, 'Rua Luiz Gonzaga de Andrade').
 street(2030, 2028, 0.06, 'Rua Luiz Gonzaga de Andrade').
 street(2031, 2032, 0.07, 'Rua Bancário Pedro de França Macedo').
 street(2031, 2020, 0.05, 'Unknown').
-street(2031, 2029, 0.12, 'Rua João Homero da Costa Vilar, Rua Bancário Pedro de França Macedo').
+street(2031, 2029, 0.12, 'Rua Bancário Pedro de França Macedo, Rua João Homero da Costa Vilar').
 street(2032, 2031, 0.07, 'Rua Bancário Pedro de França Macedo').
 street(2032, 2021, 0.05, 'Rua Estanislau da Costa Gomes Neto').
 street(2032, 2025, 0.15, 'Rua Bancário Pedro de França Macedo').
@@ -20970,7 +20970,7 @@ street(2037, 2136, 0.09, 'Rua Rosa Lima dos Santos').
 street(2037, 2142, 0.18, 'Rua Bancário Waldemar de Mesquita Accioly').
 street(2038, 2033, 0.15, 'Rua Esperedião da Silva Brandão').
 street(2038, 2022, 0.05, 'Rua Luiz Gonzaga de Andrade').
-street(2038, 2024, 0.25, 'Rua Valderez Andrade, Rua Esperedião da Silva Brandão').
+street(2038, 2024, 0.25, 'Rua Esperedião da Silva Brandão, Rua Valderez Andrade').
 street(2039, 2114, 0.02, 'Rua Rosa Lima dos Santos').
 street(2039, 2062, 0.01, 'Rua Rosa Lima dos Santos').
 street(2039, 2075, 0.17, 'Rua Bancário Waldemar de Mesquita Accioly').
@@ -21123,7 +21123,7 @@ street(2096, 14132, 0.08, 'Rua Eurídice Felix Cabral').
 street(2097, 2064, 0.01, 'Rua Estudante Oliveiros Fernandes Filho').
 street(2098, 2099, 0.07, 'Rua Bancário José Espínola Guedes').
 street(2098, 2108, 0.22, 'Rua Bancário Antônio Severino da Silva').
-street(2098, 2125, 0.32, 'Rua Bancário José Galdino da Costa, Rua José Duarte Nascimento, Rua Bancário José Espínola Guedes').
+street(2098, 2125, 0.32, 'Rua Bancário José Galdino da Costa, Rua Bancário José Espínola Guedes, Rua José Duarte Nascimento').
 street(2099, 2100, 0.05, 'Rua Bancário José Espínola Guedes').
 street(2099, 2098, 0.07, 'Rua Bancário José Espínola Guedes').
 street(2099, 2109, 0.22, 'Rua Bancário Ernani V. Cavalcante').
@@ -21202,7 +21202,7 @@ street(2124, 2121, 0.18, 'Rua Major Antônio Costa Filho').
 street(2124, 2113, 0.14, 'Rua Major Antônio Costa Filho').
 street(2125, 2108, 0.02, 'Rua José Duarte Nascimento').
 street(2125, 2113, 0.17, 'Rua Bancário Péricles Figueiredo Gouveia Filho').
-street(2125, 2098, 0.32, 'Rua José Duarte Nascimento, Rua Bancário José Espínola Guedes, Rua Bancário José Galdino da Costa').
+street(2125, 2098, 0.32, 'Rua Bancário José Galdino da Costa, Rua Bancário José Espínola Guedes, Rua José Duarte Nascimento').
 street(2126, 5416, 0.07, 'Rua José Cesarino da Nóbrega').
 street(2126, 14605, 0.10, 'Rua Empresário João Rodrigues Alves').
 street(2127, 2128, 0.08, 'Unknown').
@@ -21661,7 +21661,7 @@ street(2262, 2263, 0.11, 'Rua Xavier Júnior').
 street(2262, 2261, 0.34, 'Rua Xavier Júnior').
 street(2263, 2262, 0.11, 'Rua Xavier Júnior').
 street(2263, 5219, 0.17, 'Avenida Abel da Silva').
-street(2263, 14774, 0.27, 'Rua José Gomes da Silveira, Rua Xavier Júnior').
+street(2263, 14774, 0.27, 'Rua Xavier Júnior, Rua José Gomes da Silveira').
 street(2264, 9197, 0.07, 'Avenida Fraternidade').
 street(2264, 8634, 0.19, 'Rua José Gomes da Silveira').
 street(2264, 9452, 0.25, 'Rua José Gomes da Silveira').
@@ -21754,7 +21754,7 @@ street(2295, 8142, 0.25, 'Rua José Paulino Costa Filho').
 street(2295, 2299, 0.09, 'Rua Odilia T. Sabadelli').
 street(2296, 2297, 0.12, 'Rua Odilia T. Sabadelli').
 street(2296, 2508, 0.07, 'Rua Otacilia B Sabadelli').
-street(2296, 8142, 0.32, 'Rua Professor Fenelon Câmara, Rua Fenelon Câmara').
+street(2296, 8142, 0.32, 'Rua Fenelon Câmara, Rua Professor Fenelon Câmara').
 street(2297, 2298, 0.11, 'Rua Odilia T. Sabadelli').
 street(2297, 2296, 0.12, 'Rua Odilia T. Sabadelli').
 street(2297, 2247, 0.07, 'Rua Carlos Dias Fernandes').
@@ -22383,7 +22383,7 @@ street(2506, 2504, 0.15, 'Rua Alfredo Alves de Araújo').
 street(2506, 2505, 0.05, 'Rua Agostinho Fonseca Neto').
 street(2507, 10455, 0.12, 'Rua João Caetano da Cunha').
 street(2507, 2511, 0.02, 'Rua Antônio Luna Lisboa').
-street(2507, 13767, 0.32, 'Rua Antônio Luna Lisboa, Rua Industriário André Carlos Vidal').
+street(2507, 13767, 0.32, 'Rua Industriário André Carlos Vidal, Rua Antônio Luna Lisboa').
 street(2508, 2296, 0.07, 'Rua Otacilia B Sabadelli').
 street(2509, 13767, 0.03, 'Rua Antônio Sinézio dos Santos').
 street(2509, 2511, 0.24, 'Rua Carlos Borromeu de Vasconcelos').
@@ -22405,10 +22405,10 @@ street(2514, 2545, 0.13, 'Rua Leila Diniz').
 street(2514, 2517, 0.03, 'Rua Leila Diniz').
 street(2515, 2541, 0.06, 'Rua Alcides de Miranda Henrique').
 street(2515, 10744, 0.08, 'Rua Alcides de Miranda Henrique').
-street(2515, 2516, 0.13, 'Rua Comuinitario Antonio Virgilio de Cabral, Rua Antônio Virgínio Cabral').
+street(2515, 2516, 0.13, 'Rua Antônio Virgínio Cabral, Rua Comuinitario Antonio Virgilio de Cabral').
 street(2516, 2521, 0.03, 'Avenida Benício de Oliveira Lima').
 street(2516, 2329, 0.02, 'Avenida Benício de Oliveira Lima').
-street(2516, 2515, 0.13, 'Rua Comuinitario Antonio Virgilio de Cabral, Rua Antônio Virgínio Cabral').
+street(2516, 2515, 0.13, 'Rua Antônio Virgínio Cabral, Rua Comuinitario Antonio Virgilio de Cabral').
 street(2517, 2518, 0.13, 'Rua Leila Diniz').
 street(2517, 2542, 0.03, 'Unknown').
 street(2517, 2514, 0.03, 'Rua Leila Diniz').
@@ -22628,7 +22628,7 @@ street(2588, 13819, 0.02, 'Rua Doutor Francisco de Assis Câmara Dantas').
 street(2588, 2589, 0.15, 'Rua Bacharel Irenaldo de Albuquerque Chaves').
 street(2588, 2729, 0.17, 'Rua Bacharel Irenaldo de Albuquerque Chaves').
 street(2589, 2591, 0.06, 'Avenida Campos Sales').
-street(2589, 2585, 0.18, 'Rua Francisco de Andrade Carneiro, Rua Bacharel Irenaldo de Albuquerque Chaves').
+street(2589, 2585, 0.18, 'Rua Bacharel Irenaldo de Albuquerque Chaves, Rua Francisco de Andrade Carneiro').
 street(2589, 2588, 0.15, 'Rua Bacharel Irenaldo de Albuquerque Chaves').
 street(2590, 13819, 0.08, 'Rua Doutor Francisco de Assis Câmara Dantas').
 street(2590, 2564, 0.07, 'Rua Doutor Francisco de Assis Câmara Dantas').
@@ -22866,7 +22866,7 @@ street(2668, 2344, 0.07, 'Avenida Arthur Monteiro de Paiva').
 street(2669, 2704, 0.08, 'Rua Maria das Graças de Alencar').
 street(2669, 2720, 0.08, 'Rua Maria das Graças de Alencar').
 street(2669, 2670, 0.20, 'Rua Presidente José Linhares').
-street(2669, 2703, 0.21, 'Travessa Washington Luiz, Rua Presidente José Linhares').
+street(2669, 2703, 0.21, 'Rua Presidente José Linhares, Travessa Washington Luiz').
 street(2670, 2671, 0.06, 'Rua Presidente José Linhares').
 street(2670, 2669, 0.20, 'Rua Presidente José Linhares').
 street(2670, 2674, 0.08, 'Rua Tertuliano Castro').
@@ -22990,7 +22990,7 @@ street(2701, 2691, 0.20, 'Rua Presidente Arthur Bernardes').
 street(2702, 2696, 0.08, 'Rua Doutor Damasquins Ramos Maciel').
 street(2702, 2351, 0.05, 'Rua Presidente Washington Luiz').
 street(2702, 2680, 0.20, 'Rua Presidente Washington Luiz').
-street(2703, 2669, 0.21, 'Travessa Washington Luiz, Rua Presidente José Linhares').
+street(2703, 2669, 0.21, 'Rua Presidente José Linhares, Travessa Washington Luiz').
 street(2703, 2682, 0.08, 'Travessa Washington Luiz').
 street(2703, 2704, 0.14, 'Rua Randal Cavalcante Pimentel').
 street(2704, 2683, 0.08, 'Rua Maria das Graças de Alencar').
@@ -23184,7 +23184,7 @@ street(2767, 2768, 0.15, 'Rua Professora Rita Miranda').
 street(2767, 2766, 0.14, 'Rua Professora Rita Miranda').
 street(2768, 2767, 0.15, 'Rua Professora Rita Miranda').
 street(2768, 724, 0.07, 'Rua Monsenhor João Coutinho').
-street(2768, 14542, 0.21, 'Rua Monsenhor João Coutinho, Rua Francisco Lima de Araújo').
+street(2768, 14542, 0.21, 'Rua Francisco Lima de Araújo, Rua Monsenhor João Coutinho').
 street(2769, 2770, 0.07, 'Rua Matheus de Oliveira').
 street(2769, 2800, 0.04, 'Rua Alvarino Maciel').
 street(2769, 14522, 0.03, 'Rua Matheus de Oliveira').
@@ -23219,7 +23219,7 @@ street(2778, 2774, 0.02, 'Rua Vicente Lucas Borges').
 street(2778, 2777, 0.07, 'Rua Professora Maria Hamilton').
 street(2779, 2781, 0.07, 'Rua Vicente Lucas Borges').
 street(2779, 2780, 0.18, 'Rua Said Abel').
-street(2779, 706, 0.13, 'Rua Vicente Lucas Borges, Rua José Gonçalves').
+street(2779, 706, 0.13, 'Rua José Gonçalves, Rua Vicente Lucas Borges').
 street(2780, 2782, 0.07, 'Rua Capitão Francisco Moura').
 street(2780, 14543, 0.15, 'Rua Said Abel').
 street(2780, 2779, 0.18, 'Rua Said Abel').
@@ -23403,7 +23403,7 @@ street(2835, 2761, 0.10, 'Rua Professor Inácio Serrano Andrade').
 street(2835, 10816, 0.03, 'Rua Professor Inácio Serrano Andrade').
 street(2835, 2834, 0.05, 'Unknown').
 street(2836, 2839, 0.07, 'Travessa Maurício de Oliveira').
-street(2836, 2839, 0.15, 'Rua Marcelino Fidelez, Rua Ariosvaldo Francisco Rodrigues de Andrade, Rua Elson Toledo').
+street(2836, 2839, 0.15, 'Rua Marcelino Fidelez, Rua Elson Toledo, Rua Ariosvaldo Francisco Rodrigues de Andrade').
 street(2836, 9161, 0.04, 'Travessa Maurício de Oliveira').
 street(2836, 14520, 0.05, 'Rua Ariosvaldo Francisco Rodrigues de Andrade').
 street(2837, 2839, 0.01, 'Travessa Maurício de Oliveira').
@@ -23414,7 +23414,7 @@ street(2838, 2761, 0.05, 'Rua Professor Inácio Serrano Andrade').
 street(2838, 2837, 0.05, 'Unknown').
 street(2839, 2837, 0.01, 'Travessa Maurício de Oliveira').
 street(2839, 2836, 0.07, 'Travessa Maurício de Oliveira').
-street(2839, 2836, 0.15, 'Rua Marcelino Fidelez, Rua Ariosvaldo Francisco Rodrigues de Andrade, Rua Elson Toledo').
+street(2839, 2836, 0.15, 'Rua Marcelino Fidelez, Rua Elson Toledo, Rua Ariosvaldo Francisco Rodrigues de Andrade').
 street(2840, 2772, 0.07, 'Rua Professor Inácio Serrano Andrade').
 street(2840, 2846, 0.04, 'Rua Professor Inácio Serrano Andrade').
 street(2840, 2841, 0.11, 'Rua Coronel Barata').
@@ -23820,7 +23820,7 @@ street(2973, 1729, 0.03, 'Rua Tenente-Coronel Albertino Francisco dos Santos').
 street(2973, 3058, 0.05, 'Rua Tenente-Coronel Albertino Francisco dos Santos').
 street(2974, 2970, 0.05, 'Rua Maria Pequena Lacerda').
 street(2974, 2975, 0.12, 'Rua Desportista Adalberto Ferreira').
-street(2974, 2977, 0.10, 'Rua Hermano Abreu do Nascimento, Rua Desportista Adalberto Ferreira').
+street(2974, 2977, 0.10, 'Rua Desportista Adalberto Ferreira, Rua Hermano Abreu do Nascimento').
 street(2974, 10638, 0.05, 'Unknown').
 street(2975, 2972, 0.05, 'Rua Deputado Francisco Serafico Nóbrega Filho').
 street(2975, 14554, 0.15, 'Rua Deputado Francisco Serafico Nóbrega Filho').
@@ -23830,7 +23830,7 @@ street(2976, 2979, 0.05, 'Rua Laudina da Cunha Santos').
 street(2976, 14265, 0.14, 'Rua Laudina da Cunha Santos').
 street(2977, 2976, 0.11, 'Rua Mecânico Manoel Morais Carvalho').
 street(2977, 2978, 0.05, 'Rua Hermano Abreu do Nascimento').
-street(2977, 2974, 0.10, 'Rua Hermano Abreu do Nascimento, Rua Desportista Adalberto Ferreira').
+street(2977, 2974, 0.10, 'Rua Desportista Adalberto Ferreira, Rua Hermano Abreu do Nascimento').
 street(2978, 2977, 0.05, 'Rua Hermano Abreu do Nascimento').
 street(2978, 2980, 0.05, 'Rua Manoel Araújo Torquato').
 street(2978, 2979, 0.11, 'Rua Manoel Araújo Torquato').
@@ -23842,7 +23842,7 @@ street(2980, 2970, 0.05, 'Rua Maria Pequena Lacerda').
 street(2980, 2968, 0.05, 'Rua Maria Pequena Lacerda').
 street(2981, 3142, 0.05, 'Rua Professora Maria Helena da Silva Rocha').
 street(2981, 3147, 0.06, 'Rua Professora Maria Helena da Silva Rocha').
-street(2981, 9876, 0.28, 'Rua Carteiro Antônio Dias Pacheco, Rua Cícero Moreira Neto').
+street(2981, 9876, 0.28, 'Rua Cícero Moreira Neto, Rua Carteiro Antônio Dias Pacheco').
 street(2981, 3140, 0.17, 'Rua Estudante Fábio José de Souza Santos').
 street(2982, 2983, 0.21, 'Rua Severino Bento de Morais').
 street(2982, 3135, 0.08, 'Rua Professora Maria Helena da Silva Rocha').
@@ -23940,7 +23940,7 @@ street(3014, 3017, 0.03, 'Rua Alzira Luzia Conceição da Silva').
 street(3014, 3018, 0.02, 'Rua Alzira Luzia Conceição da Silva').
 street(3015, 3027, 0.05, 'Rua Severino Gomes de Andrade').
 street(3015, 3016, 0.21, 'Rua João Murilo Leite').
-street(3015, 13351, 0.39, 'Rua Nossa Senhora do Rosário, Rua Severino Gomes de Andrade').
+street(3015, 13351, 0.39, 'Rua Severino Gomes de Andrade, Rua Nossa Senhora do Rosário').
 street(3016, 3000, 0.03, 'Rua Alzira Luzia Conceição da Silva').
 street(3016, 3002, 0.03, 'Rua Alzira Luzia Conceição da Silva').
 street(3016, 3015, 0.21, 'Rua João Murilo Leite').
@@ -24001,7 +24001,7 @@ street(3037, 3036, 0.05, 'Rua Cecília Fortunato da Silva').
 street(3037, 6644, 0.21, 'Rua Estrela d\'Alva').
 street(3038, 7396, 0.05, 'Rua José Tomaz de Souza').
 street(3038, 12240, 0.18, 'Rua da Brisa').
-street(3038, 13299, 0.30, 'Rua Cecília Fortunato da Silva, Rua da Brisa').
+street(3038, 13299, 0.30, 'Rua da Brisa, Rua Cecília Fortunato da Silva').
 street(3039, 12799, 0.05, 'Rua Comerciante Antônio Medeiros de Sobral').
 street(3039, 3040, 0.09, 'Rua Hilta Martins de Lima').
 street(3039, 1722, 0.06, 'Rua Comerciante Antônio Medeiros de Sobral').
@@ -24205,7 +24205,7 @@ street(3102, 1698, 0.14, 'Rua Gesse da Costa Cabral').
 street(3103, 1698, 0.06, 'Rua Francisco Gomes Oliveira').
 street(3103, 3133, 0.05, 'Rua Francisco Gomes Oliveira').
 street(3103, 3101, 0.14, 'Rua Técnico Agrícola José Virgínio de Souza').
-street(3104, 14275, 0.06, 'Rua Francisco Inacio da Silva, Rua Margarida Barbosa Chaves').
+street(3104, 14275, 0.06, 'Rua Margarida Barbosa Chaves, Rua Francisco Inacio da Silva').
 street(3104, 2927, 0.14, 'Rua Margarida Barbosa Chaves').
 street(3104, 14753, 0.20, 'Rua Grafico José E. da Rocha').
 street(3105, 3106, 0.18, 'Rua José Aldemar Alves de Andrade').
@@ -24440,7 +24440,7 @@ street(3185, 3279, 0.21, 'Rua Pastor Mizael Jacome Cavalcante').
 street(3185, 4222, 0.06, 'Avenida Valdemar Naziazeno').
 street(3186, 3174, 0.24, 'Rua Pastor Mizael Jacome Cavalcante').
 street(3186, 14435, 0.01, 'Rua Carlos da Costa Gomes').
-street(3186, 11879, 0.08, 'Rua Carlos da Costa Gomes, Rua Professor Josué da Silveira').
+street(3186, 11879, 0.08, 'Rua Professor Josué da Silveira, Rua Carlos da Costa Gomes').
 street(3187, 4245, 0.09, 'Rua Luiz de Oliveira Lima').
 street(3187, 11878, 0.02, 'Rua João Miguel de Souza').
 street(3187, 14612, 0.30, 'Rua João Miguel de Souza').
@@ -24531,7 +24531,7 @@ street(3213, 14280, 0.05, 'Rua Gentil Rodrigues da Silva').
 street(3214, 3209, 0.06, 'Rua José Firmino de Oliveira').
 street(3214, 3223, 0.05, 'Rua Celestina Irineu dos Santos').
 street(3214, 3222, 0.08, 'Rua Celestina Irineu dos Santos').
-street(3214, 3221, 0.32, 'Rua José Firmino de Oliveira, Rua Benedita Damásio da Silva, Rua Francisco Ferreira de Almeida').
+street(3214, 3221, 0.32, 'Rua José Firmino de Oliveira, Rua Francisco Ferreira de Almeida, Rua Benedita Damásio da Silva').
 street(3215, 11840, 0.02, 'Rua Eduardo Hugo Lins Oliveira').
 street(3215, 9043, 0.02, 'Rua Ana Espínola Navarro').
 street(3216, 11840, 0.20, 'Rua Eduardo Hugo Lins Oliveira').
@@ -24552,7 +24552,7 @@ street(3220, 3206, 0.07, 'Rua Lourenço César').
 street(3220, 3196, 0.02, 'Rua Lourenço César').
 street(3221, 3222, 0.17, 'Rua Celestina Irineu dos Santos').
 street(3221, 3207, 0.05, 'Rua Benedita Damásio da Silva').
-street(3221, 3214, 0.32, 'Rua José Firmino de Oliveira, Rua Benedita Damásio da Silva, Rua Francisco Ferreira de Almeida').
+street(3221, 3214, 0.32, 'Rua José Firmino de Oliveira, Rua Francisco Ferreira de Almeida, Rua Benedita Damásio da Silva').
 street(3222, 3214, 0.08, 'Rua Celestina Irineu dos Santos').
 street(3222, 3221, 0.17, 'Rua Celestina Irineu dos Santos').
 street(3222, 3208, 0.05, 'Rua Aniceto Gomes de Araújo').
@@ -24586,7 +24586,7 @@ street(3231, 3227, 0.18, 'Rua João de Farias Leal').
 street(3231, 3229, 0.05, 'Rua Benedita Damásio da Silva').
 street(3231, 14290, 0.03, 'Rua Benedita Damásio da Silva').
 street(3232, 14291, 0.01, 'Unknown').
-street(3232, 4227, 0.13, 'Rua Estudante Joseane Ferreira de Aguiar, Rua Evangélica Maria Venâncio Ferreira de Aguiar').
+street(3232, 4227, 0.13, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Estudante Joseane Ferreira de Aguiar').
 street(3233, 3226, 0.01, 'Unknown').
 street(3234, 3235, 0.01, 'Unknown').
 street(3235, 4103, 0.03, 'Rua Comerciante José Elizeu de Souza').
@@ -24729,7 +24729,7 @@ street(3280, 9859, 0.10, 'Rua Adauto Toledo').
 street(3280, 3258, 0.03, 'Rua Deputado Petrônio Figueiredo').
 street(3281, 3239, 0.01, 'Rua Maria Teotonio de Souza').
 street(3281, 3241, 0.04, 'Rua Maria Teotonio de Souza').
-street(3281, 9860, 0.06, 'Rua Elba Maria Silva da Costa, Rua Adauto Toledo').
+street(3281, 9860, 0.06, 'Rua Adauto Toledo, Rua Elba Maria Silva da Costa').
 street(3282, 3271, 0.13, 'Rua Emídio Marques do Vale').
 street(3282, 3263, 0.02, 'Rua Deputado Petrônio Figueiredo').
 street(3282, 3256, 0.03, 'Rua Deputado Petrônio Figueiredo').
@@ -24856,7 +24856,7 @@ street(3321, 3320, 0.04, 'Rua Coronel Eduardo Costa').
 street(3322, 14430, 0.04, 'Rua Professora Noêmia Ribeiro').
 street(3322, 3340, 0.16, 'Rua Professora Noêmia Ribeiro').
 street(3322, 3321, 0.05, 'Rua Professor Francisca Nunes da Silva').
-street(3322, 14427, 0.05, 'Rua Professor Francisca Nunes da Silva, Rua George Cunha').
+street(3322, 14427, 0.05, 'Rua George Cunha, Rua Professor Francisca Nunes da Silva').
 street(3323, 3344, 0.14, 'Rua George Cunha').
 street(3323, 14426, 0.04, 'Unknown').
 street(3323, 14427, 0.02, 'Rua George Cunha').
@@ -25055,7 +25055,7 @@ street(3386, 3385, 0.05, 'Rua Vicente Cozza').
 street(3386, 12781, 0.03, 'Rua Vicente Cozza').
 street(3387, 3161, 0.02, 'Rua Carteiro Antônio Dias Pacheco').
 street(3387, 3164, 0.03, 'Rua Carteiro Antônio Dias Pacheco').
-street(3387, 4139, 0.40, 'Rua Severino Lustosa Moraes, Rua Maria Erlanda Carodso Fabrício Monteiro, Rua Silvinha Cardoso Moreira').
+street(3387, 4139, 0.40, 'Rua Maria Erlanda Carodso Fabrício Monteiro, Rua Silvinha Cardoso Moreira, Rua Severino Lustosa Moraes').
 street(3388, 4179, 0.05, 'Rua Pedro Patricio Souza').
 street(3388, 4171, 0.11, 'Rua Luis Eurides Franco').
 street(3388, 14411, 0.01, 'Rua Luis Eurides Franco').
@@ -25129,7 +25129,7 @@ street(3413, 3414, 0.46, 'Rua Doutor Cícero Leite, Rua Flodoaldo Peixoto Filho'
 street(3413, 12408, 0.15, 'Rua Doutor Cícero Leite').
 street(3414, 14948, 0.08, 'Rua Flodoaldo Peixoto Filho').
 street(3414, 4988, 0.13, 'Rua Alvorada').
-street(3414, 3413, 0.46, 'Rua Flodoaldo Peixoto Filho, Rua Doutor Cícero Leite').
+street(3414, 3413, 0.46, 'Rua Doutor Cícero Leite, Rua Flodoaldo Peixoto Filho').
 street(3415, 3416, 0.01, 'Unknown').
 street(3415, 14951, 0.05, 'Rua Flodoaldo Peixoto Filho').
 street(3416, 8024, 0.01, 'Unknown').
@@ -25325,7 +25325,7 @@ street(3478, 9694, 0.24, 'Rua Paulo Paulo Braga dos Santos').
 street(3478, 3479, 0.06, 'Rua Adalgista Sobral').
 street(3478, 9693, 0.26, 'Rua Adalgista Sobral').
 street(3479, 3458, 0.11, 'Rua Joaquim Galdino de Lima').
-street(3479, 3406, 0.28, 'Rua Adalgista Sobral, Rua Adalberto Justa Freire').
+street(3479, 3406, 0.28, 'Rua Adalberto Justa Freire, Rua Adalgista Sobral').
 street(3479, 3478, 0.06, 'Rua Adalgista Sobral').
 street(3480, 15303, 0.01, 'Rua Valdemar Procopio de Souto').
 street(3480, 15304, 0.02, 'Rua Celita Lira Portela').
@@ -25457,7 +25457,7 @@ street(3519, 3437, 0.07, 'Rua Jurandir Ribeiro de Oliveira').
 street(3519, 3518, 0.15, 'Rua Mariângela Lucena Peixoto').
 street(3520, 3521, 0.15, 'Rua Maria do Amparo Abreu e Lima Rezende').
 street(3520, 3522, 0.05, 'Rua Joaquim Elias de Figueiredo').
-street(3520, 3533, 0.10, 'Rua Joaquim Elias de Figueiredo, Rua José da Silva Bezerra').
+street(3520, 3533, 0.10, 'Rua José da Silva Bezerra, Rua Joaquim Elias de Figueiredo').
 street(3521, 3557, 0.01, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(3521, 3534, 0.05, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(3521, 3520, 0.15, 'Rua Maria do Amparo Abreu e Lima Rezende').
@@ -25496,7 +25496,7 @@ street(3532, 1301, 0.10, 'Rua José Luiz de Sales').
 street(3532, 3533, 0.04, 'Rua Luiz Teotônio de Souza').
 street(3532, 14719, 0.17, 'Rua Luiz Teotônio de Souza').
 street(3533, 3534, 0.10, 'Rua José da Silva Bezerra').
-street(3533, 3520, 0.10, 'Rua Joaquim Elias de Figueiredo, Rua José da Silva Bezerra').
+street(3533, 3520, 0.10, 'Rua José da Silva Bezerra, Rua Joaquim Elias de Figueiredo').
 street(3533, 3532, 0.04, 'Rua Luiz Teotônio de Souza').
 street(3534, 3521, 0.05, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(3534, 1301, 0.06, 'Rua Comerciante Alfredo Ferreira da Rocha').
@@ -25731,10 +25731,10 @@ street(3608, 3619, 0.05, 'Rua Elói Inácio de Albuquerque').
 street(3608, 3623, 0.21, 'Rua Deputado João Batista Silva Filho').
 street(3609, 3612, 0.05, 'Rua Pedro Henrique de Araújo').
 street(3609, 3617, 0.05, 'Rua Pedro Henrique de Araújo').
-street(3609, 3610, 0.18, 'Rua Luís Ambrósio de Lima, Rua Antônio Fonseca de Amorim').
+street(3609, 3610, 0.18, 'Rua Antônio Fonseca de Amorim, Rua Luís Ambrósio de Lima').
 street(3610, 3611, 0.05, 'Rua Luís Ambrósio de Lima').
 street(3610, 3612, 0.13, 'Rua Amaro Pereira da Silva').
-street(3610, 3609, 0.18, 'Rua Luís Ambrósio de Lima, Rua Antônio Fonseca de Amorim').
+street(3610, 3609, 0.18, 'Rua Antônio Fonseca de Amorim, Rua Luís Ambrósio de Lima').
 street(3611, 3610, 0.05, 'Rua Luís Ambrósio de Lima').
 street(3611, 3613, 0.13, 'Rua Francisco José de Souza').
 street(3611, 3621, 0.08, 'Rua Luís Ambrósio de Lima, Rua Elói Inácio de Albuquerque').
@@ -25828,10 +25828,10 @@ street(3641, 3640, 0.05, 'Rua Sargento Antônio Benedito de Oliveira').
 street(3641, 3643, 0.16, 'Rua Coronel Francisco Pequeno de Souza').
 street(3642, 3640, 0.14, 'Rua Professora Rejane Inácio Alencar').
 street(3642, 3526, 0.08, 'Rua Maria Rita de Melo Peixoto').
-street(3642, 3643, 0.11, 'Rua Coronel Francisco Pequeno de Souza, Rua Professora Rejane Inácio Alencar').
+street(3642, 3643, 0.11, 'Rua Professora Rejane Inácio Alencar, Rua Coronel Francisco Pequeno de Souza').
 street(3643, 3634, 0.05, 'Unknown').
 street(3643, 3641, 0.16, 'Rua Coronel Francisco Pequeno de Souza').
-street(3643, 3642, 0.11, 'Rua Coronel Francisco Pequeno de Souza, Rua Professora Rejane Inácio Alencar').
+street(3643, 3642, 0.11, 'Rua Professora Rejane Inácio Alencar, Rua Coronel Francisco Pequeno de Souza').
 street(3644, 3554, 0.06, 'Rua Professora Alice Elisa de Melo').
 street(3644, 3658, 0.05, 'Rua Professora Alice Elisa de Melo').
 street(3644, 3645, 0.18, 'Rua Julieta de Albuquerque Pereira').
@@ -26155,10 +26155,10 @@ street(3750, 3765, 0.05, 'Rua Tercila de Arruda Luna').
 street(3750, 3754, 0.10, 'Rua Tercila de Arruda Luna').
 street(3751, 3749, 0.15, 'Rua Júlia Chaves de Alcântara').
 street(3751, 3738, 0.05, 'Rua Maria de Lourdes da Cunha Pessoa').
-street(3751, 3752, 0.09, 'Rua João Possidônio Madruga, Rua Júlia Chaves de Alcântara').
+street(3751, 3752, 0.09, 'Rua Júlia Chaves de Alcântara, Rua João Possidônio Madruga').
 street(3752, 3748, 0.20, 'Rua João Pedro de Alcântara').
 street(3752, 3744, 0.05, 'Rua João Possidônio Madruga').
-street(3752, 3751, 0.09, 'Rua João Possidônio Madruga, Rua Júlia Chaves de Alcântara').
+street(3752, 3751, 0.09, 'Rua Júlia Chaves de Alcântara, Rua João Possidônio Madruga').
 street(3753, 3736, 0.05, 'Rua Maria de Lourdes da Cunha Pessoa').
 street(3753, 3754, 0.05, 'Rua Tercila de Arruda Luna').
 street(3753, 3764, 0.10, 'Rua Tercila de Arruda Luna').
@@ -26334,7 +26334,7 @@ street(3813, 3809, 0.11, 'Rua Jorge Ramos Amaranto').
 street(3813, 3799, 0.05, 'Rua Joaquim dos Santos Sobrinho').
 street(3814, 3799, 0.05, 'Rua Joaquim dos Santos Sobrinho').
 street(3814, 3741, 0.06, 'Rua Francisco Porfírio Ribeiro').
-street(3814, 12568, 0.51, 'Rua Brasilino Alves da Nobrega, Rua Francisco Porfírio Ribeiro').
+street(3814, 12568, 0.51, 'Rua Francisco Porfírio Ribeiro, Rua Brasilino Alves da Nobrega').
 street(3815, 3816, 0.06, 'Unknown').
 street(3815, 3594, 0.03, 'Rua Josefa Taveira').
 street(3815, 3596, 0.02, 'Rua Josefa Taveira').
@@ -27104,7 +27104,7 @@ street(4064, 10375, 0.05, 'Unknown').
 street(4064, 4070, 0.05, 'Unknown').
 street(4065, 4066, 0.05, 'Rua Maria Nunes Marques').
 street(4065, 4057, 0.05, 'Rua Maria Nunes Marques').
-street(4065, 10504, 0.18, 'Rua Blandina de Oliveira, Rua Eunice Souza Setti').
+street(4065, 10504, 0.18, 'Rua Eunice Souza Setti, Rua Blandina de Oliveira').
 street(4065, 4067, 0.16, 'Rua Eunice Souza Setti').
 street(4066, 4065, 0.05, 'Rua Maria Nunes Marques').
 street(4066, 3957, 0.15, 'Rua Regina de Oliveira Silva').
@@ -27144,7 +27144,7 @@ street(4078, 4081, 0.06, 'Rua José Benedito de Souza').
 street(4078, 4080, 0.13, 'Rua José Benedito de Souza').
 street(4079, 4087, 0.03, 'Rua Tenente Euclides Bandeira').
 street(4079, 10335, 0.07, 'Rua Cantora Geny Santos').
-street(4079, 4089, 0.16, 'Rua Frederico C. Jacob Júnior, Rua Tenente Euclides Bandeira').
+street(4079, 4089, 0.16, 'Rua Tenente Euclides Bandeira, Rua Frederico C. Jacob Júnior').
 street(4080, 4078, 0.13, 'Rua José Benedito de Souza').
 street(4080, 4073, 0.09, 'Rua José Benedito de Souza').
 street(4080, 4082, 0.13, 'Rua Maria Lourdes de Albuquerque').
@@ -27161,7 +27161,7 @@ street(4084, 4082, 0.06, 'Unknown').
 street(4084, 4086, 0.16, 'Rua Agrício Lúcio Souza').
 street(4084, 4085, 0.06, 'Unknown').
 street(4085, 1388, 0.08, 'Rua Milton Santa Cruz').
-street(4085, 1390, 0.12, 'Rua Milton Santa Cruz, Rua Cicero Meireles').
+street(4085, 1390, 0.12, 'Rua Cicero Meireles, Rua Milton Santa Cruz').
 street(4085, 4084, 0.06, 'Unknown').
 street(4086, 4084, 0.16, 'Rua Agrício Lúcio Souza').
 street(4086, 1448, 0.03, 'Rua Comerciante Alfredo Ferreira da Rocha').
@@ -27173,8 +27173,8 @@ street(4088, 1459, 0.17, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(4088, 4074, 0.06, 'Rua Tenente Euclides Bandeira').
 street(4088, 2855, 0.06, 'Rua Comerciante Alfredo Ferreira da Rocha').
 street(4089, 4090, 0.05, 'Avenida Laura Muniz de Lima').
-street(4089, 9263, 0.07, 'Avenida Laura Muniz de Lima, Rua Formosina Maria da Conceição').
-street(4089, 4079, 0.16, 'Rua Frederico C. Jacob Júnior, Rua Tenente Euclides Bandeira').
+street(4089, 9263, 0.07, 'Rua Formosina Maria da Conceição, Avenida Laura Muniz de Lima').
+street(4089, 4079, 0.16, 'Rua Tenente Euclides Bandeira, Rua Frederico C. Jacob Júnior').
 street(4090, 4089, 0.05, 'Avenida Laura Muniz de Lima').
 street(4090, 3627, 0.13, 'Avenida Laura Muniz de Lima').
 street(4091, 4092, 0.07, 'Rua Geraldo Roberto da Silva').
@@ -27314,7 +27314,7 @@ street(4133, 7452, 0.06, 'Rua Abdias Genuíno de Lima').
 street(4133, 4131, 0.07, 'Rua Ex-Combatente Assis Luiz').
 street(4134, 4119, 0.02, 'Rua Cláudio Batista da Silva').
 street(4134, 4140, 0.04, 'Rua Sindicalista Pedro Ribeiro').
-street(4134, 4148, 0.06, 'Rua Sindicalista Pedro Ribeiro, Rua Adaílson da Silva Nunes').
+street(4134, 4148, 0.06, 'Rua Adaílson da Silva Nunes, Rua Sindicalista Pedro Ribeiro').
 street(4135, 4124, 0.05, 'Rua Cláudio Batista da Silva').
 street(4135, 4119, 0.05, 'Rua Cláudio Batista da Silva').
 street(4135, 4123, 0.21, 'Rua Sebastiana Silva Santos').
@@ -27329,7 +27329,7 @@ street(4138, 4137, 0.27, 'Rua Olegário Figueira Leão').
 street(4138, 4140, 0.07, 'Rua Carteiro Antônio Dias Pacheco').
 street(4138, 9875, 0.03, 'Rua Carteiro Antônio Dias Pacheco').
 street(4139, 3164, 0.02, 'Rua Carteiro Antônio Dias Pacheco').
-street(4139, 3387, 0.40, 'Rua Severino Lustosa Moraes, Rua Maria Erlanda Carodso Fabrício Monteiro, Rua Silvinha Cardoso Moreira').
+street(4139, 3387, 0.40, 'Rua Maria Erlanda Carodso Fabrício Monteiro, Rua Silvinha Cardoso Moreira, Rua Severino Lustosa Moraes').
 street(4139, 9875, 0.03, 'Rua Carteiro Antônio Dias Pacheco').
 street(4140, 4130, 0.01, 'Rua Sindicalista Pedro Ribeiro').
 street(4140, 4134, 0.04, 'Rua Sindicalista Pedro Ribeiro').
@@ -27379,7 +27379,7 @@ street(4154, 4152, 0.04, 'Rua Francisco Genuino da Silva').
 street(4155, 4145, 0.04, 'Rua Valdevino Joaquim de Lima').
 street(4155, 9883, 0.05, 'Rua José Paulo Ferreira da Costa').
 street(4155, 4159, 0.06, 'Rua Luzia Francisca dos Santos').
-street(4155, 4162, 0.04, 'Rua Luzia Francisca dos Santos, Rua Marinalvo da Silva Ribeiro').
+street(4155, 4162, 0.04, 'Rua Marinalvo da Silva Ribeiro, Rua Luzia Francisca dos Santos').
 street(4156, 4158, 0.06, 'Rua João Soares da Silva').
 street(4156, 4157, 0.04, 'Rua Valdevino Joaquim de Lima').
 street(4156, 4143, 0.04, 'Rua Valdevino Joaquim de Lima').
@@ -27401,7 +27401,7 @@ street(4161, 10395, 0.04, 'Avenida Valdemar Naziazeno').
 street(4161, 4160, 0.16, 'Rua Wilson de Moura Almeida').
 street(4162, 10407, 0.10, 'Rua Maria de Lourdes Pereira Meireles').
 street(4162, 1724, 0.06, 'Rua Marinalvo da Silva Ribeiro').
-street(4162, 4155, 0.04, 'Rua Luzia Francisca dos Santos, Rua Marinalvo da Silva Ribeiro').
+street(4162, 4155, 0.04, 'Rua Marinalvo da Silva Ribeiro, Rua Luzia Francisca dos Santos').
 street(4163, 10404, 0.03, 'Rua Marinalvo da Silva Ribeiro').
 street(4163, 10405, 0.03, 'Rua Marinalvo da Silva Ribeiro').
 street(4163, 4157, 0.04, 'Rua Edna Pinheiro da Silva').
@@ -27491,7 +27491,7 @@ street(4190, 5166, 0.06, 'Rua Candida Formiga de Sousa').
 street(4191, 7590, 0.06, 'Rua Hormesinda Chacon da Silva').
 street(4191, 7608, 0.06, 'Rua Aristoteles de Almeida Lacerda').
 street(4191, 12196, 0.11, 'Rua Hormesinda Chacon da Silva').
-street(4191, 7679, 0.17, 'Rua Aristoteles de Almeida Lacerda, Rua João Augusto da Nobrega').
+street(4191, 7679, 0.17, 'Rua João Augusto da Nobrega, Rua Aristoteles de Almeida Lacerda').
 street(4192, 5160, 0.18, 'Rua Estelvina Alves de Oliveira').
 street(4192, 5162, 0.05, 'Rua Otavio Felix Pereira').
 street(4192, 12195, 0.09, 'Rua Otávio Felix Pereira').
@@ -27513,7 +27513,7 @@ street(4197, 4207, 0.05, 'Rua Luiz de Oliveira Lima').
 street(4197, 4246, 0.01, 'Rua Luiz de Oliveira Lima').
 street(4198, 4197, 0.12, 'Rua José da Costa Gomes').
 street(4198, 4200, 0.05, 'Rua Escritora Silinha Figueiredo de Oliveira Lima').
-street(4198, 4207, 0.16, 'Rua Escritora Silinha Figueiredo de Oliveira Lima, Rua Clóvis da Costa Gomes').
+street(4198, 4207, 0.16, 'Rua Clóvis da Costa Gomes, Rua Escritora Silinha Figueiredo de Oliveira Lima').
 street(4199, 4200, 0.12, 'Rua Celso da Costa Gomes').
 street(4199, 4246, 0.04, 'Rua Luiz de Oliveira Lima').
 street(4199, 4201, 0.05, 'Rua Luiz de Oliveira Lima').
@@ -27541,7 +27541,7 @@ street(4206, 12198, 0.36, 'Rua Doutor Manoel Lopes de Carvalho').
 street(4206, 14503, 0.06, 'Rua Doutor Manoel Lopes de Carvalho').
 street(4207, 4245, 0.03, 'Rua Luiz de Oliveira Lima').
 street(4207, 4197, 0.05, 'Rua Luiz de Oliveira Lima').
-street(4207, 4198, 0.16, 'Rua Escritora Silinha Figueiredo de Oliveira Lima, Rua Clóvis da Costa Gomes').
+street(4207, 4198, 0.16, 'Rua Clóvis da Costa Gomes, Rua Escritora Silinha Figueiredo de Oliveira Lima').
 street(4208, 11932, 0.14, 'Rua Doutor Galileu Di Belli').
 street(4208, 9851, 0.30, 'Rua Doutor Galileu Di Belli').
 street(4208, 6138, 0.31, 'Rua José Lins Sobrinho').
@@ -27554,7 +27554,7 @@ street(4210, 10378, 0.03, 'Avenida Valdemar Naziazeno').
 street(4210, 3185, 0.03, 'Avenida Valdemar Naziazeno').
 street(4211, 4215, 0.12, 'Unknown').
 street(4211, 4212, 0.07, 'Rua Comerciante João da Mata Lucena').
-street(4211, 14286, 0.18, 'Rua Comerciante Antônio Pinto Ribeiro, Rua Comerciante João da Mata Lucena').
+street(4211, 14286, 0.18, 'Rua Comerciante João da Mata Lucena, Rua Comerciante Antônio Pinto Ribeiro').
 street(4212, 11933, 0.06, 'Rua Comerciante João da Mata Lucena').
 street(4212, 4217, 0.12, 'Rua Edson Honório Cordeiro Filho').
 street(4212, 4211, 0.07, 'Rua Comerciante João da Mata Lucena').
@@ -27579,7 +27579,7 @@ street(4218, 4226, 0.08, 'Rua Paulo Matias Gomes').
 street(4218, 4219, 0.20, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Maria Carneiro dos Santos').
 street(4219, 4226, 0.14, 'Rua Evangélico José Ferreira de Aguiar').
 street(4219, 4218, 0.20, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Maria Carneiro dos Santos').
-street(4219, 9851, 0.19, 'Rua Natália Luiza dos Santos, Rua Evangélica Maria Venâncio Ferreira de Aguiar').
+street(4219, 9851, 0.19, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Natália Luiza dos Santos').
 street(4220, 4214, 0.12, 'Rua Maria Chacon').
 street(4220, 4228, 0.07, 'Rua Adalgisa Targino da Silva').
 street(4220, 4216, 0.09, 'Rua Adalgisa Targino da Silva').
@@ -27605,7 +27605,7 @@ street(4226, 4218, 0.08, 'Rua Paulo Matias Gomes').
 street(4226, 4224, 0.08, 'Rua Paulo Matias Gomes').
 street(4227, 4218, 0.15, 'Rua Paulo Matias Gomes').
 street(4227, 4104, 0.02, 'Rua Estudante Joseane Ferreira de Aguiar').
-street(4227, 3232, 0.13, 'Rua Estudante Joseane Ferreira de Aguiar, Rua Evangélica Maria Venâncio Ferreira de Aguiar').
+street(4227, 3232, 0.13, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Estudante Joseane Ferreira de Aguiar').
 street(4228, 4220, 0.07, 'Rua Adalgisa Targino da Silva').
 street(4228, 10382, 0.03, 'Avenida Valdemar Naziazeno').
 street(4228, 10381, 0.02, 'Avenida Valdemar Naziazeno').
@@ -27659,7 +27659,7 @@ street(4246, 4240, 0.08, 'Rua Reginaldo Corrêa de Lima').
 street(4246, 4197, 0.01, 'Rua Luiz de Oliveira Lima').
 street(4246, 4199, 0.04, 'Rua Luiz de Oliveira Lima').
 street(4247, 8676, 0.07, 'Avenida Vereador Gumercindo Barbosa Dunda').
-street(4247, 4269, 0.26, 'Rua Deputado Balduíno Minervino de Carvalho, Rua Maria Alves da Rocha').
+street(4247, 4269, 0.26, 'Rua Maria Alves da Rocha, Rua Deputado Balduíno Minervino de Carvalho').
 street(4247, 8201, 0.07, 'Avenida Vereador Gumercindo Barbosa Dunda').
 street(4248, 8208, 0.08, 'Rua Waldemir Braga').
 street(4248, 4249, 0.29, 'Avenida Aviador Roberto Marques').
@@ -27723,7 +27723,7 @@ street(4267, 4254, 0.02, 'Rua Francisca Bezerra Dias').
 street(4268, 135, 0.05, 'Rua João Batista Fernandes').
 street(4268, 4257, 0.22, 'Rua Sílvio Coelho de Alverga, Rua Maria Helena Rocha').
 street(4269, 4270, 0.07, 'Rua Maria Alves da Rocha').
-street(4269, 4247, 0.26, 'Rua Deputado Balduíno Minervino de Carvalho, Rua Maria Alves da Rocha').
+street(4269, 4247, 0.26, 'Rua Maria Alves da Rocha, Rua Deputado Balduíno Minervino de Carvalho').
 street(4269, 4271, 0.09, 'Rua Adão Vianna da Rosa').
 street(4270, 8201, 0.07, 'Rua Maria Alves da Rocha').
 street(4270, 4269, 0.07, 'Rua Maria Alves da Rocha').
@@ -27907,7 +27907,7 @@ street(4320, 4316, 0.11, 'Rua dos Enfermeiros').
 street(4320, 4281, 0.11, 'Rua dos Enfermeiros').
 street(4321, 4302, 0.11, 'Rua da Economia').
 street(4321, 4329, 0.07, 'Rua da Produção').
-street(4321, 4378, 0.18, 'Rua da Economia, Rua do Trabalho').
+street(4321, 4378, 0.18, 'Rua do Trabalho, Rua da Economia').
 street(4322, 4280, 0.11, 'Rua dos Carpinteiros').
 street(4322, 1772, 0.08, 'Rua dos Carpinteiros').
 street(4322, 4524, 0.07, 'Rua Tenente Manoel Chagas de Oliveira').
@@ -27978,7 +27978,7 @@ street(4342, 4343, 0.08, 'Rua Xatubas').
 street(4343, 11619, 0.13, 'Rua das Andorinhas').
 street(4343, 4342, 0.08, 'Rua Xatubas').
 street(4343, 11494, 0.06, 'Rua Pau Darco').
-street(4343, 11510, 0.41, 'Rua P Dois, Rua Xatubas').
+street(4343, 11510, 0.41, 'Rua Xatubas, Rua P Dois').
 street(4344, 4345, 0.07, 'Rua da Prosperidade').
 street(4344, 1768, 0.11, 'Rua da Prosperidade').
 street(4344, 4361, 0.07, 'Rua do Trabalho').
@@ -28009,7 +28009,7 @@ street(4353, 4362, 0.08, 'Rua dos Diamantes').
 street(4353, 13594, 0.19, 'Rua da Gipsita').
 street(4354, 4355, 0.09, 'Rua das Pérolas').
 street(4354, 4356, 0.03, 'Rua dos Rubis').
-street(4354, 4364, 0.08, 'Rua da Produção, Rua dos Rubis').
+street(4354, 4364, 0.08, 'Rua dos Rubis, Rua da Produção').
 street(4355, 4354, 0.09, 'Rua das Pérolas').
 street(4355, 4357, 0.03, 'Rua Bitte Pereira').
 street(4355, 4358, 0.02, 'Rua Bitte Pereira').
@@ -28038,7 +28038,7 @@ street(4362, 14734, 0.04, 'Rua dos Diamantes').
 street(4363, 4349, 0.05, 'Rua Nova Floresta').
 street(4364, 4349, 0.04, 'Rua Nova Floresta').
 street(4364, 4375, 0.07, 'Rua da Produção').
-street(4364, 4354, 0.08, 'Rua da Produção, Rua dos Rubis').
+street(4364, 4354, 0.08, 'Rua dos Rubis, Rua da Produção').
 street(4365, 4275, 0.07, 'Rua Roberval C. Seabra Marques').
 street(4365, 7280, 0.11, 'Rua Florestal').
 street(4365, 4580, 0.07, 'Rua Florestal').
@@ -28077,7 +28077,7 @@ street(4377, 4376, 0.13, 'Rua do Planejamento').
 street(4377, 4381, 0.06, 'Rua Maria das Dores Barbosa Lopes').
 street(4378, 4379, 0.04, 'Rua do Trabalho').
 street(4378, 4329, 0.11, 'Rua da Importação').
-street(4378, 4321, 0.18, 'Rua da Economia, Rua do Trabalho').
+street(4378, 4321, 0.18, 'Rua do Trabalho, Rua da Economia').
 street(4379, 4380, 0.03, 'Rua do Trabalho').
 street(4379, 4378, 0.04, 'Rua do Trabalho').
 street(4379, 4381, 0.07, 'Rua Maria das Dores Barbosa Lopes').
@@ -28352,7 +28352,7 @@ street(4470, 4429, 0.23, 'Rua Cidade de Alhandra').
 street(4471, 10577, 0.23, 'Avenida Cidade de Salgado de São Félix').
 street(4471, 10612, 0.02, 'Avenida Cidade de São José do Sabugi').
 street(4471, 4472, 0.06, 'Avenida Cidade de São José do Sabugi').
-street(4471, 10578, 0.06, 'Avenida Cidade de Salgado de São Félix, Rua Arábia').
+street(4471, 10578, 0.06, 'Rua Arábia, Avenida Cidade de Salgado de São Félix').
 street(4472, 10578, 0.03, 'Avenida Cidade de Manaíra').
 street(4472, 4471, 0.06, 'Avenida Cidade de São José do Sabugi').
 street(4472, 4595, 0.25, 'Avenida Cidade de Manaíra').
@@ -28417,7 +28417,7 @@ street(4492, 4478, 0.06, 'Rua das Algarobas').
 street(4492, 12170, 0.10, 'Rua Pau d\'Arco').
 street(4493, 4478, 0.13, 'Rua das Algarobas').
 street(4493, 4457, 0.06, 'Rua dos Jambeiros').
-street(4493, 11498, 0.09, 'Rua Caubeiras, Rua dos Jambeiros').
+street(4493, 11498, 0.09, 'Rua dos Jambeiros, Rua Caubeiras').
 street(4494, 4439, 0.12, 'Avenida Cidade de Campo de Santana').
 street(4494, 4440, 0.14, 'Rua Florestal').
 street(4494, 4460, 0.02, 'Rua Florestal').
@@ -28464,7 +28464,7 @@ street(4509, 1759, 0.30, 'Rua José Antônio Ferreira de Miranda').
 street(4509, 4511, 0.53, 'Rua Agricultor Almerindo Luiz da Silva').
 street(4510, 1760, 0.31, 'Rua Agricultor Almerindo Luiz da Silva').
 street(4510, 15165, 0.01, 'Rua Agricultor Almerindo Luiz da Silva').
-street(4510, 9666, 0.90, 'Rua Estevão Brett, Rua Capitão José Rodrigues do Ó').
+street(4510, 9666, 0.90, 'Rua Capitão José Rodrigues do Ó, Rua Estevão Brett').
 street(4511, 4879, 0.08, 'Rua Agricultor Almerindo Luiz da Silva').
 street(4511, 4509, 0.53, 'Rua Agricultor Almerindo Luiz da Silva').
 street(4511, 4873, 0.33, 'Avenida Chesf').
@@ -28493,7 +28493,7 @@ street(4518, 4521, 0.63, 'Rua Y2').
 street(4519, 4520, 0.08, 'Rua Edvaldo Ramos dos Santos').
 street(4519, 4518, 0.17, 'Rua Edvaldo Ramos dos Santos').
 street(4519, 4522, 0.63, 'Rua das Jaboticabeiras').
-street(4519, 13598, 0.20, 'Rua das Jaboticabeiras, Rua das Flores').
+street(4519, 13598, 0.20, 'Rua das Flores, Rua das Jaboticabeiras').
 street(4520, 4517, 0.03, 'Rua Edvaldo Ramos dos Santos').
 street(4520, 4519, 0.08, 'Rua Edvaldo Ramos dos Santos').
 street(4520, 4525, 0.15, 'Rua dos Carteiros').
@@ -28695,7 +28695,7 @@ street(4592, 4591, 0.18, 'Rua Cidade de Diamante').
 street(4592, 4590, 0.05, 'Avenida Cidade de Nova Floresta').
 street(4592, 4594, 0.05, 'Avenida Cidade de Nova Floresta').
 street(4593, 4594, 0.18, 'Rua Cidade de Puxinanã').
-street(4593, 4609, 0.23, 'Rua Cidade de São Mamede, Avenida Cidade de Jericó').
+street(4593, 4609, 0.23, 'Avenida Cidade de Jericó, Rua Cidade de São Mamede').
 street(4593, 4591, 0.05, 'Rua Cidade de São Mamede').
 street(4594, 4593, 0.18, 'Rua Cidade de Puxinanã').
 street(4594, 4592, 0.05, 'Avenida Cidade de Nova Floresta').
@@ -28717,7 +28717,7 @@ street(4599, 4598, 0.05, 'Rua Cidade de Pedra Lavrada').
 street(4599, 4608, 0.30, 'Rua Cidade de Pirpirituba').
 street(4600, 4599, 0.05, 'Rua Cidade de Pedra Lavrada').
 street(4600, 4601, 0.30, 'Rua Cidade de Baía da Traição').
-street(4600, 4604, 0.07, 'Rua Cidade de São Mamede, Rua Cidade de Pedra Lavrada').
+street(4600, 4604, 0.07, 'Rua Cidade de Pedra Lavrada, Rua Cidade de São Mamede').
 street(4601, 4473, 0.02, 'Avenida Cidade de São José do Sabugi').
 street(4601, 4600, 0.30, 'Rua Cidade de Baía da Traição').
 street(4601, 4602, 0.26, 'Avenida Cidade de São José do Sabugi').
@@ -28729,7 +28729,7 @@ street(4603, 13369, 0.26, 'Rua Sérvia e Montenegro').
 street(4603, 4602, 0.15, 'Rua Mônaco').
 street(4604, 4589, 0.05, 'Rua Cidade de São Mamede').
 street(4604, 4605, 0.18, 'Rua Cidade de Santa Luzia').
-street(4604, 4600, 0.07, 'Rua Cidade de São Mamede, Rua Cidade de Pedra Lavrada').
+street(4604, 4600, 0.07, 'Rua Cidade de Pedra Lavrada, Rua Cidade de São Mamede').
 street(4605, 4604, 0.18, 'Rua Cidade de Santa Luzia').
 street(4605, 4597, 0.05, 'Avenida Cidade de Nova Floresta').
 street(4605, 4590, 0.05, 'Avenida Cidade de Nova Floresta').
@@ -28745,7 +28745,7 @@ street(4608, 13386, 0.04, 'Rua Panamá').
 street(4608, 4473, 0.03, 'Avenida Cidade de São José do Sabugi').
 street(4609, 4498, 0.05, 'Avenida Cidade de Jericó').
 street(4609, 4594, 0.05, 'Avenida Cidade de Nova Floresta').
-street(4609, 4593, 0.23, 'Rua Cidade de São Mamede, Avenida Cidade de Jericó').
+street(4609, 4593, 0.23, 'Avenida Cidade de Jericó, Rua Cidade de São Mamede').
 street(4610, 4596, 0.24, 'Avenida Cidade de Nova Floresta').
 street(4610, 4611, 0.05, 'Avenida Cidade de São José do Sabugi').
 street(4610, 4472, 0.06, 'Avenida Cidade de São José do Sabugi').
@@ -28758,7 +28758,7 @@ street(4612, 4505, 0.29, 'Rua Arábia').
 street(4613, 4648, 0.03, 'Rua Teodósio de Oliveira Ledo').
 street(4613, 12377, 0.01, 'Rua Ex-Combatente José Claudino Bezerra Filho').
 street(4613, 4646, 0.07, 'Rua Ex-Combatente José Claudino Bezerra Filho').
-street(4613, 4626, 0.02, 'Rua Antônio Francisco da Silva, Rua Teodósio de Oliveira Ledo').
+street(4613, 4626, 0.02, 'Rua Teodósio de Oliveira Ledo, Rua Antônio Francisco da Silva').
 street(4614, 4615, 0.03, 'Rua Funcionária Francisca Soares da Silva').
 street(4614, 11820, 0.03, 'Rua João Barbalho').
 street(4614, 11821, 0.03, 'Rua João Barbalho').
@@ -28783,13 +28783,13 @@ street(4620, 4619, 0.04, 'Rua Luiz Barbalho').
 street(4620, 4624, 0.03, 'Rua Luiz Barbalho').
 street(4621, 4622, 0.08, 'Rua José Lourenço Pereira').
 street(4621, 11564, 0.07, 'Rua José Lourenço Pereira').
-street(4621, 4623, 0.16, 'Rua Luiz Quirino Gomes, Rua Francisco Severiano da Silva').
+street(4621, 4623, 0.16, 'Rua Francisco Severiano da Silva, Rua Luiz Quirino Gomes').
 street(4622, 4621, 0.08, 'Rua José Lourenço Pereira').
 street(4622, 4623, 0.04, 'Rua Escritor Neves Júnior').
 street(4622, 4661, 0.07, 'Rua Escritor Neves Júnior').
 street(4623, 4654, 0.10, 'Rua Escritor Neves Júnior').
 street(4623, 4622, 0.04, 'Rua Escritor Neves Júnior').
-street(4623, 4621, 0.16, 'Rua Luiz Quirino Gomes, Rua Francisco Severiano da Silva').
+street(4623, 4621, 0.16, 'Rua Francisco Severiano da Silva, Rua Luiz Quirino Gomes').
 street(4624, 4643, 0.09, 'Rua Ex-Combatente José Claudino Bezerra Filho').
 street(4624, 4620, 0.03, 'Rua Luiz Barbalho').
 street(4624, 4642, 0.13, 'Rua Ednaldo Fernandes dos Anjos, Rua Luiz Barbalho').
@@ -28798,7 +28798,7 @@ street(4625, 4616, 0.03, 'Rua José Ferreira de Lima').
 street(4625, 9615, 0.33, 'Rua José Ferreira de Lima').
 street(4626, 11820, 0.12, 'Rua Ednaldo Pequeno Netto').
 street(4626, 4628, 0.03, 'Rua Antônio Francisco da Silva').
-street(4626, 4613, 0.02, 'Rua Antônio Francisco da Silva, Rua Teodósio de Oliveira Ledo').
+street(4626, 4613, 0.02, 'Rua Teodósio de Oliveira Ledo, Rua Antônio Francisco da Silva').
 street(4627, 4647, 0.04, 'Rua Clara Camarão').
 street(4627, 11596, 0.02, 'Rua Antônio Francisco da Silva').
 street(4627, 4628, 0.06, 'Rua Antônio Francisco da Silva').
@@ -28814,7 +28814,7 @@ street(4630, 4664, 0.07, 'Rua Martinho Lutero').
 street(4631, 4651, 0.14, 'Rua Luiz de Vasconcelos').
 street(4631, 4632, 0.07, 'Rua Teodósio de Oliveira Ledo').
 street(4631, 4650, 0.10, 'Rua Luiz de Vasconcelos').
-street(4631, 4654, 0.19, 'Rua Governador Luiz Brito Almeida, Rua Teodósio de Oliveira Ledo').
+street(4631, 4654, 0.19, 'Rua Teodósio de Oliveira Ledo, Rua Governador Luiz Brito Almeida').
 street(4632, 4633, 0.07, 'Rua Teodósio de Oliveira Ledo').
 street(4632, 4631, 0.07, 'Rua Teodósio de Oliveira Ledo').
 street(4632, 4659, 0.15, 'Rua Francisco Rabelo').
@@ -28834,7 +28834,7 @@ street(4635, 4644, 0.07, 'Rua Joaquim da Silva').
 street(4636, 4633, 0.14, 'Rua Padre José de Anchieta').
 street(4636, 4640, 0.07, 'Rua João Barbalho').
 street(4636, 4639, 0.07, 'Rua João Barbalho').
-street(4636, 4660, 0.18, 'Rua Luiz Barbalho, Rua Padre José de Anchieta').
+street(4636, 4660, 0.18, 'Rua Padre José de Anchieta, Rua Luiz Barbalho').
 street(4637, 4633, 0.14, 'Rua Padre José de Anchieta').
 street(4637, 4659, 0.07, 'Rua Escritor Neves Júnior').
 street(4637, 4638, 0.15, 'Rua Padre José de Anchieta').
@@ -28881,7 +28881,7 @@ street(4648, 4645, 0.07, 'Rua Ednaldo Fernandes dos Anjos').
 street(4648, 4613, 0.03, 'Rua Teodósio de Oliveira Ledo').
 street(4648, 4635, 0.06, 'Rua Teodósio de Oliveira Ledo').
 street(4649, 4647, 0.12, 'Rua Comerciante Marilene dos Santos Marinho Silva').
-street(4649, 4663, 0.12, 'Rua Antônio Francisco da Silva, Rua Ex-Combatente José Claudino Bezerra Filho').
+street(4649, 4663, 0.12, 'Rua Ex-Combatente José Claudino Bezerra Filho, Rua Antônio Francisco da Silva').
 street(4649, 11597, 0.07, 'Rua Antônio Francisco da Silva').
 street(4650, 4631, 0.10, 'Rua Luiz de Vasconcelos').
 street(4651, 4652, 0.14, 'Rua Luiz de Vasconcelos').
@@ -28899,7 +28899,7 @@ street(4653, 4686, 0.07, 'Rua Martinho Lutero').
 street(4654, 4653, 0.14, 'Rua Governador Luiz Brito Almeida').
 street(4654, 4651, 0.07, 'Rua Escritor Neves Júnior').
 street(4654, 4623, 0.10, 'Rua Escritor Neves Júnior').
-street(4654, 4631, 0.19, 'Rua Governador Luiz Brito Almeida, Rua Teodósio de Oliveira Ledo').
+street(4654, 4631, 0.19, 'Rua Teodósio de Oliveira Ledo, Rua Governador Luiz Brito Almeida').
 street(4655, 4656, 0.14, 'Rua Poeta Victor Hugo').
 street(4655, 4684, 0.06, 'Rua Poeta Victor Hugo').
 street(4655, 4664, 0.07, 'Rua Martinho Lutero').
@@ -28930,7 +28930,7 @@ street(4662, 4629, 0.07, 'Rua Escritor Neves Júnior').
 street(4662, 4656, 0.07, 'Rua Escritor Neves Júnior').
 street(4663, 4629, 0.02, 'Rua Escritor Neves Júnior').
 street(4663, 4646, 0.07, 'Rua Ex-Combatente José Claudino Bezerra Filho').
-street(4663, 4649, 0.12, 'Rua Antônio Francisco da Silva, Rua Ex-Combatente José Claudino Bezerra Filho').
+street(4663, 4649, 0.12, 'Rua Ex-Combatente José Claudino Bezerra Filho, Rua Antônio Francisco da Silva').
 street(4664, 4662, 0.14, 'Rua Joaquim da Silva').
 street(4664, 11574, 0.05, 'Rua Joaquim da Silva').
 street(4664, 4630, 0.07, 'Rua Martinho Lutero').
@@ -28941,13 +28941,13 @@ street(4666, 7094, 0.05, 'Rua Luiz Barbalho').
 street(4666, 4660, 0.31, 'Rua Luiz Barbalho').
 street(4667, 7111, 0.01, 'Rua Engenheira Rosa Lúcia Ribeiro Fireman').
 street(4667, 7070, 0.05, 'Rua Engenheira Rosa Lúcia Ribeiro Fireman').
-street(4667, 4669, 0.24, 'Rua Estudante Silvan José da Silva, Rua Domildes Feitosa Marques').
+street(4667, 4669, 0.24, 'Rua Domildes Feitosa Marques, Rua Estudante Silvan José da Silva').
 street(4668, 7050, 0.14, 'Rua Engenheira Rosa Lúcia Ribeiro Fireman').
 street(4668, 7059, 0.08, 'Avenida da Lagoa').
 street(4668, 4327, 0.07, 'Avenida da Lagoa').
 street(4669, 9618, 0.08, 'Rua Estudante Silvan José da Silva').
 street(4669, 7061, 0.06, 'Rua Maria José Miranda do Amaral').
-street(4669, 4667, 0.24, 'Rua Estudante Silvan José da Silva, Rua Domildes Feitosa Marques').
+street(4669, 4667, 0.24, 'Rua Domildes Feitosa Marques, Rua Estudante Silvan José da Silva').
 street(4669, 7086, 0.10, 'Rua Maria José Miranda do Amaral, Travessa Martinho Lutero 1').
 street(4670, 4327, 0.05, 'Rua Estudante Silvan José da Silva').
 street(4670, 7062, 0.07, 'Rua Estudante Silvan José da Silva').
@@ -29194,7 +29194,7 @@ street(4745, 11572, 0.02, 'Avenida da Lagoa').
 street(4745, 4672, 0.15, 'Rua Manoel Vicente Rodrigues').
 street(4746, 14259, 0.01, 'Rua João Antônio V. Filho').
 street(4746, 14258, 0.01, 'Rua Coronel Ednaldo Tavares Rufino').
-street(4746, 4763, 0.13, 'Rua Honório Sancho de Carvalho, Rua Coronel Ednaldo Tavares Rufino').
+street(4746, 4763, 0.13, 'Rua Coronel Ednaldo Tavares Rufino, Rua Honório Sancho de Carvalho').
 street(4747, 4748, 0.08, 'Rua Maria José Vieira Ferreira').
 street(4747, 4766, 0.06, 'Rua Heráclito de Almeida').
 street(4747, 4752, 0.06, 'Rua Heráclito de Almeida').
@@ -29245,7 +29245,7 @@ street(4762, 1746, 0.02, 'Rua Tenente-Coronel Albertino Francisco dos Santos').
 street(4762, 1731, 0.06, 'Rua Tenente-Coronel Albertino Francisco dos Santos').
 street(4763, 4758, 0.05, 'Rua Frei Antônio Gonçalves').
 street(4763, 4746, 0.13, 'Rua Honório Sancho de Carvalho, Rua Coronel Ednaldo Tavares Rufino').
-street(4763, 4788, 0.09, 'Rua Manoel Benigno da Costa, Rua Frei Antônio Gonçalves').
+street(4763, 4788, 0.09, 'Rua Frei Antônio Gonçalves, Rua Manoel Benigno da Costa').
 street(4764, 4768, 0.10, 'Rua Sargento Inácio Gonçalves da Silva').
 street(4764, 4765, 0.05, 'Rua Coronel Ednaldo Tavares Rufino').
 street(4764, 10168, 0.03, 'Rua Coronel Ednaldo Tavares Rufino').
@@ -29320,7 +29320,7 @@ street(4787, 11856, 0.04, 'Rua Renato Rubens de Morais').
 street(4787, 4784, 0.09, 'Rua Terezinha de Oliveira Justa').
 street(4788, 4786, 0.06, 'Rua Manoel Benigno da Costa').
 street(4788, 4776, 0.12, 'Rua Renato Rubens de Morais').
-street(4788, 4763, 0.09, 'Rua Manoel Benigno da Costa, Rua Frei Antônio Gonçalves').
+street(4788, 4763, 0.09, 'Rua Frei Antônio Gonçalves, Rua Manoel Benigno da Costa').
 street(4789, 4790, 0.06, 'Rua Hércules G. de Almeida').
 street(4789, 4769, 0.11, 'Rua Hércules G. de Almeida').
 street(4789, 4779, 0.05, 'Rua Antônio Francisco da Costa').
@@ -29621,7 +29621,7 @@ street(4880, 10649, 0.05, 'Rua Doutor Walter Belian').
 street(4880, 10591, 0.26, 'Rua Doutor Walter Belian').
 street(4880, 4882, 0.53, 'Unknown').
 street(4881, 10590, 0.24, 'Rua P Dois').
-street(4881, 10650, 0.29, 'Rua P Dois, Rua Doutor Walter Belian').
+street(4881, 10650, 0.29, 'Rua Doutor Walter Belian, Rua P Dois').
 street(4881, 15409, 0.07, 'Unknown').
 street(4882, 13502, 0.17, 'Rua P Dois').
 street(4882, 4880, 0.53, 'Unknown').
@@ -29667,7 +29667,7 @@ street(4894, 4900, 0.06, 'Rua Luzitânia').
 street(4894, 4891, 0.08, 'Rua Luzitânia').
 street(4895, 8910, 0.04, 'Rua Genésio de Andrade').
 street(4895, 12333, 0.09, 'Rua Genésio de Andrade').
-street(4895, 8907, 0.20, 'Rua Salvador de Albuquerque, Travessa Genésio Andrade').
+street(4895, 8907, 0.20, 'Travessa Genésio Andrade, Rua Salvador de Albuquerque').
 street(4896, 8910, 0.09, 'Rua Genésio de Andrade').
 street(4896, 9159, 0.06, 'Rua João Ramalho').
 street(4896, 10001, 0.27, 'Rua João Ramalho').
@@ -29776,7 +29776,7 @@ street(4929, 4928, 0.05, 'Rua Flodoaldo Peixoto Filho').
 street(4929, 3395, 0.02, 'Rua Flodoaldo Peixoto Filho').
 street(4930, 11967, 0.21, 'Rua Santa Filomena').
 street(4930, 4931, 0.06, 'Rua Frei Galvão').
-street(4930, 4974, 0.07, 'Rua Frei Galvão, Rua Maria das Neves Medeiros Rodrigues').
+street(4930, 4974, 0.07, 'Rua Maria das Neves Medeiros Rodrigues, Rua Frei Galvão').
 street(4931, 5116, 0.06, 'Rua Santo Expedito').
 street(4931, 13498, 0.19, 'Rua Frei Galvão').
 street(4931, 4930, 0.06, 'Rua Frei Galvão').
@@ -29915,7 +29915,7 @@ street(4973, 10592, 0.14, 'Rua Alvorada').
 street(4973, 12832, 0.05, 'Rua Sebastião Vilar de Azevedo').
 street(4974, 4913, 0.05, 'Rua Santa Terezinha do Menino Jesus').
 street(4974, 4934, 0.18, 'Rua Maria das Neves Medeiros Rodrigues').
-street(4974, 4930, 0.07, 'Rua Frei Galvão, Rua Maria das Neves Medeiros Rodrigues').
+street(4974, 4930, 0.07, 'Rua Maria das Neves Medeiros Rodrigues, Rua Frei Galvão').
 street(4975, 4976, 0.26, 'Avenida Fortaleza').
 street(4975, 11797, 0.05, 'Avenida Fortaleza').
 street(4975, 3434, 0.07, 'Rua Gumercindo Leite Sobrinho').
@@ -29964,7 +29964,7 @@ street(4989, 4978, 0.07, 'Rua Sargento Pedro Nazaré Rodrigues Machado').
 street(4989, 12098, 0.06, 'Rua José Rodrigues Matos').
 street(4990, 10592, 0.14, 'Rua Alvorada').
 street(4990, 12098, 0.13, 'Rua José Rodrigues Matos').
-street(4990, 15050, 0.21, 'Rua Jornalista Antônio Barreto Neto, Rua Alvorada').
+street(4990, 15050, 0.21, 'Rua Alvorada, Rua Jornalista Antônio Barreto Neto').
 street(4991, 3450, 0.07, 'Rua Sargento Pedro Nazaré Rodrigues Machado').
 street(4991, 15097, 0.09, 'Rua Jornalista Antônio Barreto Neto').
 street(4991, 4978, 0.07, 'Rua Sargento Pedro Nazaré Rodrigues Machado').
@@ -30058,7 +30058,7 @@ street(5019, 5010, 0.05, 'Rua José Inacio da Silva').
 street(5019, 5009, 0.05, 'Rua José Inacio da Silva').
 street(5020, 5005, 0.09, 'Rua José Inacio da Silva').
 street(5020, 5026, 0.03, 'Rua Etelvino Euginode Souza').
-street(5020, 5184, 0.17, 'Rua Etelvino Euginode Souza, Rua Comerciante João Matias Guedes').
+street(5020, 5184, 0.17, 'Rua Comerciante João Matias Guedes, Rua Etelvino Euginode Souza').
 street(5021, 5018, 0.22, 'Rua Normando S de Oliveira').
 street(5021, 5008, 0.06, 'Unknown').
 street(5021, 5014, 0.06, 'Unknown').
@@ -30184,7 +30184,7 @@ street(5061, 14398, 0.14, 'Unknown').
 street(5061, 14406, 0.05, 'Rua Adalgisa Carneiro Cavalcanti').
 street(5062, 5063, 0.08, 'Rua Euridice Carvalho Ferreira').
 street(5062, 5051, 0.07, 'Rua Engenheiro Franklin Pereira da Silva').
-street(5062, 5043, 0.28, 'Rua Euridice Carvalho Ferreira, Rua Maximiniano Ferreira de Oliveira').
+street(5062, 5043, 0.28, 'Rua Maximiniano Ferreira de Oliveira, Rua Euridice Carvalho Ferreira').
 street(5062, 14437, 0.23, 'Rua Engenheiro Franklin Pereira da Silva').
 street(5063, 14436, 0.00, 'Rua Euridice Carvalho Ferreira').
 street(5063, 5062, 0.08, 'Rua Euridice Carvalho Ferreira').
@@ -30231,7 +30231,7 @@ street(5076, 5074, 0.06, 'Rua Severino Carneiro dos Santos').
 street(5076, 5059, 0.05, 'Rua Severino Carneiro dos Santos').
 street(5077, 5058, 0.05, 'Avenida Vicente de Paula Costa').
 street(5077, 14400, 0.01, 'Rua Pastor Cleomanes de Oliveira').
-street(5077, 5059, 0.12, 'Rua Severino Carneiro dos Santos, Rua Pastor Cleomanes de Oliveira').
+street(5077, 5059, 0.12, 'Rua Pastor Cleomanes de Oliveira, Rua Severino Carneiro dos Santos').
 street(5078, 14406, 0.01, 'Rua Adalgisa Carneiro Cavalcanti').
 street(5078, 3409, 0.03, 'Rua Adalgisa Carneiro Cavalcanti').
 street(5079, 5083, 0.01, 'Rua Alberto de Miranda Henrique').
@@ -30739,7 +30739,7 @@ street(5248, 5651, 0.08, 'Rua Comendador Maribondo').
 street(5249, 5250, 0.11, 'Rua Sílvia Bezerra Guedes').
 street(5250, 5251, 0.07, 'Rua Sílvia Bezerra Guedes').
 street(5250, 5249, 0.11, 'Rua Sílvia Bezerra Guedes').
-street(5250, 5258, 0.21, 'Rua Valêncio Lins de Mendonça, Rua Joaquim Nonato de Aquino').
+street(5250, 5258, 0.21, 'Rua Joaquim Nonato de Aquino, Rua Valêncio Lins de Mendonça').
 street(5251, 5259, 0.05, 'Rua Patrulheiro Gilvandro Seixas').
 street(5251, 5258, 0.13, 'Rua Patrulheiro Gilvandro Seixas').
 street(5251, 5252, 0.07, 'Rua Sílvia Bezerra Guedes').
@@ -30761,15 +30761,15 @@ street(5255, 5254, 0.07, 'Rua Sílvia Bezerra Guedes').
 street(5255, 5263, 0.13, 'Rua Compositor Rosil Cavalcanti').
 street(5255, 5278, 0.13, 'Rua Compositor Rosil Cavalcanti').
 street(5256, 5257, 0.07, 'Rua Tenente Cardoso').
-street(5256, 13114, 0.19, 'Travessa Sant Antonio, Rua Tenente Cardoso').
-street(5256, 12373, 0.31, 'Rua Professor Cândido de Sá Andrade, Rua Joaquim Nonato de Aquino').
+street(5256, 13114, 0.19, 'Rua Tenente Cardoso, Travessa Sant Antonio').
+street(5256, 12373, 0.31, 'Rua Joaquim Nonato de Aquino, Rua Professor Cândido de Sá Andrade').
 street(5257, 5258, 0.17, 'Rua Patrulheiro Gilvandro Seixas').
 street(5257, 5256, 0.07, 'Rua Tenente Cardoso').
 street(5257, 5273, 0.07, 'Rua Tenente Cardoso').
 street(5258, 5251, 0.13, 'Rua Patrulheiro Gilvandro Seixas').
 street(5258, 5257, 0.17, 'Rua Patrulheiro Gilvandro Seixas').
 street(5258, 5260, 0.07, 'Rua Valêncio Lins de Mendonça').
-street(5258, 5250, 0.21, 'Rua Valêncio Lins de Mendonça, Rua Joaquim Nonato de Aquino').
+street(5258, 5250, 0.21, 'Rua Joaquim Nonato de Aquino, Rua Valêncio Lins de Mendonça').
 street(5259, 10957, 0.06, 'Rua Patrulheiro Gilvandro Seixas').
 street(5259, 5251, 0.05, 'Rua Patrulheiro Gilvandro Seixas').
 street(5259, 5274, 0.08, 'Rua Patrulheiro Sebastião Fernandes').
@@ -30809,7 +30809,7 @@ street(5268, 5279, 0.13, 'Rua Josimar Leite de Araújo').
 street(5268, 5265, 0.13, 'Rua Josimar Leite de Araújo').
 street(5269, 5240, 0.17, 'Rua Radialista Geraldo Campos').
 street(5269, 5284, 0.07, 'Rua Professor Cândido de Sá Andrade').
-street(5269, 5275, 0.07, 'Rua Professor Cândido de Sá Andrade, Rua Roderico Toscano de Brito').
+street(5269, 5275, 0.07, 'Rua Roderico Toscano de Brito, Rua Professor Cândido de Sá Andrade').
 street(5270, 5262, 0.16, 'Rua Radialista Geraldo Campos').
 street(5270, 5240, 0.15, 'Rua Radialista Geraldo Campos').
 street(5270, 5285, 0.07, 'Rua Tenente Cardoso').
@@ -30831,7 +30831,7 @@ street(5274, 5277, 0.08, 'Rua Patrulheiro Sebastião Fernandes').
 street(5274, 5259, 0.08, 'Rua Patrulheiro Sebastião Fernandes').
 street(5275, 12373, 0.09, 'Rua Professor Cândido de Sá Andrade').
 street(5275, 5239, 0.15, 'Rua Roderico Toscano de Brito').
-street(5275, 5269, 0.07, 'Rua Professor Cândido de Sá Andrade, Rua Roderico Toscano de Brito').
+street(5275, 5269, 0.07, 'Rua Roderico Toscano de Brito, Rua Professor Cândido de Sá Andrade').
 street(5276, 5239, 0.15, 'Rua Roderico Toscano de Brito').
 street(5276, 5261, 0.17, 'Rua Roderico Toscano de Brito').
 street(5276, 5270, 0.07, 'Rua Tenente Cardoso').
@@ -30962,7 +30962,7 @@ street(5319, 15561, 0.08, 'Rua Philadelpho Pinto de Carvalho').
 street(5319, 9470, 0.01, 'Unknown').
 street(5320, 15309, 0.31, 'Rua Rosa de Lourdes Guimarães').
 street(5320, 5310, 0.07, 'Rua Antônio de Oliveira Moura').
-street(5320, 5328, 0.12, 'Rua Médica Maria de Lourdes Barbosa Saraiva, Rua Rosa de Lourdes Guimarães').
+street(5320, 5328, 0.12, 'Rua Rosa de Lourdes Guimarães, Rua Médica Maria de Lourdes Barbosa Saraiva').
 street(5320, 5374, 0.07, 'Rua Antônio de Oliveira Moura').
 street(5321, 2730, 0.02, 'Rua Médica Maria de Lourdes Barbosa Saraiva').
 street(5321, 2572, 0.07, 'Unknown').
@@ -30995,9 +30995,9 @@ street(5330, 5342, 0.05, 'Rua Poeta Luiz Raimundo Batista de Carvalho').
 street(5330, 5347, 0.04, 'Rua Poeta Luiz Raimundo Batista de Carvalho').
 street(5330, 13575, 0.14, 'Rua José Ferreira Ramos').
 street(5331, 5333, 0.23, 'Rua João Murilo Leite').
-street(5331, 13575, 0.16, 'Rua José Ferreira Ramos, Rua Silvano Domingos de Araújo').
+street(5331, 13575, 0.16, 'Rua Silvano Domingos de Araújo, Rua José Ferreira Ramos').
 street(5331, 13574, 0.15, 'Rua Silvano Domingos de Araújo').
-street(5331, 438, 0.10, 'Rua João Murilo Leite, Rua Oceano Ártico').
+street(5331, 438, 0.10, 'Rua Oceano Ártico, Rua João Murilo Leite').
 street(5332, 5336, 0.04, 'Rua Poeta Luiz Raimundo Batista de Carvalho').
 street(5332, 5334, 0.03, 'Rua Poeta Luiz Raimundo Batista de Carvalho').
 street(5332, 13574, 0.24, 'Rua Antônio Pereira Gomes Filho').
@@ -31241,7 +31241,7 @@ street(5417, 5416, 0.07, 'Rua José Cesarino da Nóbrega').
 street(5417, 2013, 0.12, 'Rua Lindolfo Gonçalves Chaves').
 street(5418, 13116, 0.08, 'Rua Barão de Passagem').
 street(5418, 1127, 0.15, 'Rua Barão de Passagem').
-street(5418, 11087, 0.07, 'Avenida Nossa Senhora de Fátima, Rua Etelvina Macedo de Mendonça').
+street(5418, 11087, 0.07, 'Rua Etelvina Macedo de Mendonça, Avenida Nossa Senhora de Fátima').
 street(5419, 5534, 0.03, 'Avenida Germiniano da Franca Merces').
 street(5419, 14700, 0.07, 'Avenida Ministro José Américo de Almeida').
 street(5420, 2915, 0.13, 'Rua Etelvina Macedo de Mendonça').
@@ -31276,7 +31276,7 @@ street(5430, 5431, 0.02, 'Unknown').
 street(5430, 13, 0.32, 'Avenida Sanhauá').
 street(5431, 5432, 0.07, 'Avenida Sanhauá').
 street(5432, 5433, 0.02, 'Unknown').
-street(5432, 10459, 0.40, 'Avenida Sanhauá, Avenida General Aurélio de Lyra Tavares').
+street(5432, 10459, 0.40, 'Avenida General Aurélio de Lyra Tavares, Avenida Sanhauá').
 street(5433, 5428, 0.04, 'Avenida Sanhauá').
 street(5433, 5747, 0.05, 'Rua da Paz').
 street(5434, 5428, 0.23, 'Avenida Redenção').
@@ -31299,7 +31299,7 @@ street(5440, 5439, 0.08, 'Rua São João').
 street(5440, 5444, 0.16, 'Rua Lopo Garro').
 street(5440, 10869, 0.08, 'Rua Lopo Garro').
 street(5441, 5442, 0.12, 'Unknown').
-street(5441, 5433, 0.43, 'Avenida Sanhauá, Avenida General Aurélio de Lyra Tavares').
+street(5441, 5433, 0.43, 'Avenida General Aurélio de Lyra Tavares, Avenida Sanhauá').
 street(5442, 5865, 0.16, 'Rua Alfredo Dolabela Portela').
 street(5442, 12437, 0.18, 'Rua Alfredo Dolabela Portela').
 street(5443, 5444, 0.08, 'Segunda Travessa Lopo Garro').
@@ -31363,7 +31363,7 @@ street(5471, 5470, 0.17, 'Rua Antônio Laurentino Ramos').
 street(5471, 2054, 0.07, 'Rua Aderaldo Silveira de Sousa').
 street(5472, 5468, 0.07, 'Rua Farmacêutico Antônio Leopoldo Batista').
 street(5472, 2126, 0.15, 'Rua Empresário João Rodrigues Alves').
-street(5473, 9650, 0.23, 'Avenida Duque de Caxias, Rua Peregrino de Carvalho').
+street(5473, 9650, 0.23, 'Rua Peregrino de Carvalho, Avenida Duque de Caxias').
 street(5473, 9162, 0.10, 'Avenida General Osório').
 street(5474, 9924, 0.04, 'Rua Sá Andrade').
 street(5475, 9669, 0.10, 'Rua Maciel Pinheiro').
@@ -31402,7 +31402,7 @@ street(5490, 5500, 0.07, 'Rua São Marcos').
 street(5491, 5492, 0.17, 'Rua São Gabriel').
 street(5491, 13290, 0.03, 'Rua São Gabriel').
 street(5491, 13910, 0.07, 'Rua Souza Rangel').
-street(5491, 13909, 0.22, 'Rua São Geraldo, Rua Souza Rangel').
+street(5491, 13909, 0.22, 'Rua Souza Rangel, Rua São Geraldo').
 street(5492, 13914, 0.00, 'Rua São Gabriel').
 street(5492, 5491, 0.17, 'Rua São Gabriel').
 street(5492, 5490, 0.08, 'Rua São Marcos').
@@ -31477,7 +31477,7 @@ street(5515, 14536, 0.10, 'Rua Gil Furtado').
 street(5515, 2804, 0.22, 'Rua San Juan, Avenida Frei Agostinho').
 street(5516, 883, 0.04, 'Rua José Faustino Cavalcante').
 street(5516, 889, 0.07, 'Rua José Faustino Cavalcante').
-street(5516, 9013, 0.26, 'Rua Radialista Francisco de Assis Souza, Rua Antônio Fernandes de Carvalho, Rua Tocantins').
+street(5516, 9013, 0.26, 'Rua Tocantins, Rua Radialista Francisco de Assis Souza, Rua Antônio Fernandes de Carvalho').
 street(5517, 5518, 0.09, 'Rua Anunciato Silva').
 street(5517, 6987, 0.01, 'Avenida dos Expedicionários').
 street(5517, 6989, 0.02, 'Avenida dos Expedicionários').
@@ -31584,7 +31584,7 @@ street(5552, 14681, 0.04, 'Rua Maria Nazaré Ribeiro da Silva').
 street(5553, 9599, 0.05, 'Rua Jornalista Ney Ramalho').
 street(5553, 5554, 0.05, 'Rua Jornalista Ney Ramalho').
 street(5553, 13923, 0.08, 'Rua Marieta Araújo Nascimento').
-street(5553, 11849, 0.08, 'Rua Coronel João Costa e Silva, Rua Marieta Araújo Nascimento').
+street(5553, 11849, 0.08, 'Rua Marieta Araújo Nascimento, Rua Coronel João Costa e Silva').
 street(5554, 5555, 0.05, 'Rua Jornalista Ney Ramalho').
 street(5554, 5553, 0.05, 'Rua Jornalista Ney Ramalho').
 street(5554, 5558, 0.04, 'Rua Padre José Anchieta').
@@ -31655,7 +31655,7 @@ street(5575, 5572, 0.06, 'Rua Amílton Travassos de Moura').
 street(5575, 5576, 0.17, 'Rua José Feitosa dos Santos, Rua Antônio Bento Pessoa, Rua Geraldo Virgínio dos Santos').
 street(5576, 5561, 0.05, 'Rua José Feitosa dos Santos').
 street(5576, 5572, 0.04, 'Rua Amílton Travassos de Moura').
-street(5576, 5575, 0.17, 'Rua José Feitosa dos Santos, Rua Antônio Bento Pessoa, Rua Geraldo Virgínio dos Santos').
+street(5576, 5575, 0.17, 'Rua Antônio Bento Pessoa, Rua José Feitosa dos Santos, Rua Geraldo Virgínio dos Santos').
 street(5577, 14697, 0.01, 'Rua José Feitosa dos Santos').
 street(5577, 4725, 0.02, 'Rua Coronel João Costa e Silva').
 street(5577, 4689, 0.03, 'Rua Coronel João Costa e Silva').
@@ -31676,7 +31676,7 @@ street(5582, 5583, 0.06, 'Rua Mário Magalhães').
 street(5583, 5584, 0.11, 'Rua Mário Magalhães').
 street(5583, 5621, 0.07, 'Rua João Bandeira de Melo').
 street(5583, 5582, 0.06, 'Rua Mário Magalhães').
-street(5583, 5663, 0.19, 'Avenida Ana Nery, Rua João Bandeira de Melo').
+street(5583, 5663, 0.19, 'Rua João Bandeira de Melo, Avenida Ana Nery').
 street(5584, 10996, 0.04, 'Rua Mário Magalhães').
 street(5584, 5583, 0.11, 'Rua Mário Magalhães').
 street(5584, 10989, 0.05, 'Rua Doutor Jair Cunha').
@@ -31934,7 +31934,7 @@ street(5662, 5663, 0.13, 'Avenida Ana Nery').
 street(5663, 5662, 0.13, 'Avenida Ana Nery').
 street(5663, 5876, 0.08, 'Avenida Castro Alves').
 street(5663, 5581, 0.08, 'Avenida Castro Alves').
-street(5663, 5583, 0.19, 'Avenida Ana Nery, Rua João Bandeira de Melo').
+street(5663, 5583, 0.19, 'Rua João Bandeira de Melo, Avenida Ana Nery').
 street(5664, 5876, 0.07, 'Avenida Castro Alves').
 street(5664, 5880, 0.11, 'Rua Padre Joaquim Cirilo de Sá').
 street(5664, 14213, 0.07, 'Avenida Castro Alves').
@@ -32150,13 +32150,13 @@ street(5730, 5728, 0.21, 'Rua Maria de Lourdes Meira Araújo').
 street(5730, 5729, 0.13, 'Rua Mateus Ribeiro').
 street(5731, 5732, 0.06, 'Rua Celso Otávio Novais').
 street(5731, 5733, 0.11, 'Rua Celso Otávio Novais').
-street(5731, 5733, 0.25, 'Rua Leonel Feitosa, Rua Espínola Nola').
+street(5731, 5733, 0.25, 'Rua Espínola Nola, Rua Leonel Feitosa').
 street(5732, 5731, 0.06, 'Rua Celso Otávio Novais').
 street(5732, 5709, 0.12, 'Rua da Alegria').
 street(5732, 5710, 0.12, 'Rua da Alegria').
 street(5733, 5713, 0.05, 'Rua Celso Otávio Novais').
 street(5733, 5731, 0.11, 'Rua Celso Otávio Novais').
-street(5733, 5731, 0.25, 'Rua Leonel Feitosa, Rua Espínola Nola').
+street(5733, 5731, 0.25, 'Rua Espínola Nola, Rua Leonel Feitosa').
 street(5734, 5699, 0.08, 'Rua 7 de Setembro').
 street(5734, 5735, 0.01, 'Vila São João Batista').
 street(5734, 5736, 0.20, 'Vila São João Batista').
@@ -32190,7 +32190,7 @@ street(5746, 5744, 0.04, 'Praça Coronel Antônio Pessoa').
 street(5746, 9258, 0.23, 'Rua Deputado Odon Bezerra').
 street(5747, 10868, 0.05, 'Rua São João Batista').
 street(5747, 5433, 0.05, 'Rua da Paz').
-street(5747, 12974, 0.08, 'Rua São João Batista, Rua Campos Santos').
+street(5747, 12974, 0.08, 'Rua Campos Santos, Rua São João Batista').
 street(5748, 5759, 0.02, 'Unknown').
 street(5748, 5749, 0.20, 'Rua Frei Henrique de Coimbra').
 street(5748, 14189, 0.13, 'Rua Frei Henrique de Coimbra').
@@ -32215,7 +32215,7 @@ street(5754, 5770, 0.03, 'Rua Sebastião Oliveira Lima').
 street(5754, 5770, 0.27, 'Rua Anderson Freire de Lima').
 street(5755, 5756, 0.04, 'Rua Aprigio Lima').
 street(5755, 5757, 0.06, 'Unknown').
-street(5755, 5757, 0.16, 'Rua Sebastião Oliveira Lima, Rua Aprigio Lima, Vila Aprigio Lima').
+street(5755, 5757, 0.16, 'Rua Sebastião Oliveira Lima, Vila Aprigio Lima, Rua Aprigio Lima').
 street(5756, 5755, 0.04, 'Rua Aprigio Lima').
 street(5756, 5783, 0.02, 'Rua Sebastião Oliveira Lima').
 street(5756, 5754, 0.04, 'Rua Sebastião Oliveira Lima').
@@ -32226,7 +32226,7 @@ street(5758, 5850, 0.06, 'Rua Sebastião Oliveira Lima').
 street(5758, 14186, 0.01, 'Rua Sebastião Oliveira Lima').
 street(5758, 14190, 0.05, 'Rua Joaquim Carvalho').
 street(5759, 5748, 0.02, 'Unknown').
-street(5759, 5760, 0.22, 'Rua Santa Emília de Rodat, Rua Joaquim Carvalho').
+street(5759, 5760, 0.22, 'Rua Joaquim Carvalho, Rua Santa Emília de Rodat').
 street(5759, 5749, 0.22, 'Rua Joaquim Carvalho').
 street(5760, 10870, 0.04, 'Rua Campos Santos').
 street(5760, 14455, 0.04, 'Rua Santa Emília de Rodat').
@@ -32775,7 +32775,7 @@ street(5935, 5917, 0.08, 'Rua Presidente Félix Antônio').
 street(5936, 5940, 0.15, 'Avenida Lima Filho').
 street(5936, 5924, 0.14, 'Avenida Lima Filho').
 street(5936, 5937, 0.06, 'Rua Manoel Pereira de Oliveira').
-street(5936, 5939, 0.18, 'Avenida Buenos Aires, Rua Manoel Pereira de Oliveira').
+street(5936, 5939, 0.18, 'Rua Manoel Pereira de Oliveira, Avenida Buenos Aires').
 street(5937, 5941, 0.15, 'Avenida Alcides Bezerra').
 street(5937, 5932, 0.15, 'Avenida Alcides Bezerra').
 street(5937, 5938, 0.07, 'Rua Manoel Pereira de Oliveira').
@@ -32785,7 +32785,7 @@ street(5938, 5942, 0.15, 'Avenida Coronel Estevão d\'Ávila Lins').
 street(5938, 5933, 0.15, 'Avenida Coronel Estevão d\'Ávila Lins').
 street(5939, 5940, 0.03, 'Rua Celina Novais').
 street(5939, 5952, 0.16, 'Avenida Buenos Aires').
-street(5939, 5936, 0.18, 'Avenida Buenos Aires, Rua Manoel Pereira de Oliveira').
+street(5939, 5936, 0.18, 'Rua Manoel Pereira de Oliveira, Avenida Buenos Aires').
 street(5940, 5304, 0.16, 'Avenida Lima Filho').
 street(5940, 5936, 0.15, 'Avenida Lima Filho').
 street(5940, 5941, 0.06, 'Rua Celina Novais').
@@ -32859,10 +32859,10 @@ street(5966, 5964, 0.13, 'Rua Presidente Félix Antônio').
 street(5967, 5934, 0.19, 'Rua Manoel Guedes da Silva').
 street(5968, 5934, 0.08, 'Rua Manoel Guedes da Silva').
 street(5968, 13959, 0.05, 'Rua Leopoldo Mesquita').
-street(5968, 5969, 0.09, 'Rua Manoel Guedes da Silva, Avenida Cruzeiro do Sul').
+street(5968, 5969, 0.09, 'Avenida Cruzeiro do Sul, Rua Manoel Guedes da Silva').
 street(5969, 5813, 0.03, 'Avenida Cruzeiro do Sul').
 street(5969, 5812, 0.04, 'Avenida Cruzeiro do Sul').
-street(5969, 5968, 0.09, 'Rua Manoel Guedes da Silva, Avenida Cruzeiro do Sul').
+street(5969, 5968, 0.09, 'Avenida Cruzeiro do Sul, Rua Manoel Guedes da Silva').
 street(5970, 5212, 0.12, 'Rua Juiz Domingues Porto').
 street(5970, 5954, 0.19, 'Avenida Cruz das Armas').
 street(5971, 15356, 0.09, 'Rua Juiz Domingues Porto').
@@ -32917,7 +32917,7 @@ street(5989, 14177, 0.02, 'Rua Deputado José Tavares').
 street(5989, 6086, 0.10, 'Rua Dinamarca').
 street(5990, 6133, 0.06, 'Rua Luiz XV').
 street(5990, 6124, 0.16, 'Rua Murilo Buarque').
-street(5990, 6130, 0.23, 'Rua Murilo Buarque, Rua Rio Jaguaribe').
+street(5990, 6130, 0.23, 'Rua Rio Jaguaribe, Rua Murilo Buarque').
 street(5991, 2246, 0.04, 'Rua Santos Dumont').
 street(5991, 6000, 0.06, 'Rua Fernando Cunha Lima').
 street(5991, 6121, 0.13, 'Rua Fernando Cunha Lima').
@@ -33077,7 +33077,7 @@ street(6041, 6049, 0.05, 'Rua Poeta Eula José Dias de Araújo').
 street(6041, 6050, 0.05, 'Rua Poeta Eula José Dias de Araújo').
 street(6042, 6048, 0.04, 'Rua Antônio Mariz').
 street(6042, 11045, 0.12, 'Rua Pastor Afonso').
-street(6042, 11042, 0.14, 'Rua Josefa Pontes Coutinho, Rua Antônio Mariz').
+street(6042, 11042, 0.14, 'Rua Antônio Mariz, Rua Josefa Pontes Coutinho').
 street(6043, 11045, 0.09, 'Rua Pastor Afonso').
 street(6043, 6046, 0.03, 'Rua Poeta Eula José Dias de Araújo').
 street(6043, 6034, 0.03, 'Rua Poeta Eula José Dias de Araújo').
@@ -33338,7 +33338,7 @@ street(6125, 6133, 0.17, 'Rua São Lucas').
 street(6125, 6126, 0.06, 'Rua Três Lagoas').
 street(6125, 6124, 0.06, 'Rua Três Lagoas').
 street(6126, 5984, 0.07, 'Rua João Galdino da Silva').
-street(6126, 6128, 0.18, 'Rua Alto Santo, Rua Três Lagoas').
+street(6126, 6128, 0.18, 'Rua Três Lagoas, Rua Alto Santo').
 street(6126, 6125, 0.06, 'Rua Três Lagoas').
 street(6126, 6127, 0.11, 'Rua João Galdino da Silva').
 street(6127, 6128, 0.06, 'Ladeira Jacó').
@@ -33346,13 +33346,13 @@ street(6127, 6134, 0.08, 'Rua João Galdino da Silva').
 street(6127, 6126, 0.11, 'Rua João Galdino da Silva').
 street(6128, 6129, 0.05, 'Ladeira Jacó').
 street(6128, 6127, 0.06, 'Ladeira Jacó').
-street(6128, 6126, 0.18, 'Rua Alto Santo, Rua Três Lagoas').
+street(6128, 6126, 0.18, 'Rua Três Lagoas, Rua Alto Santo').
 street(6129, 6128, 0.05, 'Ladeira Jacó').
 street(6129, 15376, 0.08, 'Rua Trindade, Rua Luiz XV').
 street(6129, 14175, 0.04, 'Rua Trindade').
 street(6130, 6133, 0.16, 'Rua São Lucas').
 street(6130, 14174, 0.04, 'Rua Rio Jaguaribe').
-street(6130, 5990, 0.23, 'Rua Murilo Buarque, Rua Rio Jaguaribe').
+street(6130, 5990, 0.23, 'Rua Rio Jaguaribe, Rua Murilo Buarque').
 street(6131, 10975, 0.03, 'Rua Presidente Félix Antônio').
 street(6131, 9639, 0.17, 'Rua José Nogueira Campos').
 street(6131, 14204, 0.02, 'Rua João Galdino da Silva').
@@ -33530,7 +33530,7 @@ street(6184, 10884, 0.06, 'Rua Luiz Jacinto').
 street(6184, 6144, 0.11, 'Rua Compositor Noel Rosa').
 street(6184, 10899, 0.05, 'Rua Luiz Jacinto').
 street(6185, 6173, 0.17, 'Rua Compositor Ari Barroso').
-street(6185, 10883, 0.33, 'Rua Glauce Rocha, Rua Luiz Jacinto').
+street(6185, 10883, 0.33, 'Rua Luiz Jacinto, Rua Glauce Rocha').
 street(6185, 6218, 0.07, 'Rua Glauce Rocha').
 street(6186, 6198, 0.07, 'Rua Índio Araribóia').
 street(6186, 6168, 0.07, 'Rua Índio Araribóia').
@@ -34060,14 +34060,14 @@ street(6356, 6358, 0.03, 'Rua Manoel Farias Leite').
 street(6356, 6355, 0.15, 'Rua das Mangueiras').
 street(6357, 15176, 0.03, 'Unknown').
 street(6357, 14084, 0.14, 'Rua Manoel Farias Leite').
-street(6357, 6359, 0.15, 'Rua Manoel Farias Leite, Rua das Domésticas').
+street(6357, 6359, 0.15, 'Rua das Domésticas, Rua Manoel Farias Leite').
 street(6358, 6356, 0.03, 'Rua Manoel Farias Leite').
 street(6358, 14084, 0.14, 'Rua Manoel Farias Leite').
 street(6358, 15177, 0.02, 'Unknown').
 street(6358, 11558, 0.14, 'Rua Manoel Farias Leite').
 street(6359, 6355, 0.21, 'Rua das Mangueiras').
 street(6359, 6354, 0.21, 'Rua das Domésticas').
-street(6359, 6357, 0.15, 'Rua Manoel Farias Leite, Rua das Domésticas').
+street(6359, 6357, 0.15, 'Rua das Domésticas, Rua Manoel Farias Leite').
 street(6360, 6371, 0.11, 'Rua Rogério Marcos de Souza').
 street(6360, 6372, 0.08, 'Rua João Celso Peixoto').
 street(6360, 6361, 0.14, 'Rua João Celso Peixoto').
@@ -34080,7 +34080,7 @@ street(6362, 6363, 0.25, 'Rua José Novais').
 street(6362, 5701, 0.19, 'Rua José Novais').
 street(6363, 6362, 0.25, 'Rua José Novais').
 street(6363, 5715, 0.10, 'Avenida Coronel Adolfo Massa').
-street(6363, 5715, 0.44, 'Rua José Novais, Rua Otávio Gadelha Seixas, Avenida Plácido de Castro').
+street(6363, 5715, 0.44, 'Rua Otávio Gadelha Seixas, Avenida Plácido de Castro, Rua José Novais').
 street(6363, 6366, 0.09, 'Avenida Coronel Adolfo Massa').
 street(6364, 5301, 0.18, 'Avenida Desembargador Santos Estanislau').
 street(6364, 5678, 0.03, 'Avenida Desembargador Santos Estanislau').
@@ -34116,7 +34116,7 @@ street(6373, 6380, 0.06, 'Avenida Mateus Ribeiro').
 street(6373, 6374, 0.14, 'Rua George Alves da Silva').
 street(6374, 6381, 0.05, 'Rua Bacharel João Américo de Carvalho').
 street(6374, 6385, 0.05, 'Rua Bacharel João Américo de Carvalho').
-street(6374, 6379, 0.18, 'Rua George Alves da Silva, Rua Francinaldo Alves da Cruz').
+street(6374, 6379, 0.18, 'Rua Francinaldo Alves da Cruz, Rua George Alves da Silva').
 street(6374, 6373, 0.14, 'Rua George Alves da Silva').
 street(6375, 13832, 0.10, 'Rua Pastor Severino de Oliveira').
 street(6375, 13833, 0.08, 'Avenida Mateus Ribeiro').
@@ -34131,7 +34131,7 @@ street(6378, 6379, 0.33, 'Rua Antônio Euflausino dos Santos').
 street(6378, 6969, 0.20, 'Rua Bacharel João Américo de Carvalho').
 street(6378, 6384, 0.09, 'Rua Bacharel João Américo de Carvalho').
 street(6379, 6385, 0.08, 'Rua Francinaldo Alves da Cruz').
-street(6379, 6374, 0.18, 'Rua George Alves da Silva, Rua Francinaldo Alves da Cruz').
+street(6379, 6374, 0.18, 'Rua Francinaldo Alves da Cruz, Rua George Alves da Silva').
 street(6379, 6378, 0.33, 'Rua Antônio Euflausino dos Santos').
 street(6380, 6381, 0.11, 'Rua Estudante Wilma Regina Coutinho Gomes').
 street(6380, 6373, 0.06, 'Avenida Mateus Ribeiro').
@@ -34253,7 +34253,7 @@ street(6419, 9884, 0.06, 'Avenida Senador Ruy Carneiro').
 street(6419, 6418, 0.06, 'Avenida Coração de Jesus').
 street(6420, 6438, 0.01, 'Rua dos Palmares').
 street(6420, 14452, 0.02, 'Rua dos Palmares').
-street(6420, 6435, 0.12, 'Rua São Pedro, Rua Santa Lúcia').
+street(6420, 6435, 0.12, 'Rua Santa Lúcia, Rua São Pedro').
 street(6421, 6422, 0.07, 'Rua Antônio Alcides de Jesus').
 street(6422, 5384, 0.06, 'Rua General Antero de Brito').
 street(6422, 6421, 0.07, 'Rua Antônio Alcides de Jesus').
@@ -34291,14 +34291,14 @@ street(6434, 6433, 0.07, 'Rua Maria Francisca da Conceição').
 street(6434, 6436, 0.02, 'Rua dos Palmares').
 street(6434, 6452, 0.10, 'Rua dos Palmares').
 street(6435, 6436, 0.08, 'Rua São George').
-street(6435, 6420, 0.12, 'Rua São Pedro, Rua Santa Lúcia').
+street(6435, 6420, 0.12, 'Rua Santa Lúcia, Rua São Pedro').
 street(6435, 6433, 0.03, 'Rua São Pedro').
 street(6436, 14452, 0.01, 'Rua dos Palmares').
 street(6436, 6435, 0.08, 'Rua São George').
 street(6436, 6434, 0.02, 'Rua dos Palmares').
 street(6437, 5376, 0.11, 'Avenida Alfredo José de Athaíde').
 street(6437, 6452, 0.07, 'Rua dos Palmares').
-street(6437, 10130, 0.02, 'Avenida Alfredo José de Athaíde, Rua Alfredo José Athaíde').
+street(6437, 10130, 0.02, 'Rua Alfredo José Athaíde, Avenida Alfredo José de Athaíde').
 street(6438, 6439, 0.14, 'Rua Santa Ceciliana').
 street(6438, 10824, 0.02, 'Rua dos Palmares').
 street(6438, 6420, 0.01, 'Rua dos Palmares').
@@ -34353,7 +34353,7 @@ street(6455, 6454, 0.07, 'Rua Monsenhor Nicodemos').
 street(6455, 6459, 0.07, 'Rua João Brito de Lima Moura').
 street(6456, 6454, 0.07, 'Rua Doutor Gouveia de Moura').
 street(6456, 10792, 0.04, 'Rua Coelho Paiva').
-street(6456, 6466, 0.13, 'Rua Coelho Paiva, Rua 6 de Dezembro').
+street(6456, 6466, 0.13, 'Rua 6 de Dezembro, Rua Coelho Paiva').
 street(6457, 6454, 0.07, 'Rua Doutor Gouveia de Moura').
 street(6457, 6459, 0.07, 'Avenida Joaquim Inácio de Oliveira').
 street(6457, 6458, 0.03, 'Avenida Joaquim Inácio de Oliveira').
@@ -34377,15 +34377,15 @@ street(6465, 6464, 0.03, 'Unknown').
 street(6465, 6461, 0.06, 'Rua João Brito de Lima Moura').
 street(6465, 14484, 0.01, 'Rua João Brito de Lima Moura').
 street(6466, 6463, 0.12, 'Rua 30 de Setembro').
-street(6466, 6468, 0.21, 'Rua São Pedro, Rua 6 de Dezembro').
-street(6466, 6456, 0.13, 'Rua Coelho Paiva, Rua 6 de Dezembro').
+street(6466, 6468, 0.21, 'Rua 6 de Dezembro, Rua São Pedro').
+street(6466, 6456, 0.13, 'Rua 6 de Dezembro, Rua Coelho Paiva').
 street(6467, 15294, 0.15, 'Rua Dois de Dezembro').
 street(6467, 6469, 0.06, 'Rua Nossa Senhora da Carmo').
 street(6467, 8213, 0.07, 'Rua Nossa Senhora da Carmo').
 street(6468, 6469, 0.17, 'Rua São Pedro').
 street(6468, 14484, 0.06, 'Rua João Brito de Lima Moura').
-street(6468, 9830, 0.02, 'Rua João de Brito Lima Moura, Rua João Brito de Lima Moura').
-street(6468, 6466, 0.21, 'Rua São Pedro, Rua 6 de Dezembro').
+street(6468, 9830, 0.02, 'Rua João Brito de Lima Moura, Rua João de Brito Lima Moura').
+street(6468, 6466, 0.21, 'Rua 6 de Dezembro, Rua São Pedro').
 street(6469, 6468, 0.17, 'Rua São Pedro').
 street(6469, 6467, 0.06, 'Rua Nossa Senhora da Carmo').
 street(6469, 10128, 0.11, 'Rua São Pedro').
@@ -34708,10 +34708,10 @@ street(6576, 6563, 0.04, 'Rua Ex-Combatente José do Patrocínio de Carvalho').
 street(6576, 12882, 0.04, 'Rua Geraldo Alves Gomides').
 street(6576, 13231, 1.48, 'Rua Ex-Combatente José do Patrocínio de Carvalho').
 street(6577, 6578, 0.17, 'Rua João Roque da Silva').
-street(6577, 6578, 0.26, 'Rua Niêta da Silva Oliveira, Rua Estudante Haroldo Medeiros Venâncio').
+street(6577, 6578, 0.26, 'Rua Estudante Haroldo Medeiros Venâncio, Rua Niêta da Silva Oliveira').
 street(6577, 6584, 0.05, 'Rua Niêta da Silva Oliveira').
 street(6578, 6577, 0.17, 'Rua João Roque da Silva').
-street(6578, 6577, 0.26, 'Rua Niêta da Silva Oliveira, Rua Estudante Haroldo Medeiros Venâncio').
+street(6578, 6577, 0.26, 'Rua Estudante Haroldo Medeiros Venâncio, Rua Niêta da Silva Oliveira').
 street(6578, 6583, 0.05, 'Unknown').
 street(6579, 15113, 0.02, 'Rua Geraldo Brandão Rocha').
 street(6579, 11966, 0.06, 'Rua Risalva Oliveira da Silva').
@@ -34746,7 +34746,7 @@ street(6589, 6600, 0.05, 'Rua Severina de Alexandria Rodrigues').
 street(6589, 6599, 0.05, 'Rua Severina de Alexandria Rodrigues').
 street(6590, 6591, 0.03, 'Rua Danilo Everson Muniz da Silva Crispim').
 street(6590, 6593, 0.03, 'Rua Norma de Almeida Pequeno').
-street(6590, 7708, 0.17, 'Rua Elidane Kelly Araujo de Souza, Rua Norma de Almeida Pequeno, Rua Antonio Barros de Souza Diniz').
+street(6590, 7708, 0.17, 'Rua Elidane Kelly Araujo de Souza, Rua Antonio Barros de Souza Diniz, Rua Norma de Almeida Pequeno').
 street(6591, 6590, 0.03, 'Rua Danilo Everson Muniz da Silva Crispim').
 street(6591, 6599, 0.05, 'Rua Severina de Alexandria Rodrigues').
 street(6591, 6592, 0.09, 'Rua Danilo Everson Muniz da Silva Crispim').
@@ -34806,7 +34806,7 @@ street(6610, 6609, 0.03, 'Unknown').
 street(6610, 6613, 0.40, 'Unknown').
 street(6611, 1710, 0.05, 'Rua Oceane Nascimento da Silva').
 street(6611, 10594, 0.01, 'Rua Oceane Nascimento da Silva').
-street(6611, 1716, 0.20, 'Rua Professora Daura Alcides Almeida, Rua Eliane Nascimento Araújo').
+street(6611, 1716, 0.20, 'Rua Eliane Nascimento Araújo, Rua Professora Daura Alcides Almeida').
 street(6612, 6616, 0.04, 'Unknown').
 street(6612, 12431, 0.31, 'Unknown').
 street(6612, 6614, 0.41, 'Unknown').
@@ -34883,7 +34883,7 @@ street(6638, 6639, 0.06, 'Rua Costureira Maria Rodrigues Alves').
 street(6638, 14990, 0.08, 'Rua Costureira Maria Rodrigues Alves').
 street(6638, 6640, 0.06, 'Rua Agente Fiscal Heráclito Ribeiro').
 street(6639, 6638, 0.06, 'Rua Costureira Maria Rodrigues Alves').
-street(6639, 1720, 0.12, 'Rua João Bezerra de Souza, Rua Professora Alair Cavalcanti da Silveira').
+street(6639, 1720, 0.12, 'Rua Professora Alair Cavalcanti da Silveira, Rua João Bezerra de Souza').
 street(6639, 1719, 0.18, 'Rua Professora Alair Cavalcanti da Silveira').
 street(6640, 6624, 0.18, 'Rua Engenheiro José Cordeiro Fragoso').
 street(6640, 6641, 0.06, 'Rua Agente Fiscal Heráclito Ribeiro').
@@ -35069,21 +35069,21 @@ street(6697, 6696, 0.17, 'Rua Caixeta').
 street(6698, 6699, 0.19, 'Rua Tatu Peludo').
 street(6698, 6700, 0.05, 'Rua José Luiz de Albuquerque').
 street(6698, 6709, 0.05, 'Rua José Luiz de Albuquerque').
-street(6698, 6711, 0.15, 'Rua Garca Branca Pequena da, Rua Tatu Peludo').
+street(6698, 6711, 0.15, 'Rua Tatu Peludo, Rua Garca Branca Pequena da').
 street(6699, 6698, 0.19, 'Rua Tatu Peludo').
 street(6699, 6701, 0.05, 'Rua Sibipiruna').
 street(6699, 13516, 0.01, 'Rua Sibipiruna').
 street(6700, 6703, 0.05, 'Rua José Luiz de Albuquerque').
 street(6700, 6698, 0.05, 'Rua José Luiz de Albuquerque').
 street(6700, 6701, 0.20, 'Rua Sagui da Serra').
-street(6700, 6702, 0.15, 'Rua Garca Branca Pequena, Rua Sagui da Serra').
+street(6700, 6702, 0.15, 'Rua Sagui da Serra, Rua Garca Branca Pequena').
 street(6701, 12022, 0.10, 'Rua Sagui da Serra').
 street(6701, 13515, 0.04, 'Rua Sibipiruna').
 street(6701, 6699, 0.05, 'Rua Sibipiruna').
 street(6701, 6700, 0.20, 'Rua Sagui da Serra').
 street(6702, 6703, 0.08, 'Rua Tamandua Bandeira').
 street(6702, 6705, 0.05, 'Rua Garca Branca Pequena').
-street(6702, 6700, 0.15, 'Rua Garca Branca Pequena, Rua Sagui da Serra').
+street(6702, 6700, 0.15, 'Rua Sagui da Serra, Rua Garca Branca Pequena').
 street(6703, 6704, 0.20, 'Rua Tamandua Bandeira').
 street(6703, 6702, 0.08, 'Rua Tamandua Bandeira').
 street(6703, 6706, 0.05, 'Rua José Luiz de Albuquerque').
@@ -35114,7 +35114,7 @@ street(6710, 13521, 0.04, 'Rua Sibipiruna').
 street(6710, 12024, 0.17, 'Rua Maria Santina de Conceição, Rua Juracy de Oliveira Cunha Lima').
 street(6711, 6712, 0.05, 'Rua Garca Branca Pequena da').
 street(6711, 6709, 0.11, 'Rua Caranguejo Goiamum').
-street(6711, 6698, 0.15, 'Rua Garca Branca Pequena da, Rua Tatu Peludo').
+street(6711, 6698, 0.15, 'Rua Tatu Peludo, Rua Garca Branca Pequena da').
 street(6712, 6711, 0.05, 'Rua Garca Branca Pequena da').
 street(6712, 6708, 0.11, 'Rua Mono Carvoeiro').
 street(6712, 6713, 0.04, 'Rua Mono Carvoeiro').
@@ -35143,7 +35143,7 @@ street(6720, 6765, 0.03, 'Rua Comerciante Félix Cahino').
 street(6720, 6768, 0.01, 'Rua Comerciante Félix Cahino').
 street(6721, 6719, 0.05, 'Rua José Cassilhas').
 street(6721, 6723, 0.09, 'Rua Maria Isabel de Medeiros Neta').
-street(6721, 7948, 0.07, 'Rua José Cassilhas, Rua Manoel Vieira Gomes').
+street(6721, 7948, 0.07, 'Rua Manoel Vieira Gomes, Rua José Cassilhas').
 street(6722, 6723, 0.06, 'Unknown').
 street(6722, 12055, 0.04, 'Rua Manoel Vieira Gomes').
 street(6722, 12053, 0.01, 'Rua Manoel Vieira Gomes').
@@ -35266,7 +35266,7 @@ street(6760, 6770, 0.04, 'Unknown').
 street(6760, 6761, 0.10, 'Rua Maria das Dores Pinto Leite').
 street(6761, 6759, 0.04, 'Rua Tenente Berto Luiz Gomes').
 street(6761, 6760, 0.10, 'Rua Maria das Dores Pinto Leite').
-street(6761, 6770, 0.14, 'Rua Tenente Berto Luiz Gomes, Rua Rafael Antônio dos Santos').
+street(6761, 6770, 0.14, 'Rua Rafael Antônio dos Santos, Rua Tenente Berto Luiz Gomes').
 street(6762, 6763, 0.14, 'Rua Francisco Felipe de Paula').
 street(6762, 6766, 0.04, 'Rua Josenaldo Francisco Simão').
 street(6762, 6764, 0.04, 'Rua Josenaldo Francisco Simão').
@@ -35294,7 +35294,7 @@ street(6769, 6768, 0.14, 'Rua Rafael Antônio dos Santos').
 street(6769, 6764, 0.04, 'Rua Josenaldo Francisco Simão').
 street(6770, 6769, 0.04, 'Rua Rafael Antônio dos Santos').
 street(6770, 6760, 0.04, 'Unknown').
-street(6770, 6761, 0.14, 'Rua Tenente Berto Luiz Gomes, Rua Rafael Antônio dos Santos').
+street(6770, 6761, 0.14, 'Rua Rafael Antônio dos Santos, Rua Tenente Berto Luiz Gomes').
 street(6771, 6772, 0.08, 'Rua Severina Alves Batista do Carmo').
 street(6771, 6741, 0.04, 'Rua Tenente Berto Luiz Gomes').
 street(6771, 6776, 0.04, 'Rua Tenente Berto Luiz Gomes').
@@ -35802,11 +35802,11 @@ street(6939, 6940, 0.21, 'Rua Adalberto Florentino de Castro').
 street(6939, 14139, 0.05, 'Rua Inspetora Emília Mendonça Gomes').
 street(6939, 3403, 0.04, 'Rua Inspetora Emília Mendonça Gomes').
 street(6940, 6939, 0.21, 'Rua Adalberto Florentino de Castro').
-street(6940, 6941, 0.24, 'Rua Pedro Marcos de Souza, Rua Maria Emilia da Silva').
+street(6940, 6941, 0.24, 'Rua Maria Emilia da Silva, Rua Pedro Marcos de Souza').
 street(6940, 10432, 0.04, 'Rua Pedro Marcos de Souza').
 street(6941, 3403, 0.02, 'Rua Inspetora Emília Mendonça Gomes').
 street(6941, 6851, 0.03, 'Rua Inspetora Emília Mendonça Gomes').
-street(6941, 6940, 0.24, 'Rua Pedro Marcos de Souza, Rua Maria Emilia da Silva').
+street(6941, 6940, 0.24, 'Rua Maria Emilia da Silva, Rua Pedro Marcos de Souza').
 street(6942, 6930, 0.21, 'Rua Aldary Lucena Paiva, Rua Pedro Marcos de Souza').
 street(6942, 6929, 0.05, 'Unknown').
 street(6942, 14115, 0.21, 'Unknown').
@@ -36085,7 +36085,7 @@ street(7037, 7022, 0.03, 'Unknown').
 street(7037, 7044, 0.33, 'Rua Afonso Barbosa de Oliveira').
 street(7037, 14160, 0.02, 'Rua Afonso Barbosa de Oliveira').
 street(7038, 7028, 0.03, 'Rua Manoel Colaço Sobrinho').
-street(7038, 14133, 0.07, 'Rua Manoel Colaço Sobrinho, Rua Valda Cruz Cordeiro').
+street(7038, 14133, 0.07, 'Rua Valda Cruz Cordeiro, Rua Manoel Colaço Sobrinho').
 street(7038, 14148, 0.04, 'Rua Manoel Colaço Sobrinho').
 street(7039, 7029, 0.15, 'Unknown').
 street(7039, 14160, 0.26, 'Rua Afonso Barbosa de Oliveira').
@@ -36200,7 +36200,7 @@ street(7073, 7071, 0.06, 'Rua Capitão Primo Cavalcante de Paiva').
 street(7073, 7088, 0.05, 'Rua Capitão Primo Cavalcante de Paiva').
 street(7073, 7079, 0.14, 'Rua Jaime do Patrocínio Miranda').
 street(7074, 7097, 0.01, 'Rua Severino Tavares de Freitas').
-street(7074, 7097, 0.29, 'Rua Djalma Cavalcante Almeida, Rua Severino Tavares de Freitas, Rua João Felix Silva').
+street(7074, 7097, 0.29, 'Rua Severino Tavares de Freitas, Rua João Felix Silva, Rua Djalma Cavalcante Almeida').
 street(7074, 11564, 0.15, 'Rua José Lourenço Pereira').
 street(7075, 11594, 0.05, 'Rua Capitão Primo Cavalcante de Paiva').
 street(7075, 7089, 0.05, 'Rua Capitão Primo Cavalcante de Paiva').
@@ -36273,7 +36273,7 @@ street(7096, 7099, 0.06, 'Rua Joselito Rodrigues de Freitas').
 street(7096, 7079, 0.06, 'Rua Joselito Rodrigues de Freitas').
 street(7096, 7088, 0.14, 'Rua Paulo Vicente Ferreira').
 street(7097, 7074, 0.01, 'Rua Severino Tavares de Freitas').
-street(7097, 7074, 0.29, 'Rua Djalma Cavalcante Almeida, Rua Severino Tavares de Freitas, Rua João Felix Silva').
+street(7097, 7074, 0.29, 'Rua Severino Tavares de Freitas, Rua João Felix Silva, Rua Djalma Cavalcante Almeida').
 street(7097, 11581, 0.16, 'Rua Manoel Vicente Rodrigues').
 street(7098, 7057, 0.06, 'Rua Engenheira Rosa Lúcia Ribeiro Fireman').
 street(7098, 7111, 0.05, 'Rua Engenheira Rosa Lúcia Ribeiro Fireman').
@@ -36531,7 +36531,7 @@ street(7193, 7208, 0.14, 'Rua Tratorista José do Carmo Lima').
 street(7193, 8570, 0.02, 'Rua Tratorista José do Carmo Lima').
 street(7194, 7195, 0.03, 'Rua Empresário Manoel de Brito').
 street(7194, 7206, 0.04, 'Rua Empresário Manoel de Brito').
-street(7194, 7217, 0.33, 'Rua Severina Maria da Conceição, Rua Eletricista Sebastião Marcondes Ramalho Travassos').
+street(7194, 7217, 0.33, 'Rua Eletricista Sebastião Marcondes Ramalho Travassos, Rua Severina Maria da Conceição').
 street(7195, 7211, 0.16, 'Rua dos Colibris').
 street(7195, 7225, 0.04, 'Rua Empresário Manoel de Brito').
 street(7195, 7194, 0.03, 'Rua Empresário Manoel de Brito').
@@ -36597,7 +36597,7 @@ street(7215, 7226, 0.05, 'Rua Empresário Manoel de Brito').
 street(7216, 7207, 0.01, 'Rua Adélia Soares Peixoto').
 street(7216, 2520, 0.12, 'Avenida Hilton Souto Maior').
 street(7217, 7229, 0.29, 'Rua Inaldo Rodrigues de Almeida').
-street(7217, 7194, 0.33, 'Rua Severina Maria da Conceição, Rua Eletricista Sebastião Marcondes Ramalho Travassos').
+street(7217, 7194, 0.33, 'Rua Eletricista Sebastião Marcondes Ramalho Travassos, Rua Severina Maria da Conceição').
 street(7217, 7221, 0.07, 'Rua Severina Maria da Conceição').
 street(7218, 11722, 0.07, 'Rua Ciro Trocolli').
 street(7218, 8578, 0.07, 'Rua Ciro Trocolli').
@@ -36606,7 +36606,7 @@ street(7219, 7224, 0.23, 'Rua Capitão Natalício Evangelista dos Santos').
 street(7219, 15179, 0.08, 'Unknown').
 street(7219, 2335, 0.02, 'Rua Capitão Natalício Evangelista dos Santos').
 street(7220, 7226, 0.26, 'Rua José Cândido da Silva').
-street(7220, 11735, 0.34, 'Rua Severina Maria da Conceição, Rua Cabo José Batista da Silva').
+street(7220, 11735, 0.34, 'Rua Cabo José Batista da Silva, Rua Severina Maria da Conceição').
 street(7220, 7222, 0.08, 'Rua Severina Maria da Conceição').
 street(7221, 7237, 0.17, 'Rua Comerciante Agamenon Holanda de Moura').
 street(7221, 13726, 0.19, 'Unknown').
@@ -36647,7 +36647,7 @@ street(7232, 7198, 0.08, 'Rua Ciro Trocolli').
 street(7232, 7231, 0.16, 'Rua Ciro Trocolli').
 street(7233, 5130, 0.05, 'Rua Fernando Torres').
 street(7233, 7196, 0.06, 'Rua Empresário Manoel de Brito').
-street(7233, 13728, 0.03, 'Rua Fernando Torres, Rua Irineu Marinho').
+street(7233, 13728, 0.03, 'Rua Irineu Marinho, Rua Fernando Torres').
 street(7234, 7209, 0.27, 'Rua Maria do Carmo Guedes Lima').
 street(7234, 7210, 0.11, 'Rua Ciro Trocolli').
 street(7234, 7235, 0.08, 'Rua Ciro Trocolli').
@@ -37463,7 +37463,7 @@ street(7505, 14379, 0.02, 'Rua Luiz Gonzaga Mendes Lira').
 street(7506, 7578, 0.18, 'Rua Memorial de Frei Damião').
 street(7506, 14828, 0.03, 'Rua do Arco').
 street(7507, 7340, 0.05, 'Rua Helena Santana Pereira').
-street(7507, 7596, 0.16, 'Rua Religiosa Júlia Maria da Conceição, Rua São Miguel Arcanjo').
+street(7507, 7596, 0.16, 'Rua São Miguel Arcanjo, Rua Religiosa Júlia Maria da Conceição').
 street(7508, 12772, 0.05, 'Rua Leonel de Moura Brizola').
 street(7508, 13736, 0.15, 'Rua Leonel de Moura Brizola').
 street(7508, 7430, 0.11, 'Unknown').
@@ -37478,7 +37478,7 @@ street(7511, 7492, 0.05, 'Rua Poeta Antônio Pereira Sobrinho').
 street(7511, 10377, 0.24, 'Rua Anísia Pereira da Silva').
 street(7512, 7454, 0.13, 'Rua Santa Clara de Assis').
 street(7512, 7735, 0.05, 'Rua Platiny Barbosa dos Santos').
-street(7512, 7674, 0.15, 'Rua Platiny Barbosa dos Santos, Rua das Misericórdias').
+street(7512, 7674, 0.15, 'Rua das Misericórdias, Rua Platiny Barbosa dos Santos').
 street(7513, 2960, 0.02, 'Rua João Francisco de Abreu').
 street(7513, 2959, 0.03, 'Rua João Francisco de Abreu').
 street(7513, 11783, 0.13, 'Rua Estudante Alexandre Lins').
@@ -37524,7 +37524,7 @@ street(7528, 7361, 0.05, 'Rua Inácio Marcelino').
 street(7528, 7653, 0.05, 'Rua Inácio Marcelino').
 street(7529, 7385, 0.04, 'Rua Estudante Kamila Martins dos Santos').
 street(7529, 7461, 0.05, 'Rua Joaquina Guedes Chaves').
-street(7529, 7658, 0.16, 'Rua Estudante Kamila Martins dos Santos, Rua Ciro Chaves Ramos').
+street(7529, 7658, 0.16, 'Rua Ciro Chaves Ramos, Rua Estudante Kamila Martins dos Santos').
 street(7530, 7682, 0.15, 'Unknown').
 street(7530, 14855, 0.03, 'Rua Manoel Felisberto da Silva').
 street(7530, 15546, 0.00, 'Rua Manoel Felisberto da Silva').
@@ -37554,7 +37554,7 @@ street(7538, 7623, 0.06, 'Rua Antonieta Satyro').
 street(7539, 7306, 0.14, 'Rua Gabriel Felipe dos Santos').
 street(7539, 7473, 0.05, 'Rua Odontóloga Jane Celli de Souza Mendes Barreto').
 street(7539, 10227, 0.05, 'Rua Odontóloga Jane Celli de Souza Mendes Barreto').
-street(7539, 7653, 0.15, 'Rua Gabriel Felipe dos Santos, Rua Inácio Marcelino').
+street(7539, 7653, 0.15, 'Rua Inácio Marcelino, Rua Gabriel Felipe dos Santos').
 street(7540, 13190, 0.02, 'Rua João Viegas de Oliveira').
 street(7540, 7663, 0.03, 'Rua João Viegas de Oliveira').
 street(7541, 4111, 0.07, 'Rua José Tomaz de Faria').
@@ -37722,7 +37722,7 @@ street(7595, 7628, 0.05, 'Avenida Joaquim Monteiro da Franca').
 street(7595, 7391, 0.02, 'Avenida Joaquim Monteiro da Franca').
 street(7596, 7472, 0.06, 'Rua Moacir Noronha César').
 street(7596, 7419, 0.09, 'Rua São Miguel Arcanjo').
-street(7596, 7507, 0.16, 'Rua Religiosa Júlia Maria da Conceição, Rua São Miguel Arcanjo').
+street(7596, 7507, 0.16, 'Rua São Miguel Arcanjo, Rua Religiosa Júlia Maria da Conceição').
 street(7597, 14994, 0.04, 'Rua Euclides Gomes de Brito').
 street(7597, 7672, 0.05, 'Rua Felix Araujo da Silva').
 street(7597, 7710, 0.05, 'Rua Felix Araujo da Silva').
@@ -37793,7 +37793,7 @@ street(7619, 7379, 0.02, 'Rua Auto de João da Cruz').
 street(7619, 7347, 0.04, 'Rua Auto de João da Cruz').
 street(7619, 7536, 0.10, 'Unknown').
 street(7620, 7396, 0.25, 'Rua da Paz Celestial').
-street(7620, 13298, 0.05, 'Rua Felix Araujo da Silva, Rua da Brisa').
+street(7620, 13298, 0.05, 'Rua da Brisa, Rua Felix Araujo da Silva').
 street(7620, 7672, 0.05, 'Rua Felix Araujo da Silva').
 street(7621, 7478, 0.12, 'Rua José Severino de Figueiredo').
 street(7621, 13752, 0.07, 'Unknown').
@@ -37885,11 +37885,11 @@ street(7650, 7564, 0.26, 'Rua Homens de Barro').
 street(7651, 7671, 0.03, 'Unknown').
 street(7651, 7357, 0.06, 'Rua Violonista Rafael Rabelo').
 street(7652, 7710, 0.05, 'Rua Aline Gomes de Araujo').
-street(7652, 13298, 0.25, 'Sitio Novo Mundo, Prolongamento da Rua Brisa').
+street(7652, 13298, 0.25, 'Prolongamento da Rua Brisa, Sitio Novo Mundo').
 street(7652, 15116, 0.13, 'Sitio Novo Mundo').
 street(7653, 7473, 0.10, 'Rua Rita Pinheiro Vilar').
 street(7653, 7677, 0.17, 'Rua Rita Pinheiro Vilar').
-street(7653, 7539, 0.15, 'Rua Gabriel Felipe dos Santos, Rua Inácio Marcelino').
+street(7653, 7539, 0.15, 'Rua Inácio Marcelino, Rua Gabriel Felipe dos Santos').
 street(7653, 7528, 0.05, 'Rua Inácio Marcelino').
 street(7654, 7744, 0.14, 'Rua Luiz Teodoro Pereira').
 street(7654, 7737, 0.05, 'Rua Alberto de Miranda Henriques').
@@ -37904,7 +37904,7 @@ street(7657, 7317, 0.12, 'Rua Praia de Boa Viagem').
 street(7657, 7423, 0.05, 'Rua Praia de Boa Viagem').
 street(7658, 11760, 0.05, 'Rua Ciro Chaves Ramos').
 street(7658, 7386, 0.15, 'Rua Professora Irene Miranda da Silva Lima').
-street(7658, 7529, 0.16, 'Rua Estudante Kamila Martins dos Santos, Rua Ciro Chaves Ramos').
+street(7658, 7529, 0.16, 'Rua Ciro Chaves Ramos, Rua Estudante Kamila Martins dos Santos').
 street(7659, 7478, 0.16, 'Rua José Severino de Figueiredo').
 street(7659, 7322, 0.06, 'Rua Tenente José Rodrigues da Silva').
 street(7659, 7751, 0.08, 'Rua Tenente José Rodrigues da Silva').
@@ -37949,7 +37949,7 @@ street(7673, 12226, 0.06, 'Rua Paulino Pedro de Alcântara').
 street(7673, 12821, 0.15, 'Rua Capitão Eustaquio Alves Bezerra').
 street(7673, 7432, 0.16, 'Rua Capitão Eustaquio Alves Bezerra').
 street(7674, 7454, 0.07, 'Rua Agricultor Otávio Romão de Araújo').
-street(7674, 7512, 0.15, 'Rua Platiny Barbosa dos Santos, Rua das Misericórdias').
+street(7674, 7512, 0.15, 'Rua das Misericórdias, Rua Platiny Barbosa dos Santos').
 street(7674, 7605, 0.15, 'Rua Agricultor Otávio Romão de Araújo').
 street(7675, 7629, 0.15, 'Rua Tiago Nunes dos Santos').
 street(7675, 7744, 0.05, 'Rua Tiago Nunes dos Santos').
@@ -37966,7 +37966,7 @@ street(7678, 7323, 0.11, 'Rua Eraldo Silva Rabelo').
 street(7678, 7685, 0.10, 'Rua Encontro dos Rios').
 street(7679, 7590, 0.12, 'Rua Rita Gaudencio Gomes').
 street(7679, 7455, 0.04, 'Rua João Augusto da Nobrega').
-street(7679, 4191, 0.17, 'Rua Aristoteles de Almeida Lacerda, Rua João Augusto da Nobrega').
+street(7679, 4191, 0.17, 'Rua João Augusto da Nobrega, Rua Aristoteles de Almeida Lacerda').
 street(7680, 7753, 0.05, 'Rua Manoel Alexandre de Araújo').
 street(7680, 7457, 0.05, 'Rua Manoel Alexandre de Araújo').
 street(7680, 7591, 0.19, 'Unknown').
@@ -38052,7 +38052,7 @@ street(7707, 7339, 0.13, 'Rua João Grilo e Chico').
 street(7707, 7364, 0.04, 'Rua João Grilo e Chico').
 street(7708, 6597, 0.05, 'Rua Agildo Rodrigues Ferreira').
 street(7708, 6593, 0.05, 'Rua Agildo Rodrigues Ferreira').
-street(7708, 6590, 0.17, 'Rua Norma de Almeida Pequeno, Rua Elidane Kelly Araujo de Souza, Rua Antonio Barros de Souza Diniz').
+street(7708, 6590, 0.17, 'Rua Elidane Kelly Araujo de Souza, Rua Antonio Barros de Souza Diniz, Rua Norma de Almeida Pequeno').
 street(7708, 7641, 0.06, 'Rua Pedro Romulo Aguiar').
 street(7709, 9997, 0.02, 'Rua João Evaristo dos Santos').
 street(7709, 7730, 0.03, 'Rua João Evaristo dos Santos').
@@ -38214,7 +38214,7 @@ street(7760, 7290, 0.20, 'Rua Comerciante Valdete Duarte Rodrigues').
 street(7760, 7548, 0.24, 'Unknown').
 street(7761, 7350, 0.04, 'Rua Carlos Gomes de Araújo').
 street(7761, 13722, 0.17, 'Rua Andreza Cunha Batista da Silva').
-street(7761, 13721, 0.24, 'Rua Luiz de Lima Freire, Rua Carlos Gomes de Araújo').
+street(7761, 13721, 0.24, 'Rua Carlos Gomes de Araújo, Rua Luiz de Lima Freire').
 street(7762, 7329, 0.13, 'Rua Nathaly Guedes da Silva').
 street(7762, 10609, 0.04, 'Rua José Severino de Melo').
 street(7762, 7601, 0.04, 'Rua José Severino de Melo').
@@ -38268,7 +38268,7 @@ street(7778, 5023, 0.05, 'Rua José Souto Diniz').
 street(7778, 7486, 0.08, 'Rua Luiz Romualdo da Silva').
 street(7779, 15115, 0.01, 'Rua Felix Araujo da Silva').
 street(7779, 12813, 0.04, 'Rua Professora Daura Alcides Almeida').
-street(7779, 15116, 0.05, 'Sitio Novo Mundo, Rua Professora Daura Alcides Almeida').
+street(7779, 15116, 0.05, 'Rua Professora Daura Alcides Almeida, Sitio Novo Mundo').
 street(7780, 7763, 0.26, 'Rua Severino Antônio da Silva').
 street(7780, 7712, 0.05, 'Rua José de Carvalho Costa Filho').
 street(7780, 7646, 0.05, 'Rua José de Carvalho Costa Filho').
@@ -38317,7 +38317,7 @@ street(7794, 7836, 0.05, 'Rua João Antônio da Silva').
 street(7794, 15135, 0.15, 'Rua Juvita Guedes de Almeida').
 street(7795, 9320, 0.01, 'Rua José Félix da Silva').
 street(7795, 9315, 0.05, 'Rua José Félix da Silva').
-street(7795, 7927, 0.20, 'Rua das Carambolas, Rua das Cupiúbas').
+street(7795, 7927, 0.20, 'Rua das Cupiúbas, Rua das Carambolas').
 street(7796, 7817, 0.05, 'Rua dos Sombreiros').
 street(7796, 7929, 0.06, 'Rua dos Sombreiros').
 street(7796, 14033, 0.19, 'Rua dos Cafezais').
@@ -38372,7 +38372,7 @@ street(7811, 7850, 0.05, 'Rua João Maria de Araújo').
 street(7812, 7887, 0.04, 'Avenida Josinaldo Nascimento').
 street(7812, 7909, 0.10, 'Rua Coralia Ferreira da Silva').
 street(7813, 10544, 0.05, 'Avenida Jacarandá').
-street(7813, 10537, 0.19, 'Rua Pau Ferro, Rua Vitorino Andrade de Araujo').
+street(7813, 10537, 0.19, 'Rua Vitorino Andrade de Araujo, Rua Pau Ferro').
 street(7813, 12921, 0.22, 'Avenida Jacarandá').
 street(7814, 7856, 0.09, 'Rua Vicente Joãquim Calado').
 street(7814, 7946, 0.05, 'Rua Vicente Joãquim Calado').
@@ -38411,7 +38411,7 @@ street(7825, 7817, 0.04, 'Rua dos Sombreiros').
 street(7825, 7859, 0.21, 'Rua das Oliveiras').
 street(7825, 7806, 0.05, 'Rua das Oliveiras').
 street(7826, 7975, 0.05, 'Rua Sold João Porcino da Costa').
-street(7826, 7996, 0.21, 'Rua Maria Madalena Alves, Rua Agente Fiscal Djalma Gomes da Silva').
+street(7826, 7996, 0.21, 'Rua Agente Fiscal Djalma Gomes da Silva, Rua Maria Madalena Alves').
 street(7826, 7974, 0.05, 'Unknown').
 street(7827, 1286, 0.35, 'Rodovia Ministro Abelardo Jurema Araújo').
 street(7827, 11665, 0.06, 'Rodovia Ministro Abelardo Jurema Araújo').
@@ -38548,7 +38548,7 @@ street(7869, 7924, 0.06, 'Rua Arco Verde').
 street(7869, 7792, 0.18, 'Rua Domingos José da Paixão').
 street(7870, 7941, 0.04, 'Rua dos Cedros').
 street(7870, 7939, 0.02, 'Rua dos Cedros').
-street(7870, 7838, 0.24, 'Rua Arco Verde, Rua Escritor Patativa do Assare').
+street(7870, 7838, 0.24, 'Rua Escritor Patativa do Assare, Rua Arco Verde').
 street(7871, 7800, 0.05, 'Rua Domingos José da Paixão').
 street(7871, 1273, 0.09, 'Rua Domingos José da Paixão').
 street(7871, 7827, 0.44, 'Unknown').
@@ -38582,10 +38582,10 @@ street(7880, 14940, 0.03, 'Rua Anésio Coelho Pereira').
 street(7880, 14938, 0.02, 'Rua Anésio Coelho Pereira').
 street(7880, 7848, 0.05, 'Rua Edgar Alfredo da Silva').
 street(7881, 7829, 0.04, 'Avenida Josinaldo Nascimento').
-street(7881, 7909, 0.15, 'Rua Natanael Severino da Silva, Rua Silverio Manuel dos Santos').
+street(7881, 7909, 0.15, 'Rua Silverio Manuel dos Santos, Rua Natanael Severino da Silva').
 street(7882, 7946, 0.13, 'Rua Rita Fernandes de Araujo').
 street(7882, 7852, 0.06, 'Avenida Geroncio Stanislau Nobrega').
-street(7882, 7938, 0.22, 'Avenida Geroncio Stanislau Nobrega, Rua Benedito Damasio da Silva').
+street(7882, 7938, 0.22, 'Rua Benedito Damasio da Silva, Avenida Geroncio Stanislau Nobrega').
 street(7883, 7933, 0.05, 'Rua Benedito Damasio da Silva').
 street(7883, 7938, 0.05, 'Rua Benedito Damasio da Silva').
 street(7883, 7877, 0.19, 'Rua Porcina Vidal de Negreros').
@@ -38641,7 +38641,7 @@ street(7900, 14929, 0.18, 'Unknown').
 street(7900, 13427, 0.26, 'Rua Anésio Coelho Pereira').
 street(7901, 7819, 0.16, 'Rua Frei Damião').
 street(7901, 7785, 0.11, 'Rua das Acerolas').
-street(7901, 7821, 0.13, 'Rua das Goiabeiras, Rua das Acerolas').
+street(7901, 7821, 0.13, 'Rua das Acerolas, Rua das Goiabeiras').
 street(7902, 13161, 0.01, 'Avenida Lourival Bezerra dos Santos').
 street(7903, 7942, 0.06, 'Rua Arco Verde').
 street(7903, 7888, 0.05, 'Rua Arco Verde').
@@ -38721,7 +38721,7 @@ street(7926, 7791, 0.05, 'Rua João Maria de Araújo').
 street(7926, 7793, 0.05, 'Rua João Maria de Araújo').
 street(7927, 7939, 0.19, 'Rua das Cupiúbas').
 street(7927, 7885, 0.05, 'Rua das Carambolas').
-street(7927, 7795, 0.20, 'Rua das Carambolas, Rua das Cupiúbas').
+street(7927, 7795, 0.20, 'Rua das Cupiúbas, Rua das Carambolas').
 street(7928, 7856, 0.04, 'Rua João Antônio da Silva').
 street(7928, 8041, 0.07, 'Avenida Geroncio Stanislau Nobrega').
 street(7928, 7790, 0.06, 'Avenida Geroncio Stanislau Nobrega').
@@ -38755,7 +38755,7 @@ street(7937, 7815, 0.05, 'Unknown').
 street(7937, 7875, 0.05, 'Unknown').
 street(7938, 7946, 0.05, 'Rua Vicente Joãquim Calado').
 street(7938, 7883, 0.05, 'Rua Benedito Damasio da Silva').
-street(7938, 7882, 0.22, 'Avenida Geroncio Stanislau Nobrega, Rua Benedito Damasio da Silva').
+street(7938, 7882, 0.22, 'Rua Benedito Damasio da Silva, Avenida Geroncio Stanislau Nobrega').
 street(7939, 7927, 0.19, 'Rua das Cupiúbas').
 street(7939, 7870, 0.02, 'Rua dos Cedros').
 street(7939, 7840, 0.04, 'Rua dos Cedros').
@@ -38788,7 +38788,7 @@ street(7947, 7867, 0.05, 'Unknown').
 street(7947, 7846, 0.18, 'Rua Severino Guedes da Silva').
 street(7948, 12055, 0.05, 'Rua Manoel Vieira Gomes').
 street(7948, 6732, 0.11, 'Unknown').
-street(7948, 6721, 0.07, 'Rua José Cassilhas, Rua Manoel Vieira Gomes').
+street(7948, 6721, 0.07, 'Rua Manoel Vieira Gomes, Rua José Cassilhas').
 street(7949, 9962, 0.05, 'Unknown').
 street(7949, 7593, 0.04, 'Unknown').
 street(7950, 7951, 0.15, 'Unknown').
@@ -38806,7 +38806,7 @@ street(7954, 1965, 0.04, 'Rua Pastor Rodolfo Jorge Beuttenmüller').
 street(7954, 9231, 0.07, 'Rua Euclides Rodrigues de Oliveira').
 street(7955, 7953, 0.07, 'Rua Carlos Sérgio da Silva Brandão').
 street(7955, 9231, 0.11, 'Rua Euclides Rodrigues de Oliveira').
-street(7955, 11720, 0.17, 'Rua Teones Barbosa, Rua Carlos Sérgio da Silva Brandão').
+street(7955, 11720, 0.17, 'Rua Carlos Sérgio da Silva Brandão, Rua Teones Barbosa').
 street(7956, 13804, 0.08, 'Rua das Castanheiras').
 street(7956, 9801, 0.05, 'Rua Doutor Edgard Claudino de Souza').
 street(7956, 12672, 0.04, 'Rua Doutor Edgard Claudino de Souza').
@@ -38899,10 +38899,10 @@ street(7986, 6524, 0.03, 'Rua José Dumas Ferreira').
 street(7986, 6523, 0.02, 'Rua José Dumas Ferreira').
 street(7986, 12557, 0.20, 'Rua Paulino Manoel Batista').
 street(7987, 7792, 0.08, 'Rua Maria Aureliano Candido de Sousa').
-street(7987, 7992, 0.15, 'Rua Maria Aureliano Candido de Sousa, Rua Isabel Maria dos Santos').
+street(7987, 7992, 0.15, 'Rua Isabel Maria dos Santos, Rua Maria Aureliano Candido de Sousa').
 street(7987, 7991, 0.22, 'Rua Maria José dos Santos Silva').
 street(7988, 7998, 0.05, 'Rua Maria José dos Santos Silva').
-street(7988, 9684, 0.11, 'Rua Francisca Dalva de Souza Azevedo, Rua Manoel Félix de Macedo').
+street(7988, 9684, 0.11, 'Rua Manoel Félix de Macedo, Rua Francisca Dalva de Souza Azevedo').
 street(7988, 7974, 0.15, 'Rua Maria José dos Santos Silva').
 street(7989, 8009, 0.13, 'Rua Manoel Jerônimo da Silva').
 street(7989, 7994, 0.05, 'Rua Agente Fiscal Djalma Gomes da Silva').
@@ -38915,7 +38915,7 @@ street(7991, 7998, 0.07, 'Rua Maria José dos Santos Silva').
 street(7991, 7987, 0.22, 'Rua Maria José dos Santos Silva').
 street(7992, 8011, 0.07, 'Rua Isabel Maria dos Santos').
 street(7992, 9683, 0.09, 'Rua Antônio Martins dos Santos').
-street(7992, 7987, 0.15, 'Rua Maria Aureliano Candido de Sousa, Rua Isabel Maria dos Santos').
+street(7992, 7987, 0.15, 'Rua Isabel Maria dos Santos, Rua Maria Aureliano Candido de Sousa').
 street(7993, 12069, 0.14, 'Rua Bacharel Iomar Moreira Barros').
 street(7993, 7997, 0.05, 'Rua Joaquim de Figueiredo Braga').
 street(7993, 12547, 0.10, 'Rua Joaquim de Figueiredo Braga').
@@ -39038,7 +39038,7 @@ street(8032, 3397, 0.06, 'Rua Mariângela Lucena Peixoto').
 street(8032, 5111, 0.03, 'Rua Mariângela Lucena Peixoto').
 street(8032, 14843, 0.21, 'Rua Antônio Firmino de Macedo').
 street(8033, 4956, 0.22, 'Rua Belém').
-street(8033, 8023, 0.15, 'Rua Gumercindo Leite Sobrinho, Rua Manoel Henriques dos Santos').
+street(8033, 8023, 0.15, 'Rua Manoel Henriques dos Santos, Rua Gumercindo Leite Sobrinho').
 street(8033, 8015, 0.09, 'Rua Gumercindo Leite Sobrinho').
 street(8034, 8049, 0.06, 'Rua Carlos de Freitas Lins').
 street(8034, 8018, 0.04, 'Rua Mariângela Lucena Peixoto').
@@ -39063,7 +39063,7 @@ street(8040, 8045, 0.05, 'Rua Carlos de Freitas Lins').
 street(8040, 8046, 0.18, 'Rua Maestro José de Queiroz Batista').
 street(8041, 7852, 0.05, 'Avenida Geroncio Stanislau Nobrega').
 street(8041, 7928, 0.07, 'Avenida Geroncio Stanislau Nobrega').
-street(8041, 8057, 0.29, 'Rua Telegrafista Chateaubriand Brasil Filho, Rua Luiz Bastos da Costa').
+street(8041, 8057, 0.29, 'Rua Luiz Bastos da Costa, Rua Telegrafista Chateaubriand Brasil Filho').
 street(8042, 3517, 0.02, 'Rua Carlos de Freitas Lins').
 street(8042, 5109, 0.05, 'Rua Carlos de Freitas Lins').
 street(8042, 8060, 0.10, 'Rua Mariângela Lucena Peixoto').
@@ -39113,7 +39113,7 @@ street(8056, 8048, 0.02, 'Rua Genival Meira Cezar').
 street(8056, 8047, 0.26, 'Rua Mariângela Lucena Peixoto').
 street(8057, 14027, 0.06, 'Rua Telegrafista Chateaubriand Brasil Filho').
 street(8057, 7928, 0.26, 'Rua João Antônio da Silva').
-street(8057, 8041, 0.29, 'Rua Telegrafista Chateaubriand Brasil Filho, Rua Luiz Bastos da Costa').
+street(8057, 8041, 0.29, 'Rua Luiz Bastos da Costa, Rua Telegrafista Chateaubriand Brasil Filho').
 street(8058, 8064, 0.05, 'Rua Jorge de Barros Barbosa').
 street(8058, 8054, 0.05, 'Rua Jorge de Barros Barbosa').
 street(8058, 8044, 0.13, 'Rua Antônio Alfredo da Gama e Melo').
@@ -39195,7 +39195,7 @@ street(8084, 8087, 0.05, 'Rua Pintassilgo').
 street(8084, 8069, 0.15, 'Rua Alberto da Silva').
 street(8085, 8107, 0.05, 'Rua José Luiz de Albuquerque').
 street(8085, 8109, 0.10, 'Rua Cotovia').
-street(8085, 10535, 0.14, 'Rua Estudante Felipe Cordeiro de Medeiros, Rua José Luiz de Albuquerque').
+street(8085, 10535, 0.14, 'Rua José Luiz de Albuquerque, Rua Estudante Felipe Cordeiro de Medeiros').
 street(8086, 8108, 0.05, 'Unknown').
 street(8086, 8103, 0.05, 'Unknown').
 street(8086, 12030, 0.08, 'Rua Agu Rodrigues dos Santos').
@@ -39350,7 +39350,7 @@ street(8142, 2295, 0.25, 'Rua José Paulino Costa Filho').
 street(8142, 12132, 0.35, 'Unknown').
 street(8142, 8140, 0.18, 'Viaduto Eduardo Campos').
 street(8143, 14345, 0.17, 'Unknown').
-street(8143, 8137, 1.43, 'Rodovia Governador Antônio Mariz, Viaduto Eduardo Campos').
+street(8143, 8137, 1.43, 'Viaduto Eduardo Campos, Rodovia Governador Antônio Mariz').
 street(8144, 8145, 0.04, 'Avenida Hilton Souto Maior').
 street(8144, 8325, 0.05, 'Avenida Diógenes Chianca').
 street(8145, 8324, 0.03, 'Unknown').
@@ -39454,7 +39454,7 @@ street(8192, 14504, 0.02, 'Unknown').
 street(8192, 15418, 0.05, 'Rodovia Governador Antônio Mariz').
 street(8193, 11343, 0.26, 'Avenida Diógenes Chianca').
 street(8194, 8191, 0.27, 'Avenida Diógenes Chianca').
-street(8194, 11343, 0.09, 'Rua Coronel Augusto Fernandes Maia, Marginal Rodovia Governador Antônio Mariz').
+street(8194, 11343, 0.09, 'Marginal Rodovia Governador Antônio Mariz, Rua Coronel Augusto Fernandes Maia').
 street(8195, 12374, 0.12, 'Avenida Diógenes Chianca').
 street(8195, 14396, 0.28, 'Rua Doutor Manoel Lopes de Carvalho').
 street(8196, 8193, 0.10, 'Avenida Diógenes Chianca').
@@ -39600,7 +39600,7 @@ street(8269, 8247, 0.02, 'Rua Doutor Nunes Filho').
 street(8269, 10709, 0.06, 'Rua Doutor Nunes Filho').
 street(8270, 8852, 0.18, 'Rua Paulino Pinto').
 street(8271, 15560, 0.04, 'Marginal da Rodovia Governador Antônio Mariz').
-street(8271, 8142, 0.82, 'Marginal da Rodovia Governador Antônio Mariz, Viaduto Eduardo Campos').
+street(8271, 8142, 0.82, 'Viaduto Eduardo Campos, Marginal da Rodovia Governador Antônio Mariz').
 street(8272, 8278, 0.25, 'Rodovia Governador Antônio Mariz').
 street(8273, 8280, 0.29, 'Rodovia Governador Mário Covas').
 street(8274, 13114, 0.19, 'Rodovia Governador Mário Covas').
@@ -39700,7 +39700,7 @@ street(8328, 96, 0.42, 'Avenida João Araujo, Avenida João Mauricio').
 street(8329, 9118, 0.24, 'Rua Mirian Barreto Rabelo').
 street(8329, 15483, 0.01, 'Unknown').
 street(8330, 15483, 0.02, 'Rua Ivanice Martins da Câmara').
-street(8330, 8385, 0.11, 'Rua Mirian Barreto Rabelo, Rua Ivanice Martins da Câmara').
+street(8330, 8385, 0.11, 'Rua Ivanice Martins da Câmara, Rua Mirian Barreto Rabelo').
 street(8331, 15482, 0.10, 'Rua Mirian Barreto Rabelo').
 street(8332, 18, 0.03, 'Avenida Presidente Epitácio Pessoa').
 street(8333, 5536, 0.07, 'Avenida Nossa Senhora de Fátima').
@@ -39775,7 +39775,7 @@ street(8365, 14126, 0.07, 'Rua Escritor Sebastião de Azevedo Bastos').
 street(8366, 8675, 0.06, 'Rua Maria Rosa Padilha').
 street(8366, 4273, 0.07, 'Rua Maria Rosa Padilha').
 street(8366, 8201, 0.15, 'Avenida Vereador Gumercindo Barbosa Dunda').
-street(8366, 8674, 0.26, 'Rua Francisca Bezerra Dias, Rua Vereador Gumercindo Barbosa Dunda').
+street(8366, 8674, 0.26, 'Rua Vereador Gumercindo Barbosa Dunda, Rua Francisca Bezerra Dias').
 street(8367, 2739, 0.09, 'Rua Comerciante Sebastião Interaminense').
 street(8367, 9089, 0.17, 'Rua Waldir Braga').
 street(8367, 8371, 0.18, 'Avenida Fernando Luís Henrique dos Santos').
@@ -40200,7 +40200,7 @@ street(8525, 2549, 0.09, 'Rua Professora Luiza Dantas Medeiros').
 street(8526, 8528, 0.10, 'Rua Isaura Silveira Lira').
 street(8526, 8533, 0.07, 'Rua Isaura Silveira Lira').
 street(8526, 11715, 0.04, 'Rua José Paulo da Silva Lira').
-street(8526, 8532, 0.33, 'Rua Osvaldo Agripino de Castro, Rua Maria José Mendes da Nobrega').
+street(8526, 8532, 0.33, 'Rua Maria José Mendes da Nobrega, Rua Osvaldo Agripino de Castro').
 street(8527, 8528, 0.08, 'Rua Isaura Silveira Lira').
 street(8527, 13702, 0.11, 'Avenida Diógenes Chianca').
 street(8528, 8527, 0.08, 'Rua Isaura Silveira Lira').
@@ -40215,16 +40215,16 @@ street(8530, 13702, 0.15, 'Rua Virgínia Maria de Oliveira').
 street(8531, 8593, 0.04, 'Rua Maria José Mendes da Nobrega').
 street(8531, 8590, 0.10, 'Rua José Firmino Ferreira').
 street(8531, 8535, 0.07, 'Rua Maria José Mendes da Nobrega').
-street(8531, 8534, 0.32, 'Rua Isaura Silveira Lira, Rua José Firmino Ferreira').
+street(8531, 8534, 0.32, 'Rua José Firmino Ferreira, Rua Isaura Silveira Lira').
 street(8532, 8535, 0.07, 'Rua Maria José Mendes da Nobrega').
 street(8532, 8533, 0.26, 'Rua Carteiro Olívio Pontes').
 street(8532, 8589, 0.09, 'Rua Carteiro Olívio Pontes').
-street(8532, 8526, 0.33, 'Rua Osvaldo Agripino de Castro, Rua Maria José Mendes da Nobrega').
+street(8532, 8526, 0.33, 'Rua Maria José Mendes da Nobrega, Rua Osvaldo Agripino de Castro').
 street(8533, 8526, 0.07, 'Rua Isaura Silveira Lira').
 street(8533, 15455, 0.05, 'Rua Isaura Silveira Lira').
 street(8533, 8532, 0.26, 'Rua Carteiro Olívio Pontes').
 street(8534, 15455, 0.02, 'Rua Isaura Silveira Lira').
-street(8534, 8531, 0.32, 'Rua Isaura Silveira Lira, Rua José Firmino Ferreira').
+street(8534, 8531, 0.32, 'Rua José Firmino Ferreira, Rua Isaura Silveira Lira').
 street(8534, 8535, 0.25, 'Rua Pedro Alves de Andrade').
 street(8535, 9704, 0.10, 'Rua Pedro Alves de Andrade').
 street(8535, 8531, 0.07, 'Rua Maria José Mendes da Nobrega').
@@ -40395,8 +40395,8 @@ street(8591, 8592, 0.07, 'Rua Antônio de Melo Fonseca').
 street(8591, 8529, 0.10, 'Rua Assistente Social Dione Filgueira de Vasconcelos, Rua José Paulo da Silva Lira').
 street(8592, 8591, 0.07, 'Rua Antônio de Melo Fonseca').
 street(8593, 8531, 0.04, 'Rua Maria José Mendes da Nobrega').
-street(8593, 11284, 0.10, 'Rua Iolanda Eloy de Medeiros, Rua Eilzo Afonso Marques de Carvalho').
-street(8593, 11714, 0.34, 'Rua Comerciante José Raimundo Calado, Rua Eilzo Afonso Marques de Carvalho').
+street(8593, 11284, 0.10, 'Rua Eilzo Afonso Marques de Carvalho, Rua Iolanda Eloy de Medeiros').
+street(8593, 11714, 0.34, 'Rua Eilzo Afonso Marques de Carvalho, Rua Comerciante José Raimundo Calado').
 street(8594, 2064, 0.07, 'Rua Gutemberg Morais Paiva').
 street(8594, 8596, 0.14, 'Rua Hermelinda Henriques de Araújo').
 street(8595, 8600, 0.13, 'Rua Hermelinda Henriques de Araújo').
@@ -40595,11 +40595,11 @@ street(8666, 8667, 0.08, 'Rua Artur Lidiano de Albuquerque').
 street(8667, 8666, 0.08, 'Rua Artur Lidiano de Albuquerque').
 street(8668, 8669, 0.12, 'Rua Horácio Leal Polari').
 street(8668, 8673, 0.04, 'Rua Doutor Elizeu Lira').
-street(8668, 8670, 0.19, 'Rua Doutor Elizeu Lira, Rua Manoel dos Anjos').
+street(8668, 8670, 0.19, 'Rua Manoel dos Anjos, Rua Doutor Elizeu Lira').
 street(8669, 8666, 0.07, 'Avenida Presidente Epitácio Pessoa').
 street(8669, 8668, 0.12, 'Rua Horácio Leal Polari').
 street(8670, 8669, 0.07, 'Avenida Presidente Epitácio Pessoa').
-street(8670, 8668, 0.19, 'Rua Doutor Elizeu Lira, Rua Manoel dos Anjos').
+street(8670, 8668, 0.19, 'Rua Manoel dos Anjos, Rua Doutor Elizeu Lira').
 street(8671, 8670, 0.12, 'Avenida Presidente Epitácio Pessoa').
 street(8671, 8672, 0.21, 'Rua Juiz João Agrícola Montenegro').
 street(8672, 14, 0.24, 'Rua Hildebrando Tourinho, Rua Yayá de Amorim Coutinho, Rua Capitão Antônio Mendes de Souza Neto').
@@ -40676,7 +40676,7 @@ street(8697, 8695, 0.23, 'Rua Professora Josefa de Lorenzo Marsicano').
 street(8697, 10473, 0.08, 'Unknown').
 street(8697, 9237, 0.14, 'Rua Praia de Tabatinga').
 street(8698, 10468, 0.12, 'Rua João Alfredo do Cajueiro').
-street(8698, 10468, 0.21, 'Rua Roque Victor de Barros, Rua Praia de Tabatinga').
+street(8698, 10468, 0.21, 'Rua Praia de Tabatinga, Rua Roque Victor de Barros').
 street(8698, 9237, 0.07, 'Rua Praia de Tabatinga').
 street(8699, 9488, 0.01, 'Rua Jaciara Soares dos Santos').
 street(8699, 9216, 0.09, 'Avenida Hilton Souto Maior').
@@ -40900,7 +40900,7 @@ street(8776, 8778, 0.05, 'Rua Doutor Cláudio Lemos').
 street(8776, 12355, 0.09, 'Rua Operário José Belarmino da Costa').
 street(8777, 8769, 0.17, 'Rua Francisco Anysio de Paula Cavalcanti').
 street(8777, 10648, 0.05, 'Rua Rafael di Lorenzo').
-street(8777, 8772, 0.21, 'Rua Rafael di Lorenzo, Rua Malaquias Timotheo de Souza').
+street(8777, 8772, 0.21, 'Rua Malaquias Timotheo de Souza, Rua Rafael di Lorenzo').
 street(8778, 8782, 0.09, 'Rua Taxista Ântonio Pereira Alves').
 street(8778, 8776, 0.05, 'Rua Doutor Cláudio Lemos').
 street(8778, 5081, 0.03, 'Rua Doutor Cláudio Lemos').
@@ -40942,7 +40942,7 @@ street(8790, 10642, 0.10, 'Rua Hermano Ponce de Carvalho Rocha').
 street(8790, 8787, 0.05, 'Rua Pedro Crispim de Andrade').
 street(8790, 8785, 0.05, 'Rua Pedro Crispim de Andrade').
 street(8791, 10397, 0.03, 'Rua José Hermano de Caldas Barros').
-street(8791, 10393, 0.03, 'Rua Doutor Graciliano Medeiros, Rua Carlos Borromeu de Vasconcelos').
+street(8791, 10393, 0.03, 'Rua Carlos Borromeu de Vasconcelos, Rua Doutor Graciliano Medeiros').
 street(8791, 10392, 0.03, 'Rua Carlos Borromeu de Vasconcelos').
 street(8792, 12355, 0.05, 'Rua Rita Carneiro Diniz').
 street(8792, 8769, 0.05, 'Rua Rita Carneiro Diniz').
@@ -41102,7 +41102,7 @@ street(8852, 214, 0.15, 'Rua José Augusto Trindade, Rua Paulino Pinto').
 street(8852, 8256, 0.14, 'Rua Sidney Clemente Dore').
 street(8853, 8858, 0.07, 'Avenida Professora Mocinha Avelar').
 street(8853, 8892, 0.04, 'Rua Odon Carvalho').
-street(8853, 8891, 0.13, 'Avenida Professora Mocinha Avelar, Avenida Manoel Teotônio dos Santos').
+street(8853, 8891, 0.13, 'Avenida Manoel Teotônio dos Santos, Avenida Professora Mocinha Avelar').
 street(8854, 8890, 0.13, 'Avenida Manoel Teotônio dos Santos').
 street(8855, 8859, 0.15, 'Rua João Marsicano').
 street(8855, 8858, 0.05, 'Rua João Marsicano').
@@ -41203,7 +41203,7 @@ street(8890, 8889, 0.07, 'Unknown').
 street(8890, 8854, 0.13, 'Avenida Manoel Teotônio dos Santos').
 street(8891, 8892, 0.07, 'Rua Gabriel Rodrigues dos Santos').
 street(8891, 8890, 0.01, 'Avenida Manoel Teotônio dos Santos').
-street(8891, 8853, 0.13, 'Avenida Professora Mocinha Avelar, Avenida Manoel Teotônio dos Santos').
+street(8891, 8853, 0.13, 'Avenida Manoel Teotônio dos Santos, Avenida Professora Mocinha Avelar').
 street(8892, 8853, 0.04, 'Rua Odon Carvalho').
 street(8892, 8891, 0.07, 'Rua Gabriel Rodrigues dos Santos').
 street(8892, 14035, 0.19, 'Rua Odon Carvalho').
@@ -41247,7 +41247,7 @@ street(8905, 9410, 0.21, 'Avenida Ayrton Senna da Silva').
 street(8906, 8909, 0.04, 'Rua Conceição Cabral').
 street(8907, 8910, 0.14, 'Rua Henrique Dias').
 street(8907, 10001, 0.17, 'Rua Salvador de Albuquerque').
-street(8907, 4895, 0.20, 'Rua Salvador de Albuquerque, Travessa Genésio Andrade').
+street(8907, 4895, 0.20, 'Travessa Genésio Andrade, Rua Salvador de Albuquerque').
 street(8908, 10000, 0.09, 'Rua Peryllo de Oliveira').
 street(8908, 13889, 0.02, 'Rua Conceição Cabral').
 street(8908, 15533, 0.16, 'Rua Conceição Cabral, Rua Monsenhor José Coutinho').
@@ -41265,7 +41265,7 @@ street(8912, 8911, 0.11, 'Rua Fernando Henriques de Menezes').
 street(8913, 8912, 0.06, 'Parque Arruda Câmara').
 street(8913, 14532, 0.18, 'Rua Raul Henriques de Sá').
 street(8913, 14509, 0.15, 'Rua Raul Henriques de Sá').
-street(8914, 10837, 0.05, 'Rua Professora Antônia Rangel Farias, Rua Vicente Jardim').
+street(8914, 10837, 0.05, 'Rua Vicente Jardim, Rua Professora Antônia Rangel Farias').
 street(8914, 8916, 0.10, 'Rua Vicente Jardim').
 street(8914, 8915, 0.02, 'Rua Líbero Badaró').
 street(8915, 4912, 0.18, 'Rua Juvêncio Mangueira Carneiro').
@@ -41513,10 +41513,10 @@ street(9006, 9004, 0.16, 'Rua Custódio Domingos dos Santos').
 street(9007, 217, 0.22, 'Avenida Senador Ruy Carneiro').
 street(9008, 9018, 0.05, 'Rua José Faustino Cavalcante').
 street(9008, 884, 0.06, 'Rua José Faustino Cavalcante').
-street(9008, 9009, 0.26, 'Rua Deputado Acácio Figueiredo, Rua Doutor Lourival de Gouveia Moura').
+street(9008, 9009, 0.26, 'Rua Doutor Lourival de Gouveia Moura, Rua Deputado Acácio Figueiredo').
 street(9009, 884, 0.01, 'Rua José Faustino Cavalcante').
 street(9009, 9013, 0.06, 'Rua José Faustino Cavalcante').
-street(9009, 9008, 0.26, 'Rua Deputado Acácio Figueiredo, Rua Doutor Lourival de Gouveia Moura').
+street(9009, 9008, 0.26, 'Rua Doutor Lourival de Gouveia Moura, Rua Deputado Acácio Figueiredo').
 street(9010, 9023, 0.13, 'Rua Professora Egídia Wanderley Abrantes de Carvalho').
 street(9010, 10807, 0.01, 'Rua Professor Joaquim Francisco Veloso Galvão').
 street(9011, 9007, 0.03, 'Rua Orlando Soares de Oliveira').
@@ -41657,7 +41657,7 @@ street(9068, 5455, 0.13, 'Rua Amaro Coutinho').
 street(9068, 9933, 0.06, 'Rua Duarte Lima').
 street(9069, 9930, 0.22, 'Rua Francisco de Londres Trindade').
 street(9069, 9925, 0.05, 'Rua Desembargador Trindade').
-street(9070, 9162, 0.27, 'Praça Pedro Américo, Praça Aristides Lobo').
+street(9070, 9162, 0.27, 'Praça Aristides Lobo, Praça Pedro Américo').
 street(9070, 5477, 0.07, 'Avenida Beaurepaire Rohan').
 street(9071, 5477, 0.03, 'Rua Riachuelo').
 street(9071, 9068, 0.04, 'Rua Amaro Coutinho').
@@ -41750,12 +41750,12 @@ street(9104, 9103, 0.03, 'Rua Maria de Lourdes Leite').
 street(9104, 8883, 0.03, 'Rua Maria de Lourdes Leite').
 street(9105, 8881, 0.03, 'Rua Josenildo José da Silva').
 street(9105, 9107, 0.03, 'Rua Josenildo José da Silva').
-street(9105, 9107, 0.20, 'Rua Vinte e Oito de Novembro, Rua Geraldo Fagundes de Araújo').
+street(9105, 9107, 0.20, 'Rua Geraldo Fagundes de Araújo, Rua Vinte e Oito de Novembro').
 street(9106, 9109, 0.03, 'Rua José Aprígio dos Santos').
 street(9106, 9104, 0.06, 'Rua Maria de Jesus Basílio').
 street(9106, 10784, 0.03, 'Rua José Aprígio dos Santos').
 street(9107, 9105, 0.03, 'Rua Josenildo José da Silva').
-street(9107, 9105, 0.20, 'Rua Vinte e Oito de Novembro, Rua Geraldo Fagundes de Araújo').
+street(9107, 9105, 0.20, 'Rua Geraldo Fagundes de Araújo, Rua Vinte e Oito de Novembro').
 street(9107, 9108, 0.04, 'Rua Josenildo José da Silva').
 street(9108, 14048, 0.11, 'Rua João Camilo de Oliveira').
 street(9108, 9107, 0.04, 'Rua Josenildo José da Silva').
@@ -41904,7 +41904,7 @@ street(9161, 2836, 0.04, 'Travessa Maurício de Oliveira').
 street(9161, 2759, 0.14, 'Travessa Maurício de Oliveira').
 street(9161, 2771, 0.05, 'Travessa Maurício de Oliveira').
 street(9161, 2773, 0.02, 'Travessa Maurício de Oliveira').
-street(9162, 15360, 0.27, 'Túnel Damásio Franca, Rua Guedes Pereira, Rua Padre Meira').
+street(9162, 15360, 0.27, 'Rua Guedes Pereira, Túnel Damásio Franca, Rua Padre Meira').
 street(9162, 5478, 0.07, 'Avenida General Osório').
 street(9163, 8463, 0.16, 'Rua Irineu Pinto').
 street(9163, 9067, 0.11, 'Rua Maciel Pinheiro').
@@ -42208,9 +42208,9 @@ street(9261, 9260, 0.07, 'Praça Tiradentes').
 street(9262, 945, 0.04, 'Rua Joaquim Torres').
 street(9262, 595, 0.04, 'Praça Tiradentes').
 street(9263, 3614, 0.01, 'Rua Formosina Maria da Conceição').
-street(9263, 4089, 0.07, 'Avenida Laura Muniz de Lima, Rua Formosina Maria da Conceição').
+street(9263, 4089, 0.07, 'Rua Formosina Maria da Conceição, Avenida Laura Muniz de Lima').
 street(9263, 10337, 0.23, 'Rua Tenente Luiz Batista de Oliveira').
-street(9264, 12765, 0.12, 'Rua João Viegas de Oliveira, Rua José Adriano Teodósio').
+street(9264, 12765, 0.12, 'Rua José Adriano Teodósio, Rua João Viegas de Oliveira').
 street(9265, 12765, 0.01, 'Rua João Viegas de Oliveira').
 street(9265, 9267, 0.13, 'Rua Oziel Regis da Silva').
 street(9265, 9266, 0.05, 'Rua João Viegas de Oliveira').
@@ -42932,7 +42932,7 @@ street(9529, 11492, 0.20, 'Unknown').
 street(9529, 7275, 0.21, 'Unknown').
 street(9529, 13348, 1.20, 'Unknown').
 street(9530, 6457, 0.09, 'Rua Doutor Gouveia de Moura').
-street(9530, 9531, 0.23, 'Avenida Presidente Tancredo Neves, 503 - Padre ze via Treze de Maio/Term. Int. Varadouro').
+street(9530, 9531, 0.23, '503 - Padre ze via Treze de Maio/Term. Int. Varadouro, Avenida Presidente Tancredo Neves').
 street(9531, 9532, 0.03, '503 - Padre ze via Treze de Maio/Term. Int. Varadouro').
 street(9531, 6491, 0.17, 'Rua Carlos Alberto Moura Filho').
 street(9532, 6489, 0.12, '503 - Padre ze via Treze de Maio/Term. Int. Varadouro').
@@ -43143,7 +43143,7 @@ street(9626, 9627, 0.05, 'Rua Robson Maul de Andrade').
 street(9626, 10642, 0.17, 'Rua Hermano Ponce de Carvalho Rocha').
 street(9627, 9626, 0.05, 'Rua Robson Maul de Andrade').
 street(9627, 10644, 0.17, 'Rua Compositor Livardo Alves').
-street(9627, 13717, 0.23, 'Rua Robson Maul de Andrade, Rua Comerciante Terezinha Maria Alves').
+street(9627, 13717, 0.23, 'Rua Comerciante Terezinha Maria Alves, Rua Robson Maul de Andrade').
 street(9628, 13826, 0.07, 'Avenida Cruz das Armas').
 street(9628, 9629, 0.08, 'Rua Professor Raimundo Nogueira').
 street(9629, 5896, 0.07, 'Rua Manoel Luiz de Lima').
@@ -43216,7 +43216,7 @@ street(9653, 9535, 0.14, 'Avenida Visconde de Pelotas').
 street(9654, 9653, 0.12, 'Rua Artur Aquiles').
 street(9654, 8460, 0.10, 'Rua 13 de Maio').
 street(9655, 9656, 0.09, 'Rua José Lucas de Carvalho').
-street(9655, 15360, 0.15, 'Rua Rodrigues de Aquino, Rua Padre Meira').
+street(9655, 15360, 0.15, 'Rua Padre Meira, Rua Rodrigues de Aquino').
 street(9656, 9166, 0.15, 'Rua 13 de Maio').
 street(9656, 8460, 0.08, 'Rua 13 de Maio').
 street(9657, 5685, 0.08, 'Rua Engenheiro Ávidos').
@@ -43247,7 +43247,7 @@ street(9665, 1711, 0.08, 'Rua Agricultor Antônio Xavier da Silva').
 street(9665, 10596, 0.06, 'Rua Francisca Tereza de Carvalho').
 street(9666, 4733, 0.02, 'Rua Estevão Brett').
 street(9666, 10458, 0.02, 'Avenida das Indústrias').
-street(9666, 4510, 0.90, 'Rua Estevão Brett, Rua Capitão José Rodrigues do Ó').
+street(9666, 4510, 0.90, 'Rua Capitão José Rodrigues do Ó, Rua Estevão Brett').
 street(9667, 9436, 0.06, 'Avenida Presidente Epitácio Pessoa').
 street(9668, 8266, 0.06, 'Rodovia Governador Antônio Mariz').
 street(9669, 9899, 0.16, 'Rua Maciel Pinheiro').
@@ -43292,7 +43292,7 @@ street(9683, 13162, 0.01, 'Rua Antônio Martins dos Santos').
 street(9683, 9684, 0.07, 'Rua Claudio José Gomes da Silva').
 street(9684, 8011, 0.09, 'Rua Francisca Dalva de Souza Azevedo').
 street(9684, 9683, 0.07, 'Rua Claudio José Gomes da Silva').
-street(9684, 7988, 0.11, 'Rua Francisca Dalva de Souza Azevedo, Rua Manoel Félix de Macedo').
+street(9684, 7988, 0.11, 'Rua Manoel Félix de Macedo, Rua Francisca Dalva de Souza Azevedo').
 street(9685, 8009, 0.03, 'Rua Sold João Porcino da Costa').
 street(9685, 8003, 0.02, 'Rua Sold João Porcino da Costa').
 street(9685, 14032, 0.02, 'Unknown').
@@ -43498,7 +43498,7 @@ street(9772, 13417, 0.12, 'Rua Dulce Pessoa de Ramalho').
 street(9772, 9774, 0.06, 'Rua das Nogueiras').
 street(9773, 13417, 0.05, 'Rua Dulce Pessoa de Ramalho').
 street(9773, 13814, 0.08, 'Rua Dulce Pessoa de Ramalho').
-street(9773, 13324, 0.11, 'Rua Pingo de Ouro, Rua da Independencia').
+street(9773, 13324, 0.11, 'Rua da Independencia, Rua Pingo de Ouro').
 street(9774, 13324, 0.13, 'Rua da Independencia').
 street(9774, 13407, 0.03, 'Rua das Nogueiras').
 street(9774, 9772, 0.06, 'Rua das Nogueiras').
@@ -43663,7 +43663,7 @@ street(9829, 10131, 0.06, 'Rua Coelho Paiva').
 street(9830, 9157, 0.16, 'Rua São Pedro').
 street(9830, 6473, 0.10, 'Rua João de Brito Lima Moura').
 street(9830, 14463, 0.33, 'Rua São Pedro').
-street(9830, 6468, 0.02, 'Rua João de Brito Lima Moura, Rua João Brito de Lima Moura').
+street(9830, 6468, 0.02, 'Rua João Brito de Lima Moura, Rua João de Brito Lima Moura').
 street(9831, 11347, 0.13, 'Rodovia Governador Antônio Mariz').
 street(9831, 9832, 0.02, 'Unknown').
 street(9832, 10804, 0.08, 'Rua Afonso Barbosa de Oliveira').
@@ -43714,7 +43714,7 @@ street(9849, 1660, 0.05, 'Rua Paulo Peixoto de Vasconcelos').
 street(9850, 9853, 0.11, 'Rua Comerciante Maria José Ribeiro').
 street(9851, 4208, 0.30, 'Rua Doutor Galileu Di Belli').
 street(9851, 4224, 0.04, 'Rua Natália Luiza dos Santos').
-street(9851, 4219, 0.19, 'Rua Natália Luiza dos Santos, Rua Evangélica Maria Venâncio Ferreira de Aguiar').
+street(9851, 4219, 0.19, 'Rua Evangélica Maria Venâncio Ferreira de Aguiar, Rua Natália Luiza dos Santos').
 street(9852, 4096, 0.07, 'Rua Cícero Bento Sobrinho').
 street(9852, 4224, 0.05, 'Rua Natália Luiza dos Santos').
 street(9852, 10160, 0.05, 'Rua Natália Luiza dos Santos').
@@ -43742,7 +43742,7 @@ street(9859, 9862, 0.05, 'Unknown').
 street(9859, 3280, 0.10, 'Rua Adauto Toledo').
 street(9860, 11881, 0.07, 'Rua Adauto Toledo').
 street(9860, 9867, 0.05, 'Rua Elba Maria Silva da Costa').
-street(9860, 3281, 0.06, 'Rua Elba Maria Silva da Costa, Rua Adauto Toledo').
+street(9860, 3281, 0.06, 'Rua Adauto Toledo, Rua Elba Maria Silva da Costa').
 street(9861, 4125, 0.07, 'Rua Manoel Batista Freire').
 street(9861, 9864, 0.06, 'Rua Manoel Batista Freire').
 street(9861, 9855, 0.09, 'Rua Joaquim Patrício de Souza').
@@ -43790,7 +43790,7 @@ street(9875, 4138, 0.03, 'Rua Carteiro Antônio Dias Pacheco').
 street(9875, 4141, 0.10, 'Rua Adaílson da Silva Nunes').
 street(9876, 3163, 0.02, 'Rua Carteiro Antônio Dias Pacheco').
 street(9876, 9878, 0.07, 'Rua Marli Vieira da Silva').
-street(9876, 2981, 0.28, 'Rua Carteiro Antônio Dias Pacheco, Rua Cícero Moreira Neto').
+street(9876, 2981, 0.28, 'Rua Cícero Moreira Neto, Rua Carteiro Antônio Dias Pacheco').
 street(9877, 10390, 0.01, 'Avenida Valdemar Naziazeno').
 street(9877, 2290, 0.04, 'Avenida Valdemar Naziazeno').
 street(9877, 4165, 0.16, 'Rua Marli Vieira da Silva').
@@ -43819,7 +43819,7 @@ street(9886, 4255, 0.02, 'Rua Débora da Silva Braga').
 street(9886, 8206, 0.03, 'Rua Waldemir Braga').
 street(9887, 9888, 0.07, 'Rua Doutora Gláucia Maria dos Santos Gouveia').
 street(9887, 293, 0.12, 'Rua Doutora Gláucia Maria dos Santos Gouveia').
-street(9887, 14134, 0.20, 'Rua Ministro Marcos Freire, Rua Manoel Arruda Cavalcanti').
+street(9887, 14134, 0.20, 'Rua Manoel Arruda Cavalcanti, Rua Ministro Marcos Freire').
 street(9888, 9158, 0.19, 'Rua Doutora Gláucia Maria dos Santos Gouveia').
 street(9888, 9158, 0.32, 'Travessa São Gonçalo, Avenida São Gonçalo, Rua Eutiquiano Barreto').
 street(9888, 9887, 0.07, 'Rua Doutora Gláucia Maria dos Santos Gouveia').
@@ -44282,7 +44282,7 @@ street(10080, 9805, 0.06, 'Unknown').
 street(10080, 10484, 0.19, 'Rua Praia de Carapibus').
 street(10081, 9804, 0.20, 'Rua das Castanheiras').
 street(10081, 10084, 0.05, 'Rua do Angelim').
-street(10081, 10075, 0.19, 'Rua das Jacobinas, Rua do Angelim').
+street(10081, 10075, 0.19, 'Rua do Angelim, Rua das Jacobinas').
 street(10082, 4051, 0.03, 'Rua das Três Marias').
 street(10082, 9805, 0.05, 'Rua das Três Marias').
 street(10082, 10083, 0.20, 'Unknown').
@@ -44309,7 +44309,7 @@ street(10090, 11334, 0.14, 'Rua Dinorá Sucupira da Costa').
 street(10091, 10092, 0.06, 'Rua Afonso Viana').
 street(10091, 10096, 0.16, 'Rua Arcôncio Pereira da Silva').
 street(10091, 14895, 0.19, 'Rua Arcôncio Pereira da Silva').
-street(10091, 11964, 0.23, 'Rua João de Brito Lima Moura, Rua Afonso Viana').
+street(10091, 11964, 0.23, 'Rua Afonso Viana, Rua João de Brito Lima Moura').
 street(10092, 10088, 0.17, 'Rua Manoel Silva de Lacerda').
 street(10092, 10091, 0.06, 'Rua Afonso Viana').
 street(10092, 10097, 0.18, 'Rua Manoel Silva de Lacerda').
@@ -44324,7 +44324,7 @@ street(10094, 10095, 0.07, 'Rua Afonso Viana').
 street(10094, 10095, 0.34, 'Rua Professor Luiz Burity, Rua João Alves Rodrigues').
 street(10095, 10108, 0.14, 'Rua João Alves Rodrigues').
 street(10095, 10098, 0.07, 'Rua Afonso Viana').
-street(10095, 10094, 0.34, 'Rua Professor Luiz Burity, Rua João Alves Rodrigues').
+street(10095, 10094, 0.34, 'Rua João Alves Rodrigues, Rua Professor Luiz Burity').
 street(10095, 10094, 0.07, 'Rua Afonso Viana').
 street(10096, 13545, 0.04, 'Rua Francisco Barbosa da Silva').
 street(10096, 10097, 0.06, 'Rua Francisco Barbosa da Silva').
@@ -44439,7 +44439,7 @@ street(10129, 10130, 0.05, 'Unknown').
 street(10129, 14453, 0.13, 'Rua Projetada Um').
 street(10130, 6439, 0.02, 'Rua Alfredo José Athaíde').
 street(10130, 10129, 0.05, 'Unknown').
-street(10130, 6437, 0.02, 'Avenida Alfredo José de Athaíde, Rua Alfredo José Athaíde').
+street(10130, 6437, 0.02, 'Rua Alfredo José Athaíde, Avenida Alfredo José de Athaíde').
 street(10131, 8213, 0.14, 'Rua Coelho Paiva').
 street(10131, 10785, 0.06, 'Rua João Tota').
 street(10131, 10789, 0.06, 'Rua João Tota').
@@ -44542,7 +44542,7 @@ street(10167, 10169, 0.05, 'Rua Corretor Marco Aurélio Alves Ribeiro').
 street(10167, 12294, 0.20, 'Rua José Antônio dos Santos').
 street(10168, 4764, 0.03, 'Rua Coronel Ednaldo Tavares Rufino').
 street(10168, 14258, 0.02, 'Rua Coronel Ednaldo Tavares Rufino').
-street(10168, 4766, 0.22, 'Rua Professora Maria da Soledade Ramalho, Rua Heráclito de Almeida').
+street(10168, 4766, 0.22, 'Rua Heráclito de Almeida, Rua Professora Maria da Soledade Ramalho').
 street(10169, 10167, 0.05, 'Rua Corretor Marco Aurélio Alves Ribeiro').
 street(10169, 2922, 0.22, 'Rua Maria Torres de Lima').
 street(10169, 14259, 0.06, 'Rua Corretor Marco Aurélio Alves Ribeiro').
@@ -45141,7 +45141,7 @@ street(10392, 2292, 0.05, 'Unknown').
 street(10392, 8791, 0.03, 'Rua Carlos Borromeu de Vasconcelos').
 street(10392, 10391, 0.07, 'Rua Carlos Borromeu de Vasconcelos').
 street(10393, 2293, 0.03, 'Unknown').
-street(10393, 8791, 0.03, 'Rua Doutor Graciliano Medeiros, Rua Carlos Borromeu de Vasconcelos').
+street(10393, 8791, 0.03, 'Rua Carlos Borromeu de Vasconcelos, Rua Doutor Graciliano Medeiros').
 street(10393, 8779, 0.06, 'Rua Doutor Graciliano Medeiros').
 street(10394, 8771, 0.03, 'Unknown').
 street(10394, 10398, 0.03, 'Unknown').
@@ -45344,7 +45344,7 @@ street(10466, 10463, 0.08, 'Rua Maria Ferreira da Silva').
 street(10467, 10464, 0.10, 'Rua Djalma Coelho').
 street(10468, 10470, 0.03, 'Rua João Alfredo do Cajueiro').
 street(10468, 8698, 0.12, 'Rua João Alfredo do Cajueiro').
-street(10468, 8698, 0.21, 'Rua Roque Victor de Barros, Rua Praia de Tabatinga').
+street(10468, 8698, 0.21, 'Rua Praia de Tabatinga, Rua Roque Victor de Barros').
 street(10469, 14329, 0.06, 'Rua Jaciara Soares dos Santos').
 street(10469, 9488, 0.03, 'Rua Jaciara Soares dos Santos').
 street(10469, 15126, 0.13, 'Rua Ninália de Luna Freire Barbosa').
@@ -45448,13 +45448,13 @@ street(10501, 10502, 0.02, 'Rua Edith Toscano Varandas').
 street(10501, 10500, 0.05, 'Rua Maria Luci da Costa Macedo').
 street(10502, 10501, 0.02, 'Rua Edith Toscano Varandas').
 street(10502, 10503, 0.05, 'Rua Percia Vitorio Serafim Galdino').
-street(10502, 10504, 0.15, 'Rua Paulo Pacote Filho, Rua Edith Toscano Varandas, Rua Comerciante Antonio Alvino da Costa').
+street(10502, 10504, 0.15, 'Rua Comerciante Antonio Alvino da Costa, Rua Paulo Pacote Filho, Rua Edith Toscano Varandas').
 street(10503, 4057, 0.11, 'Rua Paulo Pacote Filho').
 street(10503, 10504, 0.02, 'Rua Paulo Pacote Filho').
 street(10503, 10502, 0.05, 'Rua Percia Vitorio Serafim Galdino').
 street(10504, 10503, 0.02, 'Rua Paulo Pacote Filho').
-street(10504, 10502, 0.15, 'Rua Edith Toscano Varandas, Rua Comerciante Antonio Alvino da Costa, Rua Paulo Pacote Filho').
-street(10504, 4065, 0.18, 'Rua Blandina de Oliveira, Rua Eunice Souza Setti').
+street(10504, 10502, 0.15, 'Rua Comerciante Antonio Alvino da Costa, Rua Paulo Pacote Filho, Rua Edith Toscano Varandas').
+street(10504, 4065, 0.18, 'Rua Eunice Souza Setti, Rua Blandina de Oliveira').
 street(10505, 8360, 0.07, 'Rua Doutor Seixas Maia').
 street(10505, 8359, 0.02, 'Rua Doutor Seixas Maia').
 street(10506, 2621, 0.06, 'Rua Hortêncio Osterne Carneiro').
@@ -45526,14 +45526,14 @@ street(10534, 6655, 0.03, 'Rua Estudante Felipe Cordeiro de Medeiros').
 street(10534, 8102, 0.01, 'Rua Estudante Felipe Cordeiro de Medeiros').
 street(10534, 10541, 0.05, 'Unknown').
 street(10535, 8101, 0.01, 'Rua Estudante Felipe Cordeiro de Medeiros').
-street(10535, 8085, 0.14, 'Rua Estudante Felipe Cordeiro de Medeiros, Rua José Luiz de Albuquerque').
+street(10535, 8085, 0.14, 'Rua José Luiz de Albuquerque, Rua Estudante Felipe Cordeiro de Medeiros').
 street(10535, 10540, 0.11, 'Rua Caicara').
 street(10536, 6659, 0.04, 'Rua Das Graviolas').
 street(10536, 10546, 0.19, 'Unknown').
 street(10536, 6658, 0.05, 'Rua Das Graviolas').
 street(10537, 10538, 0.03, 'Rua Pau Ferro').
 street(10537, 10544, 0.14, 'Rua Walter Paiva de Albuquerque').
-street(10537, 7813, 0.19, 'Rua Pau Ferro, Rua Vitorino Andrade de Araujo').
+street(10537, 7813, 0.19, 'Rua Vitorino Andrade de Araujo, Rua Pau Ferro').
 street(10538, 10537, 0.03, 'Rua Pau Ferro').
 street(10538, 10542, 0.02, 'Rua Pau Ferro').
 street(10538, 10540, 0.16, 'Unknown').
@@ -45645,7 +45645,7 @@ street(10574, 7855, 0.06, 'Rua Benedito Damasio da Silva').
 street(10574, 7887, 0.01, 'Rua Benedito Damasio da Silva').
 street(10574, 14098, 0.09, 'Avenida Josinaldo Nascimento').
 street(10575, 7858, 0.03, 'Avenida Josinaldo Nascimento').
-street(10575, 13160, 0.22, 'Rua José Viegas Alves, Avenida Lourival Bezerra dos Santos').
+street(10575, 13160, 0.22, 'Avenida Lourival Bezerra dos Santos, Rua José Viegas Alves').
 street(10576, 9303, 0.02, 'Rua Maria Livia Alves Coelho').
 street(10576, 9285, 0.16, 'Unknown').
 street(10576, 9313, 0.05, 'Rua Maria Livia Alves Coelho').
@@ -45654,7 +45654,7 @@ street(10577, 4471, 0.23, 'Avenida Cidade de Salgado de São Félix').
 street(10577, 4475, 0.05, 'Avenida Cidade de Salgado de São Félix').
 street(10578, 4472, 0.03, 'Avenida Cidade de Manaíra').
 street(10578, 4606, 0.04, 'Rua Arábia').
-street(10578, 4471, 0.06, 'Avenida Cidade de Salgado de São Félix, Rua Arábia').
+street(10578, 4471, 0.06, 'Rua Arábia, Avenida Cidade de Salgado de São Félix').
 street(10579, 7153, 0.01, 'Unknown').
 street(10579, 7145, 0.05, 'Unknown').
 street(10580, 7145, 0.01, 'Unknown').
@@ -45813,7 +45813,7 @@ street(10638, 2974, 0.05, 'Unknown').
 street(10639, 10638, 0.17, 'Rua Maria de Nazaré').
 street(10640, 8784, 0.18, 'Rua Terezinha de Jesus Cavalcanti').
 street(10640, 10641, 0.05, 'Rua Milton Borges').
-street(10640, 8785, 0.15, 'Rua Pedro Crispim de Andrade, Rua Terezinha de Jesus Cavalcanti').
+street(10640, 8785, 0.15, 'Rua Terezinha de Jesus Cavalcanti, Rua Pedro Crispim de Andrade').
 street(10641, 8785, 0.10, 'Rua Ubirajara dos Santos Lima').
 street(10641, 9625, 0.17, 'Rua Ubirajara dos Santos Lima').
 street(10641, 10642, 0.05, 'Rua Milton Borges').
@@ -45824,7 +45824,7 @@ street(10642, 10644, 0.05, 'Rua Milton Borges').
 street(10642, 10641, 0.05, 'Rua Milton Borges').
 street(10643, 5015, 0.05, 'Rua Empresário Abelardo Targino da Fonseca').
 street(10643, 10646, 0.05, 'Rua Empresário Abelardo Targino da Fonseca').
-street(10643, 10646, 0.39, 'Rua Manoel Pacifico de Oliveira, Rua Maria Florentina Calixto, Rua Creuza Calixto Oliveira').
+street(10643, 10646, 0.39, 'Rua Creuza Calixto Oliveira, Rua Manoel Pacifico de Oliveira, Rua Maria Florentina Calixto').
 street(10644, 8787, 0.10, 'Rua Compositor Livardo Alves').
 street(10644, 9627, 0.17, 'Rua Compositor Livardo Alves').
 street(10644, 13717, 0.05, 'Rua Milton Borges').
@@ -45833,14 +45833,14 @@ street(10645, 8781, 0.13, 'Rua João Baarbosa Lucena').
 street(10645, 13719, 0.20, 'Rua João de Souza Filho').
 street(10645, 5015, 0.05, 'Rua João de Souza Filho').
 street(10646, 10643, 0.05, 'Rua Empresário Abelardo Targino da Fonseca').
-street(10646, 10643, 0.39, 'Rua Manoel Pacifico de Oliveira, Rua Creuza Calixto Oliveira, Rua Maria Florentina Calixto').
+street(10646, 10643, 0.39, 'Rua Creuza Calixto Oliveira, Rua Manoel Pacifico de Oliveira, Rua Maria Florentina Calixto').
 street(10646, 5014, 0.09, 'Rua Empresário Abelardo Targino da Fonseca').
 street(10647, 8772, 0.06, 'Rua Rita Carneiro Diniz').
 street(10647, 11144, 0.06, 'Rua Rubéns Coelho Pereira Filho').
-street(10647, 11145, 0.12, 'Rua Rita Carneiro Diniz, Rua Olívio de Moraes Magalhães').
+street(10647, 11145, 0.12, 'Rua Olívio de Moraes Magalhães, Rua Rita Carneiro Diniz').
 street(10648, 8777, 0.05, 'Rua Rafael di Lorenzo').
 street(10648, 8792, 0.18, 'Rua Mathias Sinfrônio de Oliveira').
-street(10648, 13719, 0.30, 'Rua Josias Babosa Ferreira, Rua Mathias Sinfrônio de Oliveira').
+street(10648, 13719, 0.30, 'Rua Mathias Sinfrônio de Oliveira, Rua Josias Babosa Ferreira').
 street(10649, 4880, 0.05, 'Rua Doutor Walter Belian').
 street(10649, 4521, 0.81, 'Rua Doutor Walter Belian').
 street(10649, 11838, 0.23, 'Rua Estudante Reginaldo Manoel dos Santos Filho').
@@ -45888,7 +45888,7 @@ street(10666, 2570, 0.18, 'Rua Doutor Airton Cordeiro').
 street(10667, 15561, 0.01, 'Rua Comerciante Marcos Afonso de Souza Crispim').
 street(10667, 5314, 0.19, 'Rua Comerciante Marcos Afonso de Souza Crispim').
 street(10667, 10668, 0.07, 'Rua Philadelpho Pinto de Carvalho').
-street(10667, 13503, 0.20, 'Rua Doutor Francisco de Assis Câmara Dantas, Rua Philadelpho Pinto de Carvalho').
+street(10667, 13503, 0.20, 'Rua Philadelpho Pinto de Carvalho, Rua Doutor Francisco de Assis Câmara Dantas').
 street(10668, 5316, 0.22, 'Rua Engenheiro José Jaime Gomes Pessoa Filho').
 street(10668, 10669, 0.07, 'Rua Philadelpho Pinto de Carvalho').
 street(10668, 10667, 0.07, 'Rua Philadelpho Pinto de Carvalho').
@@ -46311,7 +46311,7 @@ street(10835, 10838, 0.03, 'Praça Professor João Vinagre').
 street(10835, 10836, 0.04, 'Avenida Desembargador Botto de Menezes').
 street(10836, 10839, 0.03, 'Avenida Desembargador Botto de Menezes').
 street(10836, 10835, 0.04, 'Avenida Desembargador Botto de Menezes').
-street(10836, 10840, 0.10, 'Rua Desembargador Renato Lima, Praça Professor João Vinagre').
+street(10836, 10840, 0.10, 'Praça Professor João Vinagre, Rua Desembargador Renato Lima').
 street(10837, 661, 0.06, 'Rua Professora Antônia Rangel Farias').
 street(10837, 10834, 0.03, 'Vila João Agripino').
 street(10837, 8914, 0.05, 'Rua Vicente Jardim, Rua Professora Antônia Rangel Farias').
@@ -46323,7 +46323,7 @@ street(10839, 10841, 0.18, 'Rua Escritor Geraldo Carvalho, Rua Doutor Milcíades
 street(10839, 10836, 0.03, 'Avenida Desembargador Botto de Menezes').
 street(10840, 10838, 0.04, 'Praça Professor João Vinagre').
 street(10840, 10838, 0.06, 'Praça Professor João Vinagre').
-street(10840, 10836, 0.10, 'Rua Desembargador Renato Lima, Praça Professor João Vinagre').
+street(10840, 10836, 0.10, 'Praça Professor João Vinagre, Rua Desembargador Renato Lima').
 street(10841, 10839, 0.03, 'Avenida Desembargador Botto de Menezes').
 street(10841, 10839, 0.18, 'Rua Escritor Geraldo Carvalho, Rua Doutor Milcíades Leal').
 street(10841, 14667, 0.13, 'Avenida Desembargador Botto de Menezes').
@@ -46423,7 +46423,7 @@ street(10882, 14228, 0.06, 'Rua Santo Afonso de Ligório').
 street(10882, 14229, 0.05, 'Rua Santo Afonso de Ligório').
 street(10882, 13993, 0.08, 'Unknown').
 street(10883, 6147, 0.12, 'Rua Francisco Alves').
-street(10883, 6185, 0.33, 'Rua Glauce Rocha, Rua Luiz Jacinto').
+street(10883, 6185, 0.33, 'Rua Luiz Jacinto, Rua Glauce Rocha').
 street(10883, 6158, 0.05, 'Rua Luiz Jacinto').
 street(10884, 10889, 0.09, 'Rua Compositor Assis Valente').
 street(10884, 6184, 0.06, 'Rua Luiz Jacinto').
@@ -46604,7 +46604,7 @@ street(10943, 2483, 0.04, 'Rua São Severino').
 street(10943, 2358, 0.01, 'Avenida São Judas Tadeu').
 street(10943, 2374, 0.34, 'Avenida São Judas Tadeu').
 street(10944, 2424, 0.09, 'Rua Horácio Trajano de Oliveira').
-street(10944, 10948, 0.14, 'Rua Francelino Viana de Souza, Rua Presidente Ranieri Mazilli').
+street(10944, 10948, 0.14, 'Rua Presidente Ranieri Mazilli, Rua Francelino Viana de Souza').
 street(10945, 10944, 0.04, 'Rua Horácio Trajano de Oliveira').
 street(10945, 10947, 0.04, 'Rua Jornalista David Nasser').
 street(10946, 10945, 0.04, 'Rua Horácio Trajano de Oliveira').
@@ -46612,7 +46612,7 @@ street(10946, 10948, 0.08, 'Rua Adelina Eugênia da Silva').
 street(10947, 10945, 0.04, 'Rua Jornalista David Nasser').
 street(10948, 10946, 0.08, 'Rua Adelina Eugênia da Silva').
 street(10948, 2270, 0.03, 'Rua Presidente Ranieri Mazilli').
-street(10948, 10944, 0.14, 'Rua Francelino Viana de Souza, Rua Presidente Ranieri Mazilli').
+street(10948, 10944, 0.14, 'Rua Presidente Ranieri Mazilli, Rua Francelino Viana de Souza').
 street(10949, 2012, 0.05, 'Avenida Flamboyant').
 street(10949, 10951, 0.06, 'Unknown').
 street(10949, 1994, 0.08, 'Avenida Flamboyant').
@@ -46620,10 +46620,10 @@ street(10950, 1989, 0.03, 'Rua dos Eucaliptos').
 street(10950, 10952, 0.06, 'Unknown').
 street(10951, 1981, 0.02, 'Rua das Baraúnas').
 street(10951, 10949, 0.06, 'Unknown').
-street(10951, 10952, 0.10, 'Rua Bourgueville, Rua das Baraúnas').
+street(10951, 10952, 0.10, 'Rua das Baraúnas, Rua Bourgueville').
 street(10952, 1998, 0.16, 'Rua Bourgueville').
 street(10952, 10950, 0.06, 'Unknown').
-street(10952, 10951, 0.10, 'Rua Bourgueville, Rua das Baraúnas').
+street(10952, 10951, 0.10, 'Rua das Baraúnas, Rua Bourgueville').
 street(10953, 5727, 0.09, 'Rua Antônio Pereira do Nascimento').
 street(10953, 5726, 0.19, 'Rua Antônio Pereira do Nascimento').
 street(10953, 6368, 0.08, 'Rua Pastor José Severino de Oliveira').
@@ -46743,22 +46743,22 @@ street(11001, 5586, 0.07, 'Travessa Mário Magalhães').
 street(11001, 5588, 0.11, 'Rua Maestro Heitor Villa-Lobos').
 street(11001, 11003, 0.06, 'Rua Maestro Heitor Villa-Lobos').
 street(11002, 11006, 0.14, 'Rua Ambrósio Vitrino Pontes').
-street(11002, 11005, 0.10, 'Rua Damásio Barbosa da Franca, Rua Ambrósio Vitrino Pontes').
-street(11002, 11005, 0.11, 'Rua Desembargador Floscolo da Nóbrega, Rua Pedro Jaime Seixas').
+street(11002, 11005, 0.10, 'Rua Ambrósio Vitrino Pontes, Rua Damásio Barbosa da Franca').
+street(11002, 11005, 0.11, 'Rua Pedro Jaime Seixas, Rua Desembargador Floscolo da Nóbrega').
 street(11003, 5619, 0.01, 'Rua Maestro Heitor Villa-Lobos').
 street(11003, 10998, 0.08, 'Rua José Carneiro Rodrigues').
 street(11003, 11001, 0.06, 'Rua Maestro Heitor Villa-Lobos').
 street(11004, 5619, 0.07, 'Rua Maestro Heitor Villa-Lobos').
 street(11005, 11008, 0.07, 'Rua Damásio Barbosa da Franca').
-street(11005, 11002, 0.10, 'Rua Damásio Barbosa da Franca, Rua Ambrósio Vitrino Pontes').
-street(11005, 11002, 0.11, 'Rua Pedro Jaime Seixas, Rua Desembargador Floscolo da Nóbrega').
+street(11005, 11002, 0.10, 'Rua Ambrósio Vitrino Pontes, Rua Damásio Barbosa da Franca').
+street(11005, 11002, 0.11, 'Rua Desembargador Floscolo da Nóbrega, Rua Pedro Jaime Seixas').
 street(11006, 5622, 0.04, 'Rua Desembargador Maurício Furtado').
 street(11006, 5633, 0.02, 'Rua Desembargador Maurício Furtado').
 street(11006, 11002, 0.14, 'Rua Ambrósio Vitrino Pontes').
 street(11007, 5248, 0.07, 'Rua Doutor José Maia').
 street(11007, 11009, 0.05, 'Rua Doutor José Maia').
 street(11007, 5635, 0.05, 'Rua Alfredo Pereira Gomes').
-street(11007, 14056, 0.07, 'Rua Alfredo Pereira Gomes, Rua Napoleão Crispim').
+street(11007, 14056, 0.07, 'Rua Napoleão Crispim, Rua Alfredo Pereira Gomes').
 street(11008, 5617, 0.05, 'Rua Desembargador Maurício Furtado').
 street(11008, 11005, 0.07, 'Rua Damásio Barbosa da Franca').
 street(11008, 5618, 0.06, 'Rua Desembargador Maurício Furtado').
@@ -46847,7 +46847,7 @@ street(11040, 11041, 0.07, 'Rua Eunice Laurindo da Silva').
 street(11041, 11040, 0.07, 'Rua Eunice Laurindo da Silva').
 street(11042, 11045, 0.04, 'Unknown').
 street(11042, 6034, 0.09, 'Rua Josefa Pontes Coutinho').
-street(11042, 6042, 0.14, 'Rua Josefa Pontes Coutinho, Rua Antônio Mariz').
+street(11042, 6042, 0.14, 'Rua Antônio Mariz, Rua Josefa Pontes Coutinho').
 street(11043, 14193, 0.05, 'Rua Airton da Silva').
 street(11044, 14194, 0.06, 'Rua Tatiane da Silva').
 street(11045, 6043, 0.09, 'Rua Pastor Afonso').
@@ -46874,7 +46874,7 @@ street(11055, 4232, 0.06, 'Avenida Hilton Souto Maior').
 street(11056, 2541, 0.05, 'Avenida Hilton Souto Maior').
 street(11057, 11758, 0.13, 'Avenida Hilton Souto Maior').
 street(11057, 11056, 0.02, 'Unknown').
-street(11058, 2310, 0.07, 'Avenida Cruz das Armas, Avenida Doutor João da Mata').
+street(11058, 2310, 0.07, 'Avenida Doutor João da Mata, Avenida Cruz das Armas').
 street(11058, 453, 0.04, 'Unknown').
 street(11059, 14884, 0.02, 'Unknown').
 street(11059, 11454, 0.07, 'Unknown').
@@ -47095,7 +47095,7 @@ street(11144, 11142, 0.06, 'Rua Rubéns Coelho Pereira Filho').
 street(11144, 10647, 0.06, 'Rua Rubéns Coelho Pereira Filho').
 street(11144, 11145, 0.08, 'Rua José L. da Silva').
 street(11145, 11144, 0.08, 'Rua José L. da Silva').
-street(11145, 10647, 0.12, 'Rua Rita Carneiro Diniz, Rua Olívio de Moraes Magalhães').
+street(11145, 10647, 0.12, 'Rua Olívio de Moraes Magalhães, Rua Rita Carneiro Diniz').
 street(11145, 11143, 0.06, 'Rua Olívio de Moraes Magalhães').
 street(11146, 11728, 0.03, 'Avenida Hilton Souto Maior').
 street(11146, 14574, 0.04, 'Rua Caetano Gomes de Almeida').
@@ -47344,7 +47344,7 @@ street(11231, 8442, 0.16, 'Rua Vereador João Gonçalves de Abrantes').
 street(11231, 9186, 0.17, 'Rua Vereador João Gonçalves de Abrantes').
 street(11231, 14587, 0.07, 'Unknown').
 street(11232, 9186, 0.08, 'Rua Juiz Gil Brandão Líbano').
-street(11232, 11365, 0.09, 'Rua Juiz Gil Brandão Líbano, Rua Antônio Dutra Sobrinho').
+street(11232, 11365, 0.09, 'Rua Antônio Dutra Sobrinho, Rua Juiz Gil Brandão Líbano').
 street(11232, 10297, 0.16, 'Rua Iraci de Barros Soares').
 street(11232, 14587, 0.16, 'Rua Iraci de Barros Soares').
 street(11233, 7181, 0.19, 'Rua Iraci de Barros Soares').
@@ -47410,7 +47410,7 @@ street(11250, 11364, 0.09, 'Rua Estudante Flávio Dias Brandão Júnior').
 street(11251, 11253, 0.08, 'Rua Zilda Nunes da Silva').
 street(11251, 11241, 0.08, 'Rua Zilda Nunes da Silva').
 street(11251, 11250, 0.17, 'Rua Antônio Peixoto Lemos').
-street(11251, 11252, 0.22, 'Rua Antônio Peixoto Lemos, Rua José de Almeida Noronha').
+street(11251, 11252, 0.22, 'Rua José de Almeida Noronha, Rua Antônio Peixoto Lemos').
 street(11252, 11253, 0.16, 'Rua Médica Clélia Lemos Ramos').
 street(11252, 12964, 0.21, 'Rua Médica Clélia Lemos Ramos').
 street(11252, 14423, 0.06, 'Rua José de Almeida Noronha').
@@ -47663,7 +47663,7 @@ street(11351, 90, 0.04, 'Rua Hilda Coutinho Lucena').
 street(11352, 1145, 0.18, 'Avenida Ministro José Américo de Almeida').
 street(11353, 9595, 0.01, 'Avenida Tito Silva').
 street(11353, 14576, 0.06, 'Travessa Tito Silva').
-street(11354, 43, 0.16, 'Rua João Domingos, Rua São Vicente').
+street(11354, 43, 0.16, 'Rua São Vicente, Rua João Domingos').
 street(11355, 9036, 0.02, 'Avenida Manoel Cândido Leite').
 street(11355, 41, 0.20, 'Avenida Manoel Cândido Leite').
 street(11355, 14603, 0.02, 'Unknown').
@@ -47693,7 +47693,7 @@ street(11364, 11253, 0.17, 'Rua Médica Clélia Lemos Ramos').
 street(11364, 8436, 0.14, 'Rua Estudante Flávio Dias Brandão Júnior').
 street(11364, 11250, 0.09, 'Rua Estudante Flávio Dias Brandão Júnior').
 street(11365, 8523, 0.18, 'Rua Antônio Dutra Sobrinho').
-street(11365, 11232, 0.09, 'Rua Juiz Gil Brandão Líbano, Rua Antônio Dutra Sobrinho').
+street(11365, 11232, 0.09, 'Rua Antônio Dutra Sobrinho, Rua Juiz Gil Brandão Líbano').
 street(11365, 7167, 0.14, 'Rua General Francisco de Assis Araújo Bezerra').
 street(11366, 1590, 0.04, 'Avenida João Cyrilo da Silva').
 street(11366, 11367, 0.04, 'Avenida João Cyrilo da Silva').
@@ -47755,14 +47755,14 @@ street(11385, 11220, 0.04, 'Unknown').
 street(11385, 11391, 0.12, 'Rua Ascendino de Brito').
 street(11385, 11191, 0.09, 'Rua Ascendino de Brito').
 street(11386, 11392, 0.07, 'Rua das Rosas').
-street(11386, 11392, 0.46, 'Rua das Azaléias, Rua das Camélias').
+street(11386, 11392, 0.46, 'Rua das Camélias, Rua das Azaléias').
 street(11386, 11388, 0.23, 'Rua das Azaléias').
 street(11387, 11390, 0.01, 'Unknown').
 street(11388, 11386, 0.23, 'Rua das Azaléias').
 street(11388, 11389, 0.01, 'Rua das Azaléias').
 street(11388, 8398, 0.02, 'Unknown').
 street(11389, 11394, 0.07, 'Avenida Bougainville').
-street(11389, 11394, 0.66, 'Rua das Azaléias, Rua das Camélias').
+street(11389, 11394, 0.66, 'Rua das Camélias, Rua das Azaléias').
 street(11389, 11388, 0.01, 'Rua das Azaléias').
 street(11390, 15275, 0.07, 'Rua Poetisa Guiomar Travassos Chianca').
 street(11390, 7174, 0.01, 'Unknown').
@@ -47771,14 +47771,14 @@ street(11391, 11194, 0.04, 'Rua Zilda Nunes da Silva').
 street(11391, 11385, 0.12, 'Rua Ascendino de Brito').
 street(11392, 11397, 0.07, 'Rua das Rosas').
 street(11392, 11386, 0.07, 'Rua das Rosas').
-street(11392, 11386, 0.46, 'Rua das Azaléias, Rua das Camélias').
+street(11392, 11386, 0.46, 'Rua das Camélias, Rua das Azaléias').
 street(11392, 11393, 0.23, 'Rua das Camélias').
 street(11393, 11392, 0.23, 'Rua das Camélias').
 street(11393, 11394, 0.01, 'Rua das Camélias').
 street(11393, 11388, 0.07, 'Avenida Bougainville').
 street(11394, 11396, 0.06, 'Avenida Bougainville').
 street(11394, 11393, 0.01, 'Rua das Camélias').
-street(11394, 11389, 0.66, 'Rua das Azaléias, Rua das Camélias').
+street(11394, 11389, 0.66, 'Rua das Camélias, Rua das Azaléias').
 street(11395, 11393, 0.06, 'Avenida Bougainville').
 street(11395, 11396, 0.01, 'Avenida Primavera').
 street(11396, 11401, 0.02, 'Avenida Primavera').
@@ -47826,7 +47826,7 @@ street(11419, 8396, 0.23, 'Avenida 3 Marias').
 street(11419, 11418, 0.01, 'Avenida Bougainville').
 street(11420, 11419, 0.01, 'Avenida 3 Marias').
 street(11421, 8705, 0.14, 'Rua Otacílio Cunha').
-street(11421, 8702, 0.30, 'Rua Otacílio Cunha, Rua João Fiúza Chaves').
+street(11421, 8702, 0.30, 'Rua João Fiúza Chaves, Rua Otacílio Cunha').
 street(11421, 8707, 0.21, 'Rua Severina de Arruda Abel').
 street(11422, 5388, 0.13, 'Rua Projetada Tres').
 street(11422, 12119, 0.02, 'Unknown').
@@ -48023,7 +48023,7 @@ street(11497, 11498, 0.06, 'Rua Caubeiras').
 street(11497, 11513, 0.06, 'Rua Caubeiras').
 street(11497, 11496, 0.17, 'Rua Maçarandubas').
 street(11498, 11497, 0.06, 'Rua Caubeiras').
-street(11498, 4493, 0.09, 'Rua Caubeiras, Rua dos Jambeiros').
+street(11498, 4493, 0.09, 'Rua dos Jambeiros, Rua Caubeiras').
 street(11498, 11496, 0.18, 'Unknown').
 street(11499, 11509, 0.40, 'Unknown').
 street(11499, 11494, 0.22, 'Rua Pau Darco').
@@ -48057,7 +48057,7 @@ street(11508, 11512, 0.05, 'Unknown').
 street(11509, 11499, 0.40, 'Unknown').
 street(11509, 11510, 0.28, 'Unknown').
 street(11509, 9491, 0.91, 'Unknown').
-street(11510, 4343, 0.41, 'Rua P Dois, Rua Xatubas').
+street(11510, 4343, 0.41, 'Rua Xatubas, Rua P Dois').
 street(11510, 4882, 0.22, 'Rua P Dois').
 street(11510, 11509, 0.28, 'Unknown').
 street(11511, 7125, 0.21, 'Unknown').
@@ -48613,7 +48613,7 @@ street(11711, 8549, 0.04, 'Rua José Ferreira da Silva').
 street(11712, 14491, 0.11, 'Rua José Joaquim da Silva').
 street(11713, 8549, 0.08, 'Rua Farmacêutico Antônio Leopoldo Batista').
 street(11714, 11285, 0.08, 'Rua Comerciante José Raimundo Calado').
-street(11714, 8593, 0.34, 'Rua Comerciante José Raimundo Calado, Rua Eilzo Afonso Marques de Carvalho').
+street(11714, 8593, 0.34, 'Rua Eilzo Afonso Marques de Carvalho, Rua Comerciante José Raimundo Calado').
 street(11714, 11286, 0.25, 'Rua João Argino Borges').
 street(11715, 8591, 0.12, 'Rua José Paulo da Silva Lira').
 street(11715, 8526, 0.04, 'Rua José Paulo da Silva Lira').
@@ -48670,7 +48670,7 @@ street(11734, 11051, 0.04, 'Avenida Hilton Souto Maior').
 street(11734, 11733, 0.02, 'Rua Tratorista José do Carmo Lima').
 street(11735, 7199, 0.01, 'Rua Empresário Manoel de Brito').
 street(11735, 7215, 0.01, 'Rua Empresário Manoel de Brito').
-street(11735, 7220, 0.34, 'Rua Severina Maria da Conceição, Rua Cabo José Batista da Silva').
+street(11735, 7220, 0.34, 'Rua Cabo José Batista da Silva, Rua Severina Maria da Conceição').
 street(11736, 1897, 0.01, 'Rua Raimundo Adolfo').
 street(11736, 9084, 0.07, 'Rua Raimundo Adolfo').
 street(11736, 11738, 0.07, 'Rua Antônio Peixoto Filho').
@@ -48691,7 +48691,7 @@ street(11742, 1913, 0.01, 'Rua Bacharel Wilson Flávio Moreira Coutinho').
 street(11742, 11743, 0.05, 'Unknown').
 street(11743, 11744, 0.04, 'Unknown').
 street(11743, 11742, 0.05, 'Unknown').
-street(11743, 11741, 0.16, 'Rua Valdir Evangelista dos Santos, Rua José Carlos de Almeida Carneiro').
+street(11743, 11741, 0.16, 'Rua José Carlos de Almeida Carneiro, Rua Valdir Evangelista dos Santos').
 street(11743, 11745, 0.07, 'Rua Valdir Evangelista dos Santos').
 street(11744, 11743, 0.04, 'Unknown').
 street(11745, 11743, 0.07, 'Rua Valdir Evangelista dos Santos').
@@ -48939,7 +48939,7 @@ street(11837, 7058, 0.07, 'Rua Patrício de Almeida').
 street(11837, 7052, 0.07, 'Rua Elias Gonçalves Bezerra').
 street(11838, 10649, 0.23, 'Rua Estudante Reginaldo Manoel dos Santos Filho').
 street(11839, 3168, 0.20, 'Rua José da Costa Pereira').
-street(11839, 9041, 0.05, 'Rua José da Costa Pereira, Rua Ana Espínola Navarro').
+street(11839, 9041, 0.05, 'Rua Ana Espínola Navarro, Rua José da Costa Pereira').
 street(11840, 3216, 0.20, 'Rua Eduardo Hugo Lins Oliveira').
 street(11840, 3215, 0.02, 'Rua Eduardo Hugo Lins Oliveira').
 street(11840, 11839, 0.07, 'Rua Ana Espínola Navarro').
@@ -48969,7 +48969,7 @@ street(11848, 5542, 0.04, 'Rua Estudante Josélio Farias de Aguiar').
 street(11848, 14696, 0.04, 'Rua Vicente Salvador').
 street(11849, 5543, 0.12, 'Rua Coronel João Costa e Silva').
 street(11849, 4830, 0.03, 'Rua Estudante Josélio Farias de Aguiar').
-street(11849, 5553, 0.08, 'Rua Coronel João Costa e Silva, Rua Marieta Araújo Nascimento').
+street(11849, 5553, 0.08, 'Rua Marieta Araújo Nascimento, Rua Coronel João Costa e Silva').
 street(11850, 11853, 0.06, 'Rua Antônio Miguel de Morais').
 street(11851, 5557, 0.06, 'Rua Coronel Vicente Jansen').
 street(11851, 4802, 0.10, 'Rua Padre Manoel Nóbrega').
@@ -49225,7 +49225,7 @@ street(11954, 13050, 0.11, 'Avenida São Rafael').
 street(11954, 13052, 0.13, 'Avenida São Rafael').
 street(11955, 11954, 0.05, 'Travessa Castelo Branco').
 street(11955, 1088, 0.14, 'Avenida Presidente Castelo Branco').
-street(11956, 8139, 2.52, 'Rodovia Governador Antônio Mariz, Viaduto Eduardo Campos').
+street(11956, 8139, 2.52, 'Viaduto Eduardo Campos, Rodovia Governador Antônio Mariz').
 street(11956, 10451, 0.20, 'Marginal Rodovia Governador Antônio Mariz').
 street(11957, 5743, 0.08, 'Avenida Gouveia Nóbrega').
 street(11957, 11958, 0.01, 'Unknown').
@@ -49302,9 +49302,9 @@ street(11991, 14061, 0.49, 'Avenida Cruz das Armas').
 street(11991, 5686, 0.01, 'Avenida Desembargador Santos Estanislau').
 street(11992, 7179, 0.02, 'Unknown').
 street(11993, 2538, 0.02, 'Avenida Hilton Souto Maior').
-street(11994, 14343, 0.13, 'Praça Dom Adauto, Avenida Visconde de Pelotas').
+street(11994, 14343, 0.13, 'Avenida Visconde de Pelotas, Praça Dom Adauto').
 street(11994, 9650, 0.08, 'Praça Barão do Rio Branco').
-street(11995, 12012, 0.56, 'Via Expressa Miguel Couto, Rua Cardoso Vieira').
+street(11995, 12012, 0.56, 'Rua Cardoso Vieira, Via Expressa Miguel Couto').
 street(11995, 9652, 0.09, 'Rua 13 de Maio').
 street(11995, 9654, 0.05, 'Rua 13 de Maio').
 street(11996, 1180, 0.04, 'Rua Empresário João Rodrigues Alves').
@@ -49318,7 +49318,7 @@ street(11999, 11998, 0.05, 'Unknown').
 street(12000, 12240, 0.29, 'Rua João Agripino de Almeida').
 street(12000, 13134, 0.02, 'Unknown').
 street(12001, 11986, 0.10, 'Unknown').
-street(12001, 13170, 0.52, 'Viaduto Eduardo Campos, Marginal Rodovia Governador Antônio Mariz').
+street(12001, 13170, 0.52, 'Marginal Rodovia Governador Antônio Mariz, Viaduto Eduardo Campos').
 street(12002, 12003, 0.04, 'Estádio Almeidão').
 street(12003, 13169, 0.08, 'Estádio Almeidão').
 street(12003, 13170, 0.23, 'Unknown').
@@ -49507,7 +49507,7 @@ street(12070, 12076, 0.03, 'Rua Luiz Spinelli').
 street(12070, 12071, 0.17, 'Rua dos Evangelistas').
 street(12071, 12073, 0.05, 'Rua Anésio Coelho Pereira').
 street(12071, 12070, 0.17, 'Rua dos Evangelistas').
-street(12071, 12077, 0.17, 'Rua Anésio Coelho Pereira, Rua Comerciante Álvaro Antero do Nascimento').
+street(12071, 12077, 0.17, 'Rua Comerciante Álvaro Antero do Nascimento, Rua Anésio Coelho Pereira').
 street(12072, 12076, 0.02, 'Rua Luiz Spinelli').
 street(12072, 10270, 0.05, 'Rua Luiz Spinelli').
 street(12072, 12073, 0.17, 'Rua Paulo Cezar da Silva Pontes').
@@ -49524,7 +49524,7 @@ street(12076, 12070, 0.03, 'Rua Luiz Spinelli').
 street(12076, 12072, 0.02, 'Rua Luiz Spinelli').
 street(12076, 12075, 0.05, 'Unknown').
 street(12077, 6555, 0.04, 'Rua Comerciante Álvaro Antero do Nascimento').
-street(12077, 12071, 0.17, 'Rua Anésio Coelho Pereira, Rua Comerciante Álvaro Antero do Nascimento').
+street(12077, 12071, 0.17, 'Rua Comerciante Álvaro Antero do Nascimento, Rua Anésio Coelho Pereira').
 street(12077, 12543, 0.07, 'Rua Maria Fatima da Silva').
 street(12078, 4948, 0.01, 'Rua Monte Horebe').
 street(12078, 4937, 0.04, 'Rua Monte Horebe').
@@ -50117,7 +50117,7 @@ street(12286, 9389, 0.08, 'Unknown').
 street(12286, 10514, 0.18, 'Avenida João Cyrilo da Silva').
 street(12287, 9306, 0.05, 'Rua Policial Clodoval Ferreira Lima').
 street(12287, 13491, 0.16, 'Rua Manuel Fernades Junior').
-street(12287, 13491, 0.23, 'Avenida Escritor Ronaldo Leite, Rua Policial Clodoval Ferreira Lima').
+street(12287, 13491, 0.23, 'Rua Policial Clodoval Ferreira Lima, Avenida Escritor Ronaldo Leite').
 street(12287, 12288, 0.12, 'Rua Manuel Fernades Junior').
 street(12288, 12717, 0.05, 'Rua Altemar Dutra').
 street(12288, 12287, 0.12, 'Rua Manuel Fernades Junior').
@@ -50330,7 +50330,7 @@ street(12372, 4185, 0.01, 'Rua Rosa Paula Barbosa').
 street(12372, 13187, 0.03, 'Rua Rosa Paula Barbosa').
 street(12373, 5238, 0.10, 'Rua Professor Vidal Filho').
 street(12373, 5275, 0.09, 'Rua Professor Cândido de Sá Andrade').
-street(12373, 5256, 0.31, 'Rua Professor Cândido de Sá Andrade, Rua Joaquim Nonato de Aquino').
+street(12373, 5256, 0.31, 'Rua Joaquim Nonato de Aquino, Rua Professor Cândido de Sá Andrade').
 street(12374, 14504, 0.07, 'Unknown').
 street(12374, 8196, 0.04, 'Avenida Diógenes Chianca').
 street(12375, 11101, 0.02, 'Rua Angelina Balthar').
@@ -50432,7 +50432,7 @@ street(12410, 14113, 0.18, 'Rua Mauricio Leal Wanderley').
 street(12410, 12426, 0.06, 'Rua Professora Aida Mont Morency Pinheiro').
 street(12411, 14113, 0.01, 'Unknown').
 street(12411, 12408, 0.08, 'Rua Doutor Cícero Leite').
-street(12411, 8807, 0.19, 'Rua Doutor Cícero Leite, Rua Adalgisa Carneiro Cavalcanti').
+street(12411, 8807, 0.19, 'Rua Adalgisa Carneiro Cavalcanti, Rua Doutor Cícero Leite').
 street(12412, 12413, 0.05, 'Unknown').
 street(12412, 12416, 0.04, 'Unknown').
 street(12412, 12414, 0.05, 'Unknown').
@@ -50840,7 +50840,7 @@ street(12566, 14624, 0.02, 'Rua Brasilino Alves da Nobrega').
 street(12567, 12059, 0.09, 'Rua Manoel Furtado de Lacerda').
 street(12567, 12565, 0.03, 'Unknown').
 street(12568, 14624, 0.03, 'Rua Brasilino Alves da Nobrega').
-street(12568, 3814, 0.51, 'Rua Brasilino Alves da Nobrega, Rua Francisco Porfírio Ribeiro').
+street(12568, 3814, 0.51, 'Rua Francisco Porfírio Ribeiro, Rua Brasilino Alves da Nobrega').
 street(12569, 13521, 0.01, 'Rua Sibipiruna').
 street(12569, 6691, 0.05, 'Rua Sibipiruna').
 street(12569, 12032, 0.10, 'Rua Marcos Rosendo da Silva').
@@ -50860,7 +50860,7 @@ street(12577, 12571, 0.09, 'Via Principal 01').
 street(12578, 12551, 0.54, 'Perimetral Sul').
 street(12579, 14014, 0.05, 'Via Local 11').
 street(12579, 15521, 0.14, 'Via Local 07').
-street(12579, 15522, 0.20, 'Via Local 11, Via Local 09').
+street(12579, 15522, 0.20, 'Via Local 09, Via Local 11').
 street(12580, 15520, 0.16, 'Via Local 06').
 street(12581, 12582, 0.29, 'Via Local 04').
 street(12582, 12575, 0.03, 'Via Local 05').
@@ -51397,7 +51397,7 @@ street(12763, 9267, 0.05, 'Unknown').
 street(12764, 9267, 0.04, 'Unknown').
 street(12765, 9265, 0.01, 'Rua João Viegas de Oliveira').
 street(12765, 10338, 0.14, 'Rua General Ivo Borges da Fonseca').
-street(12765, 9264, 0.12, 'Rua João Viegas de Oliveira, Rua José Adriano Teodósio').
+street(12765, 9264, 0.12, 'Rua José Adriano Teodósio, Rua João Viegas de Oliveira').
 street(12766, 13739, 0.05, 'Rua Leonel de Moura Brizola').
 street(12766, 7450, 0.02, 'Rua Leonel de Moura Brizola').
 street(12766, 12767, 0.10, 'Unknown').
@@ -51902,9 +51902,9 @@ street(12968, 12967, 0.10, 'Rua Isabel Pereira dos Santos Justino').
 street(12969, 906, 0.05, 'Rua Ascendino Feitosa').
 street(12969, 893, 0.14, 'Rua Cônego Francisco Lima').
 street(12969, 907, 0.06, 'Rua Cônego Francisco Lima').
-street(12969, 891, 0.19, 'Rua Comerciante José Chagas Feitosa, Rua Coronel Ascendino Feitosa').
+street(12969, 891, 0.19, 'Rua Coronel Ascendino Feitosa, Rua Comerciante José Chagas Feitosa').
 street(12970, 14698, 0.02, 'Rua Tito Silva').
-street(12970, 1095, 0.28, 'Rua Tito Silva, Avenida Presidente Castelo Branco').
+street(12970, 1095, 0.28, 'Avenida Presidente Castelo Branco, Rua Tito Silva').
 street(12970, 12318, 0.15, 'Rua São Francisco de Assis').
 street(12971, 3925, 0.06, 'Rua Meryland de Souza Ferraz').
 street(12971, 12666, 0.05, 'Rua José Marcone Ramos da Silva').
@@ -51915,7 +51915,7 @@ street(12972, 1723, 0.11, 'Avenida Valdemar Naziazeno').
 street(12972, 8789, 0.06, 'Rua Severino Bento de Morais').
 street(12973, 12974, 0.04, 'Vila Marques').
 street(12974, 12973, 0.04, 'Vila Marques').
-street(12974, 5747, 0.08, 'Rua São João Batista, Rua Campos Santos').
+street(12974, 5747, 0.08, 'Rua Campos Santos, Rua São João Batista').
 street(12974, 10870, 0.04, 'Rua Campos Santos').
 street(12975, 8586, 0.05, 'Rua Prefeito Francisco de Assis Neves Nóbrega').
 street(12976, 4677, 0.05, 'Rua Aposentada Josefa Freires do Ramo').
@@ -52020,7 +52020,7 @@ street(13009, 3429, 0.15, 'Rua Adalberto Pereira de Melo').
 street(13009, 14069, 0.13, 'Rua Adalberto Pereira de Melo').
 street(13009, 3438, 0.06, 'Rua Maria Alexandrina de Oliveira Lima').
 street(13010, 3452, 0.10, 'Rua Radialista Newton Júnior').
-street(13010, 13678, 0.05, 'Rua Radialista Newton Júnior, Rua Marcondes Alves').
+street(13010, 13678, 0.05, 'Rua Marcondes Alves, Rua Radialista Newton Júnior').
 street(13010, 13011, 0.15, 'Rua João Targino da Silva').
 street(13011, 11267, 0.02, 'Rua Santo André').
 street(13011, 13678, 0.11, 'Rua Santo André').
@@ -52240,7 +52240,7 @@ street(13113, 2843, 0.06, 'Rua Júlio Marinho da Silva').
 street(13113, 13112, 0.04, 'Unknown').
 street(13113, 2844, 0.04, 'Rua Júlio Marinho da Silva').
 street(13114, 1115, 0.79, 'Rodovia Governador Mário Covas').
-street(13114, 5256, 0.19, 'Travessa Sant Antonio, Rua Tenente Cardoso').
+street(13114, 5256, 0.19, 'Rua Tenente Cardoso, Travessa Sant Antonio').
 street(13115, 13116, 0.04, 'Travessa Barão da Passagem').
 street(13116, 13115, 0.04, 'Travessa Barão da Passagem').
 street(13116, 5422, 0.06, 'Rua Barão de Passagem').
@@ -52352,7 +52352,7 @@ street(13159, 13158, 0.06, 'Rua Álvaro Lemos').
 street(13159, 10016, 0.06, 'Rua Álvaro Lemos').
 street(13159, 10186, 0.10, 'Rua Coronel Aristarco Pessoa').
 street(13160, 7902, 0.00, 'Avenida Lourival Bezerra dos Santos').
-street(13160, 10575, 0.22, 'Rua José Viegas Alves, Avenida Lourival Bezerra dos Santos').
+street(13160, 10575, 0.22, 'Avenida Lourival Bezerra dos Santos, Rua José Viegas Alves').
 street(13161, 10569, 0.01, 'Unknown').
 street(13161, 13162, 0.12, 'Avenida Lourival Bezerra dos Santos').
 street(13162, 9683, 0.01, 'Rua Antônio Martins dos Santos').
@@ -52635,9 +52635,9 @@ street(13296, 10626, 1.03, 'Unknown').
 street(13297, 7556, 0.01, 'Rua José Tomaz de Souza').
 street(13297, 7424, 0.05, 'Rua José Tomaz de Souza').
 street(13297, 14866, 0.18, 'Rua Professora Daura Alcides Almeida').
-street(13298, 7620, 0.05, 'Rua Felix Araujo da Silva, Rua da Brisa').
+street(13298, 7620, 0.05, 'Rua da Brisa, Rua Felix Araujo da Silva').
 street(13298, 15048, 0.07, 'Rua da Brisa').
-street(13298, 7652, 0.25, 'Sitio Novo Mundo, Prolongamento da Rua Brisa').
+street(13298, 7652, 0.25, 'Prolongamento da Rua Brisa, Sitio Novo Mundo').
 street(13299, 3037, 0.01, 'Rua Cecília Fortunato da Silva').
 street(13299, 7670, 0.07, 'Rua da Gameleira').
 street(13299, 3038, 0.30, 'Rua Cecília Fortunato da Silva, Rua da Brisa').
@@ -52710,7 +52710,7 @@ street(13323, 4047, 0.13, 'Rua Herotildes Bulhões Pinheiro').
 street(13323, 10066, 0.07, 'Rua Ninfa Limeira Fernandes').
 street(13324, 13417, 0.06, 'Rua das Azaleias').
 street(13324, 9774, 0.13, 'Rua da Independencia').
-street(13324, 9773, 0.11, 'Rua Pingo de Ouro, Rua da Independencia').
+street(13324, 9773, 0.11, 'Rua da Independencia, Rua Pingo de Ouro').
 street(13325, 12522, 0.05, 'Unknown').
 street(13325, 12525, 0.01, 'Unknown').
 street(13325, 12589, 0.09, 'Unknown').
@@ -52787,7 +52787,7 @@ street(13350, 13379, 0.01, 'Rua Nossa Senhora do Rosário').
 street(13350, 3010, 0.01, 'Rua Nossa Senhora do Rosário').
 street(13350, 11185, 0.03, 'Rua Maria das Neves Almeida Cavalcante').
 street(13351, 3010, 0.01, 'Rua Nossa Senhora do Rosário').
-street(13351, 3015, 0.39, 'Rua Nossa Senhora do Rosário, Rua Severino Gomes de Andrade').
+street(13351, 3015, 0.39, 'Rua Severino Gomes de Andrade, Rua Nossa Senhora do Rosário').
 street(13351, 13388, 0.07, 'Unknown').
 street(13352, 4556, 0.04, 'Rua Mônaco').
 street(13352, 4552, 0.01, 'Rua Mônaco').
@@ -53139,7 +53139,7 @@ street(13490, 9307, 0.07, 'Rua Carlos Antonio de Lima').
 street(13490, 13489, 0.05, 'Unknown').
 street(13491, 11971, 0.01, 'Rua Manuel Fernades Junior').
 street(13491, 12287, 0.16, 'Rua Manuel Fernades Junior').
-street(13491, 12287, 0.23, 'Avenida Escritor Ronaldo Leite, Rua Policial Clodoval Ferreira Lima').
+street(13491, 12287, 0.23, 'Rua Policial Clodoval Ferreira Lima, Avenida Escritor Ronaldo Leite').
 street(13491, 9309, 0.05, 'Unknown').
 street(13492, 9309, 0.01, 'Unknown').
 street(13492, 11971, 0.05, 'Avenida Escritor Ramalho Leite').
@@ -53166,14 +53166,14 @@ street(13502, 4882, 0.17, 'Rua P Dois').
 street(13502, 10590, 0.20, 'Rua P Dois').
 street(13502, 13501, 0.43, 'Unknown').
 street(13503, 13504, 0.02, 'Unknown').
-street(13503, 10667, 0.20, 'Rua Doutor Francisco de Assis Câmara Dantas, Rua Philadelpho Pinto de Carvalho').
+street(13503, 10667, 0.20, 'Rua Philadelpho Pinto de Carvalho, Rua Doutor Francisco de Assis Câmara Dantas').
 street(13503, 5318, 0.11, 'Rua Doutor Francisco de Assis Câmara Dantas').
 street(13504, 13432, 0.12, 'Rua Doutor Francisco de Assis Câmara Dantas').
 street(13504, 13503, 0.02, 'Unknown').
 street(13505, 13507, 0.07, 'Rua Severino Nicolau de Mello').
 street(13506, 2726, 0.08, 'Rua Severino Nicolau de Mello').
 street(13506, 10741, 0.07, 'Rua Oceano Antártico').
-street(13506, 438, 0.29, 'Rua Oceano Antártico, Rua Francisco Pereira Dantas').
+street(13506, 438, 0.29, 'Rua Francisco Pereira Dantas, Rua Oceano Antártico').
 street(13507, 13505, 0.07, 'Rua Severino Nicolau de Mello').
 street(13507, 118, 0.07, 'Avenida Governador Argemiro de Figueiredo').
 street(13508, 9754, 0.25, 'Rua Santos Coelho').
@@ -53206,7 +53206,7 @@ street(13518, 13519, 0.00, 'Rua Bicho Preguica').
 street(13518, 6690, 0.05, 'Rua José Luiz de Albuquerque').
 street(13519, 13518, 0.00, 'Rua Bicho Preguica').
 street(13519, 6705, 0.16, 'Rua Garca Branca Pequena').
-street(13519, 14837, 0.13, 'Rua Garca Branca Pequena, Rua Mico Leão da Cara Dourada').
+street(13519, 14837, 0.13, 'Rua Mico Leão da Cara Dourada, Rua Garca Branca Pequena').
 street(13520, 8093, 0.04, 'Rua Sibipiruna').
 street(13520, 6710, 0.01, 'Rua Sibipiruna').
 street(13520, 12050, 0.09, 'Rua Mico Leão da Cara Dourada').
@@ -53230,7 +53230,7 @@ street(13526, 13524, 0.05, 'Rua Doutor Vital Brasil').
 street(13526, 13528, 0.02, 'Rua Doutor Vital Brasil').
 street(13527, 13523, 0.05, 'Rua Doutor Vital Brasil').
 street(13527, 6792, 0.16, 'Rua Economista Geraldo Targinio da Silva').
-street(13527, 14104, 0.09, 'Rua Doutor Vital Brasil, Rua Nayde de Novais Guimaraes').
+street(13527, 14104, 0.09, 'Rua Nayde de Novais Guimaraes, Rua Doutor Vital Brasil').
 street(13528, 13526, 0.02, 'Rua Doutor Vital Brasil').
 street(13528, 6509, 0.06, 'Rua Oscar de Sá Sobrinho').
 street(13528, 6746, 0.11, 'Rua Motorista Severino Fernandes de Assis, Rua Oscar de Sá Sobrinho').
@@ -53296,13 +53296,13 @@ street(13549, 13550, 0.01, 'Rua Doutor Lindolfo José Correia das Neves').
 street(13550, 115, 0.09, 'Rua Doutor Lindolfo José Correia das Neves').
 street(13550, 8492, 0.01, 'Rua Doutor Lindolfo José Correia das Neves').
 street(13551, 439, 0.08, 'Rua Francisco Pereira Dantas').
-street(13551, 13553, 0.13, 'Rua Elísio Jorge Brito, Rua Francisco Pereira Dantas').
+street(13551, 13553, 0.13, 'Rua Francisco Pereira Dantas, Rua Elísio Jorge Brito').
 street(13551, 433, 0.13, 'Rua Elísio Jorge Brito').
 street(13552, 13553, 0.08, 'Rua Francisco Pereira Dantas').
 street(13552, 432, 0.14, 'Avenida Bacharel José de Oliveira Curchatuz').
 street(13553, 13552, 0.08, 'Rua Francisco Pereira Dantas').
 street(13553, 433, 0.19, 'Rua Evandir Bandeira Araujo').
-street(13553, 13551, 0.13, 'Rua Elísio Jorge Brito, Rua Francisco Pereira Dantas').
+street(13553, 13551, 0.13, 'Rua Francisco Pereira Dantas, Rua Elísio Jorge Brito').
 street(13554, 13564, 0.07, 'Rua José Gomes de Sá Filho').
 street(13554, 13565, 0.08, 'Rua José Gomes de Sá Filho').
 street(13554, 10682, 0.20, 'Rua Anastácio Camilo de Oliveira').
@@ -53355,7 +53355,7 @@ street(13571, 13570, 0.07, 'Rua Ivo Genaro Sorrentino Cosentino').
 street(13571, 13568, 0.11, 'Rua Jacob Alves de Azevedo').
 street(13572, 8372, 0.04, 'Rua Noberto de Castro Nogueira').
 street(13572, 440, 0.07, 'Rua Noberto de Castro Nogueira').
-street(13572, 437, 0.38, 'Rua Jacob Alves de Azevedo, Rua Francisco Beltrão').
+street(13572, 437, 0.38, 'Rua Francisco Beltrão, Rua Jacob Alves de Azevedo').
 street(13573, 9505, 0.15, 'Rua Noberto de Castro Nogueira').
 street(13573, 5325, 0.07, 'Rua Silvano Domingos de Araújo').
 street(13573, 8372, 0.02, 'Rua Noberto de Castro Nogueira').
@@ -53364,7 +53364,7 @@ street(13574, 5323, 0.07, 'Rua Silvano Domingos de Araújo').
 street(13574, 5331, 0.15, 'Rua Silvano Domingos de Araújo').
 street(13575, 5330, 0.14, 'Rua José Ferreira Ramos').
 street(13575, 13576, 0.08, 'Rua Marinésio da Cunha Moreno').
-street(13575, 5331, 0.16, 'Rua José Ferreira Ramos, Rua Silvano Domingos de Araújo').
+street(13575, 5331, 0.16, 'Rua Silvano Domingos de Araújo, Rua José Ferreira Ramos').
 street(13576, 5329, 0.14, 'Rua Agente Fiscal Paulo Assis').
 street(13576, 13578, 0.08, 'Rua Marinésio da Cunha Moreno').
 street(13576, 13575, 0.08, 'Rua Marinésio da Cunha Moreno').
@@ -53421,7 +53421,7 @@ street(13597, 13606, 0.01, 'Rua das Flores').
 street(13597, 4463, 0.02, 'Rua Luiz Carlos Prestes').
 street(13598, 4524, 0.01, 'Rua dos Trabalhadores').
 street(13598, 1772, 0.10, 'Rua das Flores').
-street(13598, 4519, 0.20, 'Rua das Jaboticabeiras, Rua das Flores').
+street(13598, 4519, 0.20, 'Rua das Flores, Rua das Jaboticabeiras').
 street(13599, 4279, 0.08, 'Rua Monte das Oliveiras').
 street(13600, 13601, 0.02, 'Unknown').
 street(13600, 5450, 0.02, 'Unknown').
@@ -53620,7 +53620,7 @@ street(13677, 13691, 0.15, 'Rua Santo André, Rua José Antônio Sarmento Júnio
 street(13678, 13011, 0.11, 'Rua Santo André').
 street(13678, 13677, 0.05, 'Rua Santo André').
 street(13678, 10424, 0.06, 'Rua Marcondes Alves').
-street(13678, 13010, 0.05, 'Rua Radialista Newton Júnior, Rua Marcondes Alves').
+street(13678, 13010, 0.05, 'Rua Marcondes Alves, Rua Radialista Newton Júnior').
 street(13679, 11780, 0.15, 'Rua Clotilde Maria da Silva').
 street(13679, 7735, 0.14, 'Rua Clotilde Maria da Silva').
 street(13679, 7454, 0.05, 'Rua Agricultor Otávio Romão de Araújo').
@@ -53741,12 +53741,12 @@ street(13718, 13719, 0.01, 'Rua Josias Babosa Ferreira').
 street(13718, 12355, 0.01, 'Rua Rita Carneiro Diniz').
 street(13718, 8782, 0.04, 'Rua Rita Carneiro Diniz').
 street(13719, 13718, 0.01, 'Rua Josias Babosa Ferreira').
-street(13719, 10648, 0.30, 'Rua Josias Babosa Ferreira, Rua Mathias Sinfrônio de Oliveira').
+street(13719, 10648, 0.30, 'Rua Mathias Sinfrônio de Oliveira, Rua Josias Babosa Ferreira').
 street(13719, 10645, 0.20, 'Rua João de Souza Filho').
 street(13720, 13840, 0.01, 'Rua Inácio Albino Neto').
 street(13720, 15100, 0.02, 'Unknown').
 street(13720, 13682, 0.29, 'Rua Inácio Albino Neto').
-street(13721, 7761, 0.24, 'Rua Luiz de Lima Freire, Rua Carlos Gomes de Araújo').
+street(13721, 7761, 0.24, 'Rua Carlos Gomes de Araújo, Rua Luiz de Lima Freire').
 street(13721, 13722, 0.06, 'Rua Luiz Gonzaga Mendes Lira').
 street(13721, 13734, 0.34, 'Rua Luiz Gonzaga Mendes Lira').
 street(13722, 7761, 0.17, 'Rua Andreza Cunha Batista da Silva').
@@ -53754,7 +53754,7 @@ street(13722, 13723, 0.05, 'Rua Luiz Gonzaga Mendes Lira').
 street(13722, 13721, 0.06, 'Rua Luiz Gonzaga Mendes Lira').
 street(13723, 7353, 0.04, 'Rua Luiz Gonzaga Mendes Lira').
 street(13723, 13722, 0.05, 'Rua Luiz Gonzaga Mendes Lira').
-street(13723, 14378, 0.24, 'Rua Antônia Josefa da Conceição, Rua José Tavares de Sousa').
+street(13723, 14378, 0.24, 'Rua José Tavares de Sousa, Rua Antônia Josefa da Conceição').
 street(13723, 7350, 0.14, 'Rua Luiz Guedes da Silva').
 street(13724, 7505, 0.05, 'Rua Luiz Gonzaga Mendes Lira').
 street(13724, 7353, 0.04, 'Rua Luiz Gonzaga Mendes Lira').
@@ -53769,7 +53769,7 @@ street(13727, 15185, 0.00, 'Unknown').
 street(13727, 5127, 0.07, 'Avenida Benício de Oliveira Lima').
 street(13728, 5129, 0.06, 'Unknown').
 street(13728, 13727, 0.01, 'Rua Irineu Marinho').
-street(13728, 7233, 0.03, 'Rua Fernando Torres, Rua Irineu Marinho').
+street(13728, 7233, 0.03, 'Rua Irineu Marinho, Rua Fernando Torres').
 street(13729, 7466, 0.00, 'Rua João Viegas de Oliveira').
 street(13729, 7669, 0.05, 'Rua João Viegas de Oliveira').
 street(13729, 7649, 0.12, 'Rua Terezinha B. de Oliveira').
@@ -53909,7 +53909,7 @@ street(13776, 1261, 0.23, 'Pista Morta').
 street(13776, 1257, 0.27, 'Pista Morta').
 street(13777, 6191, 0.04, 'Rua Cantor Raul Seixas').
 street(13777, 6192, 0.01, 'Rua Cantor Raul Seixas').
-street(13777, 6240, 0.12, 'Rua Francisco José das Neves, Rua Francisco Severino da Paz').
+street(13777, 6240, 0.12, 'Rua Francisco Severino da Paz, Rua Francisco José das Neves').
 street(13778, 12614, 0.10, 'Avenida Brasil').
 street(13778, 13779, 0.03, 'Avenida Brasil').
 street(13778, 13783, 0.13, 'Unknown').
@@ -53947,7 +53947,7 @@ street(13788, 13787, 0.06, 'Rua da Tamareira').
 street(13788, 12517, 0.06, 'Rua da Tamareira').
 street(13789, 13790, 0.06, 'Rua Girassol').
 street(13789, 14808, 0.17, 'Rua dos Mastruz').
-street(13789, 14807, 0.06, 'Rua Massaranduba, Rua Girassol').
+street(13789, 14807, 0.06, 'Rua Girassol, Rua Massaranduba').
 street(13790, 14806, 0.01, 'Avenida João Juvêncio Pereira').
 street(13790, 13789, 0.06, 'Rua Girassol').
 street(13790, 12516, 0.11, 'Avenida João Juvêncio Pereira').
@@ -54191,7 +54191,7 @@ street(13886, 13901, 0.01, 'Ladeira de São Frei Pedro Gonçalves').
 street(13886, 9895, 0.26, 'Vila Nassau').
 street(13886, 13887, 0.09, 'Ladeira de São Frei Pedro Gonçalves, Rua Porto do Capim').
 street(13887, 9890, 0.05, 'Rua Porto do Capim').
-street(13887, 13886, 0.09, 'Ladeira de São Frei Pedro Gonçalves, Rua Porto do Capim').
+street(13887, 13886, 0.09, 'Rua Porto do Capim, Ladeira de São Frei Pedro Gonçalves').
 street(13887, 12953, 0.20, 'Rua Frei Vital, Rua Porto do Capim').
 street(13888, 9410, 0.74, 'Rua Aline Bernardo da Silva').
 street(13889, 8908, 0.02, 'Rua Conceição Cabral').
@@ -54253,7 +54253,7 @@ street(13909, 5491, 0.22, 'Rua Souza Rangel, Rua São Geraldo').
 street(13910, 5490, 0.16, 'Rua Doutor José de Melo Lula').
 street(13910, 5491, 0.07, 'Rua Souza Rangel').
 street(13910, 2364, 0.07, 'Rua Souza Rangel').
-street(13910, 13915, 0.34, 'Rua Doutor José de Melo Lula, Rua Romeu Rangel, Rua São Geraldo').
+street(13910, 13915, 0.34, 'Rua Doutor José de Melo Lula, Rua São Geraldo, Rua Romeu Rangel').
 street(13911, 2366, 0.15, 'Rua José Soares').
 street(13911, 2364, 0.08, 'Rua Souza Rangel').
 street(13911, 2365, 0.30, 'Rua José Soares').
@@ -54326,7 +54326,7 @@ street(13935, 2439, 0.08, 'Avenida Mourão Rangel').
 street(13935, 2275, 0.10, 'Rua Elias Cavalcanti de Albuquerque').
 street(13936, 13937, 0.20, 'Tv. Reinaldo dos Santos').
 street(13937, 13989, 0.20, 'Rua Reinaldo dos Santos').
-street(13937, 13942, 0.37, 'Rua Reinaldo dos Santos, Rua Antônio Gomes').
+street(13937, 13942, 0.37, 'Rua Antônio Gomes, Rua Reinaldo dos Santos').
 street(13937, 13936, 0.20, 'Tv. Reinaldo dos Santos').
 street(13938, 13942, 0.07, 'Rua Antônio Gomes').
 street(13938, 5949, 0.05, 'Rua Antônio Gomes').
@@ -54342,7 +54342,7 @@ street(13941, 10958, 0.04, 'Rua Francisco Ruffo').
 street(13941, 5974, 0.07, 'Rua Tenente Gil Toscano').
 street(13942, 13938, 0.07, 'Rua Antônio Gomes').
 street(13942, 5974, 0.09, 'Rua Tenente Gil Toscano').
-street(13942, 13937, 0.37, 'Rua Reinaldo dos Santos, Rua Antônio Gomes').
+street(13942, 13937, 0.37, 'Rua Antônio Gomes, Rua Reinaldo dos Santos').
 street(13942, 13095, 0.05, 'Rua Tenente Gil Toscano').
 street(13943, 10016, 0.17, 'Rua Professor Arthur Batista').
 street(13944, 10016, 0.19, 'Rua Professor Arthur Batista').
@@ -54499,7 +54499,7 @@ street(13997, 14744, 0.07, 'Rua Martinho Faustino da Costa').
 street(13997, 15326, 0.10, 'Unknown').
 street(13998, 6554, 0.01, 'Rua Luiz Spinelli').
 street(13998, 13015, 0.24, 'Rua João Dias, Rua Luiz Spinelli').
-street(13998, 14765, 0.15, 'Rua Artur dos Santos Gomes, Rua Anesio Coelho Pereira').
+street(13998, 14765, 0.15, 'Rua Anesio Coelho Pereira, Rua Artur dos Santos Gomes').
 street(13999, 10280, 0.16, 'Unknown').
 street(14000, 10278, 0.16, 'Unknown').
 street(14001, 10276, 0.19, 'Unknown').
@@ -54642,7 +54642,7 @@ street(14054, 11567, 0.05, 'Avenida das Lagoas').
 street(14055, 5652, 0.07, 'Rua Professor Aníbal Moura Souza').
 street(14055, 5247, 0.04, 'Praça Doutor Lauro Wanderley').
 street(14056, 5644, 0.17, 'Rua Major Caboclo').
-street(14056, 11007, 0.07, 'Rua Alfredo Pereira Gomes, Rua Napoleão Crispim').
+street(14056, 11007, 0.07, 'Rua Napoleão Crispim, Rua Alfredo Pereira Gomes').
 street(14056, 5634, 0.07, 'Rua Napoleão Crispim').
 street(14057, 10991, 0.01, 'Rua Professor Ernesto da Silveira').
 street(14057, 5597, 0.09, 'Rua Professor Ernesto da Silveira').
@@ -54760,12 +54760,12 @@ street(14102, 14106, 0.06, 'Rua Júlio Izidro Alves').
 street(14102, 14107, 0.05, 'Rua Júlio Izidro Alves').
 street(14103, 6943, 0.20, 'Rua Vereador Francisco Leite Cavalcante').
 street(14103, 14107, 0.05, 'Rua Júlio Izidro Alves').
-street(14103, 14105, 0.08, 'Rua Júlio Izidro Alves, Rua Josefa Maria do Nascimento').
+street(14103, 14105, 0.08, 'Rua Josefa Maria do Nascimento, Rua Júlio Izidro Alves').
 street(14104, 6946, 0.07, 'Rua Nayde de Novais Guimaraes').
-street(14104, 13527, 0.09, 'Rua Doutor Vital Brasil, Rua Nayde de Novais Guimaraes').
+street(14104, 13527, 0.09, 'Rua Nayde de Novais Guimaraes, Rua Doutor Vital Brasil').
 street(14104, 14105, 0.23, 'Rua Josefa Maria do Nascimento').
 street(14105, 6946, 0.21, 'Rua Maria di Pace Rocco').
-street(14105, 14103, 0.08, 'Rua Júlio Izidro Alves, Rua Josefa Maria do Nascimento').
+street(14105, 14103, 0.08, 'Rua Josefa Maria do Nascimento, Rua Júlio Izidro Alves').
 street(14105, 14104, 0.23, 'Rua Josefa Maria do Nascimento').
 street(14106, 14102, 0.06, 'Rua Júlio Izidro Alves').
 street(14106, 3400, 0.18, 'Rua Brasilino Alves da Nobrega').
@@ -54841,10 +54841,10 @@ street(14132, 2096, 0.08, 'Rua Eurídice Felix Cabral').
 street(14133, 7032, 0.05, 'Rua Valda Cruz Cordeiro').
 street(14133, 7032, 0.07, 'Unknown').
 street(14133, 9842, 0.05, 'Rua Odilon de Carvalho').
-street(14133, 7038, 0.07, 'Rua Manoel Colaço Sobrinho, Rua Valda Cruz Cordeiro').
+street(14133, 7038, 0.07, 'Rua Valda Cruz Cordeiro, Rua Manoel Colaço Sobrinho').
 street(14134, 14135, 0.17, 'Rua Manoel Arruda Cavalcanti').
 street(14134, 13060, 0.04, 'Rua Euzely Fabrício de Souza').
-street(14134, 9887, 0.20, 'Rua Ministro Marcos Freire, Rua Manoel Arruda Cavalcanti').
+street(14134, 9887, 0.20, 'Rua Manoel Arruda Cavalcanti, Rua Ministro Marcos Freire').
 street(14135, 14125, 0.12, 'Rua Manoel Arruda Cavalcanti').
 street(14135, 14134, 0.17, 'Rua Manoel Arruda Cavalcanti').
 street(14135, 292, 0.07, 'Rua Francisco Claudino Pereira').
@@ -55220,7 +55220,7 @@ street(14274, 1697, 0.02, 'Rua Professor José Holmes').
 street(14274, 14316, 0.06, 'Unknown').
 street(14275, 3069, 0.09, 'Rua Francisco Inacio da Silva').
 street(14275, 3086, 0.10, 'Rua Margarida Barbosa Chaves').
-street(14275, 3104, 0.06, 'Rua Francisco Inacio da Silva, Rua Margarida Barbosa Chaves').
+street(14275, 3104, 0.06, 'Rua Margarida Barbosa Chaves, Rua Francisco Inacio da Silva').
 street(14276, 3102, 0.06, 'Unknown').
 street(14276, 4100, 0.05, 'Rua Irani Almeida de Menezes').
 street(14276, 3126, 0.02, 'Rua Irani Almeida de Menezes').
@@ -55250,7 +55250,7 @@ street(14285, 4223, 0.02, 'Rua Josefa Alves Leal').
 street(14285, 14560, 0.07, 'Unknown').
 street(14286, 4225, 0.01, 'Rua Comerciante Antônio Pinto Ribeiro').
 street(14286, 9853, 0.12, 'Rua Henrique Joaquim do Santos').
-street(14286, 4211, 0.18, 'Rua Comerciante Antônio Pinto Ribeiro, Rua Comerciante João da Mata Lucena').
+street(14286, 4211, 0.18, 'Rua Comerciante João da Mata Lucena, Rua Comerciante Antônio Pinto Ribeiro').
 street(14287, 4204, 0.18, 'Rua Natália Luiza dos Santos').
 street(14287, 4094, 0.07, 'Rua Irani Almeida de Menezes').
 street(14287, 14251, 0.03, 'Rua Irani Almeida de Menezes').
@@ -55366,7 +55366,7 @@ street(14332, 8394, 0.14, 'Rua Trezentos e Vinte e Quatro').
 street(14333, 9721, 0.42, 'Avenida Hilton Souto Maior').
 street(14334, 11263, 0.02, 'Unknown').
 street(14334, 11261, 0.05, 'Rua Antônio Camilo dos Santos').
-street(14334, 8762, 0.15, 'Travessa São Paulo, Rua Antônio Camilo dos Santos').
+street(14334, 8762, 0.15, 'Rua Antônio Camilo dos Santos, Travessa São Paulo').
 street(14335, 2049, 0.07, 'Rua Luiz Gonzaga G. Silva').
 street(14335, 15379, 0.05, 'Rua Luiz Gonzaga G. Silva').
 street(14335, 2048, 0.09, 'Rua Luiz Gonzaga G. Silva').
@@ -55381,7 +55381,7 @@ street(14338, 9834, 0.03, 'Unknown').
 street(14339, 5423, 0.01, 'Rua Alberto de Brito').
 street(14339, 5403, 0.13, 'Rua Alberto de Brito').
 street(14339, 11294, 0.24, 'Avenida Coremas').
-street(14340, 9908, 0.17, 'Praça Dom Ulrico, Rua Vigário Sarlen').
+street(14340, 9908, 0.17, 'Rua Vigário Sarlen, Praça Dom Ulrico').
 street(14341, 14322, 0.09, 'Praça Dom Adauto').
 street(14341, 14342, 0.02, 'Praça Dom Adauto').
 street(14342, 14340, 0.07, 'Rua Vigário Sarlen').
@@ -55431,7 +55431,7 @@ street(14359, 12285, 0.03, 'Unknown').
 street(14360, 465, 0.18, 'Avenida Capitão José Pessoa').
 street(14360, 14361, 0.01, 'Avenida Capitão José Pessoa').
 street(14361, 466, 0.01, 'Avenida Aderbal Piragibe').
-street(14361, 9174, 0.34, 'Rua Rodrigues de Aquino, Avenida Capitão José Pessoa').
+street(14361, 9174, 0.34, 'Avenida Capitão José Pessoa, Rua Rodrigues de Aquino').
 street(14362, 11359, 0.04, 'Unknown').
 street(14363, 11262, 0.22, 'Rua Abelardo Pereira dos Santos').
 street(14363, 7176, 0.03, 'Rua Abelardo Pereira dos Santos').
@@ -55472,7 +55472,7 @@ street(14377, 5152, 0.11, 'Rua José Estevão da Silva').
 street(14377, 14378, 0.05, 'Rua João Mousinho de Pontes').
 street(14378, 14377, 0.05, 'Rua João Mousinho de Pontes').
 street(14378, 14379, 0.14, 'Rua João Mousinho de Pontes').
-street(14378, 13723, 0.24, 'Rua Antônia Josefa da Conceição, Rua José Tavares de Sousa').
+street(14378, 13723, 0.24, 'Rua José Tavares de Sousa, Rua Antônia Josefa da Conceição').
 street(14379, 7307, 0.04, 'Rua Luiz Gonzaga Mendes Lira').
 street(14379, 14378, 0.14, 'Rua João Mousinho de Pontes').
 street(14379, 7505, 0.02, 'Rua Luiz Gonzaga Mendes Lira').
@@ -55595,7 +55595,7 @@ street(14425, 10870, 0.06, 'Rua dos Milagres').
 street(14426, 3324, 0.01, 'Unknown').
 street(14426, 3323, 0.04, 'Unknown').
 street(14426, 14427, 0.05, 'Unknown').
-street(14427, 3322, 0.05, 'Rua Professor Francisca Nunes da Silva, Rua George Cunha').
+street(14427, 3322, 0.05, 'Rua George Cunha, Rua Professor Francisca Nunes da Silva').
 street(14427, 3323, 0.02, 'Rua George Cunha').
 street(14427, 14426, 0.05, 'Unknown').
 street(14428, 10769, 0.11, 'Rua Radialista Marconi Altamirando').
@@ -55800,7 +55800,7 @@ street(14508, 1067, 0.03, 'Rua Francisco Mendonça').
 street(14508, 14507, 0.13, 'Unknown').
 street(14509, 8919, 0.07, 'Avenida Desembargador Botto de Menezes').
 street(14509, 8913, 0.15, 'Rua Raul Henriques de Sá').
-street(14509, 15129, 0.36, 'Avenida Desembargador Botto de Menezes, Avenida Mandacaru').
+street(14509, 15129, 0.36, 'Avenida Mandacaru, Avenida Desembargador Botto de Menezes').
 street(14510, 14511, 0.05, 'Unknown').
 street(14511, 14510, 0.05, 'Unknown').
 street(14511, 8919, 0.03, 'Unknown').
@@ -55881,7 +55881,7 @@ street(14541, 9100, 0.04, 'Rua São José, Rua São João').
 street(14542, 2767, 0.06, 'Avenida Severina de Freitas').
 street(14542, 2764, 0.14, 'Rua Francisco Lima de Araújo').
 street(14542, 14543, 0.07, 'Avenida Severina de Freitas').
-street(14542, 2768, 0.21, 'Rua Monsenhor João Coutinho, Rua Francisco Lima de Araújo').
+street(14542, 2768, 0.21, 'Rua Francisco Lima de Araújo, Rua Monsenhor João Coutinho').
 street(14543, 2780, 0.15, 'Rua Said Abel').
 street(14543, 14542, 0.07, 'Avenida Severina de Freitas').
 street(14543, 2782, 0.21, 'Avenida Severina de Freitas, Rua Coronel José Cristo').
@@ -55936,7 +55936,7 @@ street(14564, 4712, 0.15, 'Rua Flaviano Rabelo').
 street(14564, 14563, 0.06, 'Unknown').
 street(14564, 14316, 0.04, 'Rua Flaviano Rabelo').
 street(14565, 11391, 0.01, 'Rua Ascendino de Brito').
-street(14565, 8438, 0.08, 'Rua Radialista Antônio Assunção de Jesus, Rua Poetisa Guiomar Travassos Chianca').
+street(14565, 8438, 0.08, 'Rua Poetisa Guiomar Travassos Chianca, Rua Radialista Antônio Assunção de Jesus').
 street(14565, 1857, 0.38, 'Rua Radialista Antônio Assunção de Jesus').
 street(14566, 1881, 0.01, 'Rua Genésio Gambarra Filho').
 street(14566, 1800, 0.08, 'Rua Genésio Gambarra Filho').
@@ -56368,7 +56368,7 @@ street(14763, 14764, 0.08, 'Unknown').
 street(14764, 14763, 0.08, 'Unknown').
 street(14765, 6540, 0.06, 'Rua Irene Maria de Macêdo Santos').
 street(14765, 6539, 0.11, 'Rua Irene Maria de Macêdo Santos').
-street(14765, 13998, 0.15, 'Rua Artur dos Santos Gomes, Rua Anesio Coelho Pereira').
+street(14765, 13998, 0.15, 'Rua Anesio Coelho Pereira, Rua Artur dos Santos Gomes').
 street(14766, 923, 0.11, 'Rua Dorgival Marques').
 street(14766, 922, 0.05, 'Rua Dorgival Marques').
 street(14766, 14768, 0.05, 'Unknown').
@@ -56392,7 +56392,7 @@ street(14773, 14772, 0.07, 'Unknown').
 street(14773, 5211, 0.12, 'Rua Tenente Gil Toscano').
 street(14774, 14775, 0.10, 'Unknown').
 street(14774, 13293, 0.20, 'Rua José Gomes da Silveira').
-street(14774, 2263, 0.27, 'Rua José Gomes da Silveira, Rua Xavier Júnior').
+street(14774, 2263, 0.27, 'Rua Xavier Júnior, Rua José Gomes da Silveira').
 street(14775, 14774, 0.10, 'Unknown').
 street(14776, 5703, 0.04, 'Rua Celso Otávio Novais').
 street(14776, 13120, 0.03, 'Rua Celso Otávio Novais').
@@ -56454,11 +56454,11 @@ street(14800, 8410, 0.02, 'Rua Lirio da Paz').
 street(14800, 13786, 0.03, 'Rua Lirio da Paz').
 street(14800, 14801, 0.06, 'Rua Lirio dos Vales').
 street(14801, 14809, 0.04, 'Unknown').
-street(14801, 14802, 0.16, 'Rua Lirio dos Vales, Rua Belga').
+street(14801, 14802, 0.16, 'Rua Belga, Rua Lirio dos Vales').
 street(14801, 14800, 0.06, 'Rua Lirio dos Vales').
 street(14802, 14803, 0.05, 'Rua Belga').
 street(14802, 15468, 0.05, 'Rua das Conquistas').
-street(14802, 14801, 0.16, 'Rua Lirio dos Vales, Rua Belga').
+street(14802, 14801, 0.16, 'Rua Belga, Rua Lirio dos Vales').
 street(14802, 15574, 0.05, 'Rua 21 de Maio').
 street(14803, 12627, 0.05, 'Rua Belga').
 street(14803, 14802, 0.05, 'Rua Belga').
@@ -56471,7 +56471,7 @@ street(14806, 13790, 0.01, 'Avenida João Juvêncio Pereira').
 street(14806, 12627, 0.08, 'Avenida João Juvêncio Pereira').
 street(14806, 14805, 0.05, 'Unknown').
 street(14807, 14808, 0.19, 'Rua Massaranduba').
-street(14807, 13789, 0.06, 'Rua Massaranduba, Rua Girassol').
+street(14807, 13789, 0.06, 'Rua Girassol, Rua Massaranduba').
 street(14807, 13787, 0.22, 'Rua do Cajueiro').
 street(14808, 13788, 0.03, 'Rua dos Mastruz').
 street(14808, 13789, 0.17, 'Rua dos Mastruz').
@@ -57074,7 +57074,7 @@ street(15048, 12239, 0.09, 'Rua João Agripino de Almeida').
 street(15049, 3450, 0.18, 'Rua Severina Crispim Veras').
 street(15050, 15097, 0.04, 'Rua Jornalista Antônio Barreto Neto').
 street(15050, 15097, 0.17, 'Unknown').
-street(15050, 4990, 0.21, 'Rua Jornalista Antônio Barreto Neto, Rua Alvorada').
+street(15050, 4990, 0.21, 'Rua Alvorada, Rua Jornalista Antônio Barreto Neto').
 street(15051, 15052, 0.08, 'Rua Genival Duarte de Mederios').
 street(15052, 10598, 0.02, 'Rua Hermenegildo Francisco da Cruz').
 street(15052, 4977, 0.08, 'Rua Hermenegildo Francisco da Cruz').
@@ -57236,7 +57236,7 @@ street(15115, 7718, 0.04, 'Rua Felix Araujo da Silva').
 street(15115, 7779, 0.01, 'Rua Felix Araujo da Silva').
 street(15115, 15116, 0.05, 'Unknown').
 street(15116, 7652, 0.13, 'Sitio Novo Mundo').
-street(15116, 7779, 0.05, 'Sitio Novo Mundo, Rua Professora Daura Alcides Almeida').
+street(15116, 7779, 0.05, 'Rua Professora Daura Alcides Almeida, Sitio Novo Mundo').
 street(15116, 15115, 0.05, 'Unknown').
 street(15117, 13939, 0.19, 'Unknown').
 street(15118, 2577, 0.06, 'Unknown').
@@ -57257,7 +57257,7 @@ street(15126, 15130, 0.18, 'Rua Ninália de Luna Freire Barbosa').
 street(15127, 8918, 0.11, 'Travessa Desembargador Botto de Menezes').
 street(15128, 15129, 0.22, 'Rua Anericano do Brasil').
 street(15129, 14525, 0.01, 'Avenida Mandacaru').
-street(15129, 14509, 0.36, 'Avenida Desembargador Botto de Menezes, Avenida Mandacaru').
+street(15129, 14509, 0.36, 'Avenida Mandacaru, Avenida Desembargador Botto de Menezes').
 street(15129, 15128, 0.22, 'Rua Anericano do Brasil').
 street(15130, 14329, 0.13, 'Rua Ninália de Luna Freire Barbosa').
 street(15130, 15126, 0.06, 'Unknown').
@@ -57793,7 +57793,7 @@ street(15374, 15373, 0.02, 'Unknown').
 street(15375, 2033, 0.13, 'Rua Esperedião da Silva Brandão').
 street(15376, 6123, 0.07, 'Rua Luiz XV').
 street(15376, 15377, 0.07, 'Rua Severina de Carvalho Silva').
-street(15376, 6129, 0.08, 'Rua Trindade, Rua Luiz XV').
+street(15376, 6129, 0.08, 'Rua Luiz XV, Rua Trindade').
 street(15377, 15376, 0.07, 'Rua Severina de Carvalho Silva').
 street(15378, 1825, 0.07, 'Rua Rosa Lima dos Santos').
 street(15378, 1844, 0.01, 'Rua Rosa Lima dos Santos').
@@ -58127,10 +58127,10 @@ street(15520, 12574, 0.08, 'Via Local 06').
 street(15521, 12579, 0.14, 'Via Local 07').
 street(15521, 15520, 0.05, 'Unknown').
 street(15521, 15522, 0.05, 'Unknown').
-street(15521, 15522, 0.35, 'Via Local 07, Via Local 08, Via Local 09').
+street(15521, 15522, 0.35, 'Via Local 08, Via Local 07, Via Local 09').
 street(15522, 15521, 0.05, 'Unknown').
-street(15522, 15521, 0.35, 'Via Local 07, Via Local 08, Via Local 09').
-street(15522, 12579, 0.20, 'Via Local 11, Via Local 09').
+street(15522, 15521, 0.35, 'Via Local 08, Via Local 07, Via Local 09').
+street(15522, 12579, 0.20, 'Via Local 09, Via Local 11').
 street(15523, 9415, 0.01, 'Avenida Fagundes Varela').
 street(15523, 6476, 0.12, 'Avenida Fagundes Varela').
 street(15524, 13525, 0.35, 'Unknown').
@@ -58158,7 +58158,7 @@ street(15531, 13893, 0.13, 'Rua Monsenhor José Coutinho').
 street(15531, 15530, 0.01, 'Unknown').
 street(15532, 13894, 0.04, 'Rua Dezenove de Março').
 street(15532, 15531, 0.01, 'Unknown').
-street(15533, 8908, 0.16, 'Rua Monsenhor José Coutinho, Rua Conceição Cabral').
+street(15533, 8908, 0.16, 'Rua Conceição Cabral, Rua Monsenhor José Coutinho').
 street(15533, 15532, 0.01, 'Unknown').
 street(15534, 680, 0.10, 'Avenida São Paulo').
 street(15534, 15535, 0.07, 'Unknown').
@@ -58255,6 +58255,6 @@ street(15574, 15575, 0.04, 'Unknown').
 street(15574, 14805, 0.11, 'Rua 21 de Maio').
 street(15574, 14802, 0.05, 'Rua 21 de Maio').
 street(15575, 15574, 0.04, 'Unknown').
-street(15576, 15426, 0.11, 'Rua Capim Santo, Rua Leão de Judá').
+street(15576, 15426, 0.11, 'Rua Leão de Judá, Rua Capim Santo').
 street(15576, 12518, 0.06, 'Rua Leão de Judá').
 street(15576, 13787, 0.22, 'Unknown').
